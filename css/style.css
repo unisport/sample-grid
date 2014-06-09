@@ -9,17 +9,6 @@ a, h3, li, span, label {
   padding: 0;
 }
 
-body {
-  background-image: url("../img/bg.png");
-  background-size: 100% 100%;
-  background-attachment: fixed;
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    background-image: none;
-  }
-}
 .dn {
   display: none;
 }
@@ -27,8 +16,8 @@ body {
 .sortButton {
   border: 1px solid green;
   margin: 10px 0 10px 0;
-  color: green;
-  background-color: white;
+  color: white;
+  background-color: green;
   outline: none;
   font-weight: bold;
 }

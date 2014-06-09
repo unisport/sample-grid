@@ -18,18 +18,6 @@ a, h3, li, span, label {
   padding: 0;
 }
 
-body {
-  background-image: url("../img/bg.png");
-  background-size: 100% 100%;
-  background-attachment: fixed;
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    background-image: none;
-  }
-}
-
 .dn {
   display: none;
 }
@@ -37,8 +25,8 @@ body {
 .sortButton {
   border: 1px solid $positiveColor;
   margin: 10px 0 10px 0;
-  color: $positiveColor;
-  background-color: $backgroundColor;
+  color: $backgroundColor;
+  background-color: $positiveColor;
   outline: none;
   font-weight: bold;
 }
