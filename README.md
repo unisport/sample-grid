@@ -1,7 +1,12 @@
-#Fork this project and send back a pull request.
+**How to run:**
 
-Create simple product grid by fetching and displaying
-the data found here http://www.unisport.dk/api/sample/
+1. Clone the repo
+2. Install bower (http://bower.io/)
+3. Install necessary packages (bower install)
+4. Run simple web server (for example: php -S localhost:8080)
+
+
+It is also possible to see the demo [here] (http://uni-color.danat.dk/)
 
 
 

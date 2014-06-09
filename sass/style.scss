@@ -1,0 +1,128 @@
+/* #Variables =========================*/
+$positiveColor: #008000;
+$darkColor: #808080;
+$backgroundColor: #ffffff;
+$boxShadowColor : #888888;
+$errorColor : #ff0000;
+$priceFontSize: 20px;
+$priceBeforeFontSize: 12px;
+$moreInfoLinkFontSize: 10px;
+
+/* #Font =========================*/
+a, h3, li, span, label {
+  font-family: Arial, Tahoma, sans-serif;
+}
+
+/* #General =======================*/
+.list, .properties {
+  padding: 0;
+}
+
+body {
+  background-image: url("../img/bg.png");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-image: none;
+  }
+}
+
+.dn {
+  display: none;
+}
+
+.sortButton {
+  border: 1px solid $positiveColor;
+  margin: 10px 0 10px 0;
+  color: $positiveColor;
+  background-color: $backgroundColor;
+  outline: none;
+  font-weight: bold;
+}
+
+.errorMessage {
+  background-color: $backgroundColor;
+  color: $errorColor;
+}
+
+/* #Product =======================*/
+.product {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 2px 2px 10px $boxShadowColor;
+  background-color: white;
+
+  &:hover {
+    box-shadow: 2px 2px 10px rgba(18, 194, 18, 0.79);
+  }
+
+  .link {
+    text-decoration: none;
+    color: black;
+  }
+
+  .link:hover {
+    text-decoration: none;
+    color: black;
+  }
+
+  img {
+    vertical-align: top;
+    margin-top: 10px;
+  }
+
+  .description {
+    display: inline-block;
+    height: 135px;
+    width: 75%;
+    overflow: auto;
+    margin-top: 15px;
+  }
+
+  .priceBefore {
+    text-decoration: line-through;
+    color: $darkColor;
+    font-size: $priceBeforeFontSize;
+  }
+
+  .price {
+    color: $positiveColor;
+    font-weight: bold;
+    font-size: $priceFontSize;
+  }
+
+  .discount {
+    color: $errorColor;
+    font-weight: bold;
+  }
+
+  .moreInfo {
+    font-size: $moreInfoLinkFontSize;
+    color: $darkColor;
+    font-weight: bold;
+  }
+
+  .moreInfo:hover {
+    text-decoration: none;
+    color: $positiveColor;
+  }
+}
+
+/* #Properties =======================*/
+.properties {
+  li {
+    display: list-item;
+    margin-bottom: 0px;
+    padding: 0;
+    box-shadow: none;
+    list-style: none;
+  }
+
+  li:hover {
+    box-shadow: none;
+  }
+}
