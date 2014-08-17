@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Unisport sample grid</title>
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <style>
+        a, a:hover, a:active, a:visited { text-decoration: none; color: #333; }
+        ul.products { list-style: none; overflow: hidden; width: 100%; }
+        ul li.product { float: left; width: 125px; font-size: 11px; line-height: 1.1em; margin: 14px 7px; color: #333; text-align: center; height: 220px; overflow: hidden; }
+        .product .product-name { height: 3.3em; overflow: hidden; text-overflow: ellipsis; }
+        .product .product-image { height: 125px; width: 125px; }
+        .product .product-price { font-size: 14px; margin: 8px 0; }
+        .product .product-price .old-price { text-decoration: line-through; font-size: 80%; }
+    </style>
+</head>
+<body>
+
+    <ul class="products" ng-controller="productController">
+        <li class="product" data-id="{{product.id}}" ng-repeat="product in products">
+            <a ng-href="{{product.url}}">
+                <div class="product-image">
+                        <img ng-src="{{product.img_url}}">
+                </div>
+                <div class="product-name">
+                    <p>{{product.name}}</p>
+                </div>
+                <div class="product-price">
+                    <p>{{product.price}} <span class="old-price">{{product.price_old}}</span></p>
+                </div>
+                <div class="product-delivery">
+                    <p>Levering: {{product.delivery}}</p>
+                </div>
+            </a>
+        </li>
+    </ul>
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.22/angular.min.js"></script>
+    <script>
+        function productController($scope, $http) {
+            $http.get("http://www.unisport.dk/api/sample/").success(function(data) {
+                console.log(data);
+                $scope.products = data.latest;
+            });
+        }
+    </script>
+
+</body>
+</html>
+
