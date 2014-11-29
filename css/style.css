@@ -9,13 +9,12 @@ body {
 .product ul {
   background: white;
   min-height: 400px;
-  -webkit-transition: transform .1s;
-  -o-transition: transform .1s;
-  transition: transform .1s;
+  -webkit-transition: -webkit-transform .05s;
+  -o-transition: -o-transform .05s;
+  transition: transform .05s;
 }
 
 .product:hover ul{
-  /*border: 1px forestgreen solid;*/
   -webkit-transform: scale(1.07,1.07);
   -ms-transform: scale(1.07,1.07);
   -o-transform: scale(1.07,1.07);

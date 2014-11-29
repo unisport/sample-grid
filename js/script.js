@@ -32,4 +32,13 @@ $(function(){
     return ret;
   });
 
+ Handlebars.registerHelper('capitalize', function(options) {
+    var string = options.fn(this);
+    return new Handlebars.SafeString(
+    string.charAt(0).toUpperCase() + string.slice(1)      
+     );
+ }); 
+
+  
+
 });
