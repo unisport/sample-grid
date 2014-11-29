@@ -19,7 +19,7 @@ $(function(){
       );
   });
 
-  Handlebars.registerHelper('csvToList', function(options) {
+  Handlebars.registerHelper('commaToLineBreak', function(options) {
     separator = ",";
     context = options.fn(this).split(separator);
     var ret = "";
