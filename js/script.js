@@ -1,6 +1,5 @@
 $(function(){
 
-  //Change to actual API url when in production, using local file for now.
   var url = '/apisample.json';
 
   $.getJSON(url, function(json){
@@ -8,8 +7,6 @@ $(function(){
     var template = Handlebars.compile(source);
     var html = template(json);
     $('.product-grid').append(html);
-
-    //add Foundation class 'end' to display last line correctly.
     $('.product:last-child').addClass('end');
   });
 
@@ -38,7 +35,5 @@ $(function(){
     string.charAt(0).toUpperCase() + string.slice(1)      
      );
  }); 
-
-  
 
 });

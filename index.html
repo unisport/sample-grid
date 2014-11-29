@@ -4,21 +4,18 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Opgave | Unisport</title>
+    <title>Sample-grid | Unisport</title>
     <link rel="stylesheet" href="/css/foundation.min.css" />
     <link rel="stylesheet" href="/css/style.css" />
     <script src="/js/vendor/modernizr.js"></script>
   </head>
   <body>
-    <div class="large-12 columns">
 
-
-      <div class="row">
-        <br>
-        <div class="large-12 end columns">
-          <div class="row product-grid" data-equalizer>
-            <!-- Products are appended here... -->
-          </div>
+    <div class="row">
+      <br>
+      <div class="large-12 end columns">
+        <div class="row product-grid" data-equalizer>
+          <!-- Products are appended here... -->
         </div>
       </div>
     </div>
@@ -28,8 +25,6 @@
     {{#each latest}}
     <!-- Product begin >>> -->
       <a href="{{url}}" class="product large-4 medium-6 small-12 columns{{end}}" >
-
-
         <ul class="pricing-table">
 
           <li class="bullet-item name">
@@ -38,14 +33,14 @@
             </div>
           </li>
 
-          <li class="image"><img width="125" height="125" src="{{img_url}}" alt='{{name}}'></li>
+          <li class="image bullet-item"><img width="125" height="125" src="{{img_url}}" alt='{{name}}'></li>
 
           <li class="bullet-item">
-            Levering: {{delivery}}
+            <p>Levering: {{delivery}}</p>
           </li>
 
-          <li class="bullet-item overline">
-            Vejl. pris: {{#prettyPrice}}{{price_old}}{{/prettyPrice}},-
+          <li class="bullet-item">
+            <p class="overline">Vejl. pris: {{#prettyPrice}}{{price_old}}{{/prettyPrice}},-</p>
           </li>
 
           <li class="price">
@@ -53,9 +48,9 @@
           </li>
 
           <li class="bullet-item sizes">
-            <span data-tooltip data-options="hover_delay:0;" aria-haspopup="true" class="hide-for-small-only has-tip tip-top" title="{{#commaToLineBreak}}{{sizes}}{{/commaToLineBreak}}">
+            <strong data-tooltip data-options="hover_delay:0;" aria-haspopup="true" class="hide-for-small-only has-tip tip-top" title="{{#commaToLineBreak}}{{sizes}}{{/commaToLineBreak}}">
               Vis størrelser
-            </span>
+            </strong>
             <strong class="show-for-small-only">
               {{#commaToLineBreak}}{{sizes}}{{/commaToLineBreak}}
             </strong>
