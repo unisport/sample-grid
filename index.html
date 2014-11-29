@@ -11,6 +11,8 @@
   </head>
   <body>
     <div class="large-12 columns">
+
+
       <div class="row">
         <br>
         <div class="large-12 end columns">
@@ -25,18 +27,18 @@
 
     {{#each latest}}
     <!-- Product begin >>> -->
-      <a href="{{url}}" class="product large-4 medium-6 small-12 columns{{end}}" data-equalizer-watch>
+      <a href="{{url}}" class="product large-4 medium-6 small-12 columns{{end}}" >
 
 
         <ul class="pricing-table">
 
-            <li class="bullet-item name">
-                <span class="y-center">
-                  {{#capitalize}}{{name}}{{/capitalize}}
-                </span>
-            </li>
+          <li class="bullet-item name">
+            <div class="y-center" data-equalizer-watch>
+              <p>{{#capitalize}}{{name}}{{/capitalize}}</p>
+            </div>
+          </li>
 
-            <li class="image"><img width="125" height="125" src="{{img_url}}" alt='{{name}}'></li>
+          <li class="image"><img width="125" height="125" src="{{img_url}}" alt='{{name}}'></li>
 
           <li class="bullet-item">
             Levering: {{delivery}}
@@ -54,11 +56,10 @@
             <span data-tooltip data-options="hover_delay:0;" aria-haspopup="true" class="hide-for-small-only has-tip tip-top" title="{{#commaToLineBreak}}{{sizes}}{{/commaToLineBreak}}">
               Vis størrelser
             </span>
-          <strong class="show-for-small-only">
-            {{#csvToList}}{{sizes}}{{/csvToList}}
-          </strong>
+            <strong class="show-for-small-only">
+              {{#commaToLineBreak}}{{sizes}}{{/commaToLineBreak}}
+            </strong>
           </li>
-          
         </ul>
 
       </a>

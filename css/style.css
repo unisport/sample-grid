@@ -6,15 +6,14 @@ body {
   display:block;
 }
 
-.product ul {
+.product .pricing-table {
   background: white;
-  min-height: 400px;
   -webkit-transition: -webkit-transform .05s;
   -o-transition: -o-transform .05s;
   transition: transform .05s;
 }
 
-.product:hover ul{
+.product:hover .pricing-table{
   -webkit-transform: scale(1.07,1.07);
   -ms-transform: scale(1.07,1.07);
   -o-transform: scale(1.07,1.07);
@@ -34,7 +33,9 @@ body {
 }
 
 .product .name {
-  min-height: 65px;
+  padding-top: 1.25em;
+  background: forestgreen;
+  color: white;
 }
 
 .has-tip:hover,
