@@ -1,0 +1,36 @@
+body {
+  background: #eee;
+}
+
+.product {
+  display:block;
+}
+
+.product ul {
+  background: white;
+  min-height: 400px;
+}
+
+.product .image {
+  padding: 1em 0;
+}
+
+.product .pricing-table {
+  text-align: center;
+}
+
+.overline {
+  text-decoration: line-through;
+}
+
+.product .name {
+  min-height: 65px;
+}
+
+.has-tip:hover,
+.has-tip {
+  color: black;
+  border-bottom: 0;
+}
+
+
