@@ -9,6 +9,17 @@ body {
 .product ul {
   background: white;
   min-height: 400px;
+  -webkit-transition: transform .1s;
+  -o-transition: transform .1s;
+  transition: transform .1s;
+}
+
+.product:hover ul{
+  /*border: 1px forestgreen solid;*/
+  -webkit-transform: scale(1.07,1.07);
+  -ms-transform: scale(1.07,1.07);
+  -o-transform: scale(1.07,1.07);
+  transform: scale(1.07,1.07);
 }
 
 .product .image {
