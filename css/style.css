@@ -1,0 +1,46 @@
+body {
+  background: #eee;
+}
+
+.product {
+  display:block;
+}
+
+.product .pricing-table {
+  background: white;
+  -webkit-transition: -webkit-transform .05s;
+  -o-transition: -o-transform .05s;
+  transition: transform .05s;
+}
+
+.product:hover .pricing-table{
+  -webkit-transform: scale(1.03,1.03);
+  -ms-transform: scale(1.03,1.03);
+  -o-transform: scale(1.03,1.03);
+  transform: scale(1.03,1.03);
+}
+
+.product .image {
+  padding: 1em 0;
+}
+
+.product .pricing-table {
+  text-align: center;
+}
+
+.overline {
+  text-decoration: line-through;
+}
+
+.product .name {
+  min-height: 85px;
+  padding-top: 1.25em;
+  background: forestgreen;
+  color: white;
+}
+
+.has-tip:hover,
+.has-tip {
+  color: black;
+  border-bottom: 0;
+}
