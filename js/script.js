@@ -3,7 +3,7 @@ $(function(){
   var url = '/apisample.json';
 
   $.getJSON(url, function(json){
-    var source   = $("#product-template").html();
+    var source   = $('#product-template').html();
     var template = Handlebars.compile(source);
     var html = template(json);
     $('.product-grid').append(html);

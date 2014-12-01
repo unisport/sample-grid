@@ -10,43 +10,31 @@
     <script src="/js/vendor/modernizr.js"></script>
   </head>
   <body>
-
     <div class="row">
       <br>
       <div class="large-12 end columns">
-        <div class="row product-grid" data-equalizer>
-          <!-- Products are appended here... -->
-        </div>
+        <div class="row product-grid" data-equalizer></div>
       </div>
     </div>
-
     <script id="product-template" type="text/x-handlebars-template">
-
-    {{#each latest}}
-    <!-- Product begin >>> -->
-      <a href="{{url}}" class="product large-4 medium-6 small-12 columns{{end}}" >
+      {{#each latest}}
+      <a href="{{url}}" class="product large-3 medium-4 small-12 columns{{end}}">
         <ul class="pricing-table">
-
           <li class="bullet-item name">
             <div class="y-center" data-equalizer-watch>
               <p>{{#capitalize}}{{name}}{{/capitalize}}</p>
             </div>
           </li>
-
           <li class="image bullet-item"><img width="125" height="125" src="{{img_url}}" alt='{{name}}'></li>
-
           <li class="bullet-item">
             <p>Levering: {{delivery}}</p>
           </li>
-
           <li class="bullet-item">
             <p class="overline">Vejl. pris: {{#prettyPrice}}{{price_old}}{{/prettyPrice}},-</p>
           </li>
-
           <li class="price">
             Kr. {{#prettyPrice}}{{price}}{{/prettyPrice}},-
           </li>
-
           <li class="bullet-item sizes">
             <strong data-tooltip data-options="hover_delay:0;" aria-haspopup="true" class="hide-for-small-only has-tip tip-top" title="{{#commaToLineBreak}}{{sizes}}{{/commaToLineBreak}}">
               Vis størrelser
@@ -56,11 +44,8 @@
             </strong>
           </li>
         </ul>
-
       </a>
-    <!-- Product end <<< -->
-    {{/each}}
-
+      {{/each}}
     </script>
     <script src="js/vendor/jquery.js"></script>
     <script src="/js/vendor/fastclick.js"></script>
