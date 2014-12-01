@@ -33,6 +33,7 @@ body {
 }
 
 .product .name {
+  min-height: 85px;
   padding-top: 1.25em;
   background: forestgreen;
   color: white;
