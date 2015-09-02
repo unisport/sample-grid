@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        function val(test){
+        if(test == 1){
+        return "img/accepted.jpg";
+        }
+        else return "img/rejected.jpg";
+        }
+        
+        
+   $(function() {
+       var table = "<table>"+"<tr><th>id: </th><th>name: </th><th>img_url: </th><th>delivery:</th><th>free_porto: </th><th>kid_adult: </th><th>kids: </th><th>package:</th><th>price: </th><th>price_old:</th><th>sizes:</th><th>women:</th></tr>";
+       
+   $.getJSON("/products.json", function(array) {
+        $.each(array["products"], function(index, object){
+            // /(<=,)\s*(?=,)|^(?=,)|[^\"]{2,}(?=\")|([^,\"]+(?=,|$))/
+            var results = object["sizes"].match(/(<=,)\s*(?=,)|^(?=,)|[^\"]{2,}(?=\")|([^,\"]+(?=,|$))/g);
+            console.log(results);
+            table+='<tr>';
+            table+='<td>'+object["id"]+'</td>';
+            table+='<td>'+object["name"]+'</td>';
+            //table+='<td>'+object["url"]+'</td>';
+            table+='<td>'+'<a href="'+object["url"]+'"><img class="product_image" src="'+object["img_url"]+'"></a>'+'</td>';
+            table+='<td>'+object["delivery"]+'</td>';
+            table+='<td>'+'<img class="accept" src="'+val(object["free_porto"])+'"'+'</td>';
+            table+='<td>'+'<img class="accept" src="'+val(object["kid_adult"])+'"'+'</td>';
+            table+='<td>'+'<img class="accept" src="'+val(object["kids"])+'"'+'</td>';
+            table+='<td>'+'<img class="accept" src="'+val(object["package"])+'"'+'</td>';
+            table+='<td>'+object["price"]+'</td>';
+            table+='<td>'+object["price_old"]+'</td>';
+            var optionsValues = '<select>';
+            $.each(results, function(index, item) {
+    		  optionsValues += '<option value="' + item + '">' + item + '</option>';
+            });
+            
+    	      optionsValues += '</select>';
+            table+='<td>'+optionsValues+'</td>';
+            
+            table+='<td>'+'<img class="accept" src="'+val(object["women"])+'"'+'</td>';
+            table+='</tr>';
+            
+        
+    });
+       
+       
+       $("body").html(table);
+       
+       $("tr:even").css( "background-color", "#338533" );
+       $("tr:odd").css( "background-color", "#479147" );
+       
+    });
+ });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
