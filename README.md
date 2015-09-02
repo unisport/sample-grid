@@ -1,7 +1,9 @@
-#Fork this project and send back a pull request.
+## Front end task commit
 
-Create simple product grid by fetching and displaying
-the data found here http://www.unisport.dk/api/sample/
-
+Using requirejs to build a module that fetches the sample json data
 
 
+### Notes
+To avoid cross origin request problmes I used the build-in server on osx
+
+ruby -run -e httpd . -p 8000

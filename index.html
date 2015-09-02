@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://unisport-assets.s3.amazonaws.com/styleguide/css/style.css?bust=12">
+    <link rel="stylesheet" href="/css/main.css">
+
+  </head>
+  <body>
+
+    <div class="content-tiles">
+      <div class="container" id="products">
+      </div>
+    </div>
+
+    <script data-main="js/main" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.20/require.min.js"></script>
+  
+  <!-- handlebar templates //-->
+  <script id="tmpl-mode-4" type="text/x-handlebars-template">
+    <div class="mode-wrapper mode-4">
+      {{#each products}}
+        <div class="column">
+          <div class="cell">
+            <div class="tile">
+              <div class="product-tile text-center">
+                <a href="{{{url}}}">
+                  <img class="product-image" src="{{{img_url}}}">
+                  <div class="shadow"></div>
+                  <div class="product-tile-text-holder clearfix">
+                    <p class="headline">{{{name}}}</p>
+                    {{#if price}}
+                    <div class="price-wrap">
+                      <span class="price">{{{price}}}</span>
+                      <span class="currency">DKK</span>
+                    </div>
+                    {{/if}}
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      {{/each}}
+    </div>
+  </script>
+  
+  </body>
+</html>
