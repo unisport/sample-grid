@@ -1,0 +1,1 @@
+var productsApp = angular.module('productGrid', ['ngDialog']);

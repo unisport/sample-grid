@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html ng-app="productGrid">
+	<head>
+		<meta charset="utf-8" /> 
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/ngDialog/ngDialog.css">
+		<link rel="stylesheet" href="css/ngDialog/ngDialog-theme-default.css">
+		<link rel="stylesheet" href="css/ngDialog/ngDialog-theme-plain.css">
+		<link rel="stylesheet" href="css/ngDialog/ngDialog-custom-width.css">
+	</head>
+	<body ng-controller="ProductListCtrl">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-3">
+					<div class="form-group">
+						<label>Search product:</label>
+						<input type="text" class="form-control input-sm" ng-model="productName" />
+					</div>
+				</div>
+			</div>
+			<section class="row" id="productContainer" ng-mouseleave="defaultView()">
+				<article id="{{product.id}}" class="col-sm-4 col-md-2" ng-repeat="product in products | filter:productName" ng-mouseenter="scale(product.id)">
+					<div class="thumbnail" ng-click="showDetails(product)">
+						<img src="{{product.img_url}}" alt="{{product.name}}" height="140">
+						<div class="caption">
+							<h4>{{product.name}}</h4>
+						</div>
+					</div>
+				</article>
+			</section>
+		</div>
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/angular.js"></script>
+		<script type="text/javascript" src="js/ngDialog.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+		<script type="text/javascript" src="js/controllers/products.js"></script>
+		
+		<script type="text/ng-template" id="productDetails">
+			<div class="ngdialog-message">
+				<h3>{{product.name}}</h3>
+				<br/>
+				<div class="row">
+					<div class="col-sm-6 col-md-4">
+						<img src="{{product.img_url}}" alt="{{product.name}}" height="140">
+					</div>
+					<div class="col-sm-6 col-md-8">
+						<div class="row">
+							<div class="col-sm-6 col-md-3">
+								<p>Price:</p>
+							</div>
+							<div class="col-sm-6 col-md-9">
+								<s class="text-danger" ng-show="priceNotNull">{{product.price_old}}<small>DKK</small></s> <span class="text-success"><strong>{{product.price}}<small>DKK</small></strong></span>
+							</div>
+						</div>
+						 
+						<div class="row">
+							<div class="col-sm-6 col-md-3">
+								Sizes:
+							</div>
+							<div class="col-sm-6 col-md-9">
+								<select class="form-control input-sm">
+									<option ng-repeat="size in measurments">{{size}}</option>
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6 col-md-3">
+								<p>Delivery:</p>
+							</div>
+							<div class="col-sm-6 col-md-9">
+								<p>{{product.delivery}}</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-6 col-md-4">
+								<small class="text-muted">Product Id: </small>
+							</div>
+							<div class="col-sm-6 col-md-8">
+								<span><small class="text-muted">{{product.id}}</small></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="ngdialog-buttons">
+				<a href="{{product.url}}" target="_blank" class="ngdialog-button ngdialog-button-primary">View details</a>
+			</div>
+		</script>
+	</body>
+</html>
