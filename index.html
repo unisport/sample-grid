@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<!--
+     __ __  __  __      _                       __  __    _ ____
+  __/ // /_/ / / /___  (_)________  ____  _____/ /_/ /   (_) __/__
+ /_  _  __/ / / / __ \/ / ___/ __ \/ __ \/ ___/ __/ /   / / /_/ _ \
+/_  _  __/ /_/ / / / / (__  ) /_/ / /_/ / /  / /_/ /___/ / __/  __/
+ /_//_/  \____/_/ /_/_/____/ .___/\____/_/   \__/_____/_/_/  \___/
+                          /_/
+ ==================================================================
+ ================= Sample grid by Pavle Avramovic =================
+ ==================================================================
+ -->
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+
+    <link href="css/style.css" rel="stylesheet" />
+
+    <script src="kendo/js/jquery.min.js"></script>
+    <script src="kendo/js/kendo.ui.core.min.js"></script>
+    
+    <title>Unisport - job application by Pavle Avramovic</title>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <a href="/" class="logo icon-logo">Unisport</a>
+        </div>
+    </header>
+    <div id="content" class="container">
+        <div id="filters">
+            <ul data-role="panelbar"
+                data-expand-mode="multiple">
+                
+                <li class="k-state-active">
+                    <span class="filter-title">Price</span>
+                    <ul>
+                        <label>
+                            <input
+                                type="checkbox"
+                                data-type="number"
+                                data-bind="value: FilterOptions.PriceLessThan100, checked: productFilters, events: { change: onCheckBoxSelect }" />
+                            0 - 100 DKK
+                        </label>
+                        <label>
+                            <input
+                                type="checkbox"
+                                data-type="number"
+                                data-bind="value: FilterOptions.PriceBetween100And500, checked: productFilters, events: { change: onCheckBoxSelect }" />
+                            100 - 500 DKK
+                        </label>
+                        <label>
+                            <input
+                                type="checkbox"
+                                data-type="number"
+                                data-bind="value: FilterOptions.PriceMoreThan500, checked: productFilters, events: { change: onCheckBoxSelect }" />
+                            > 500 DKK
+                        </label>
+                    </ul>
+                </li>
+
+                <li>
+                    <span class="filter-title">Delivery</span>
+                    <ul>
+                        <label>
+                           <input
+                                type="checkbox"
+                                data-type="number"
+                                data-bind="value: FilterOptions.DeliveryTops2Days, checked: productFilters, events: { change: onCheckBoxSelect }" />
+                            Delivery in 1 - 2 day
+                        </label>
+                    </ul>
+                </li>
+                
+                <li>
+                    <span class="filter-title">Products on discount</span>
+                    <ul>
+                        <label>
+                           <input
+                                type="checkbox"
+                                data-type="number"
+                                data-bind="value: FilterOptions.DiscountProducts, checked: productFilters, events: { change: onCheckBoxSelect }" />
+                            Discounted products
+                        </label>
+                    </ul>
+                </li>  
+                              
+            </ul>
+        </div>
+
+        <div id="products">
+            <div id="sorting">
+                <div class="sorting-inner">
+                    <label>Sort by: </label>
+                    <input data-role="dropdownlist"
+                        data-auto-bind="true"
+                        data-text-field="name"
+                        data-value-field="value"
+                        data-bind="value: selectedSorting, source: sortDataSource, events: { change: onSortingChange }" />
+                </div>
+            </div>
+
+            <div id="product-list">
+                <div data-role="listview"
+                    data-template="single-product-template"
+                    data-bind="source: productDataSource">
+                </div>
+            </div>
+
+            <div id="pager"
+                data-role="pager"
+                data-page-sizes="[5, 10, 20, 'all']"
+                data-bind="source: productDataSource">
+            </div>
+        </div>
+    </div>
+
+    <script type="text/x-kendo-tmpl" id="single-product-template">
+        <div class="single-product-container" title="#: name #">
+            <div class="product-image-container">
+                <img class="product-image" src="#: img_url #" onerror="this.src='images/company-logo.png'">
+            </div>
+            <div class="shadow"></div>
+            <div class="product-name">#: name #</div>
+            <div class="product-price"><span class="product-price-amount">#: price #</span><span class="product-price-currency">DKK</span></div> 
+            <div class="delivery">Delivery: #: delivery #</div>
+            <div class="read-more"><a href="#: url #">Read more</a></div>
+            # if(price_old != "0,00"){ #
+                <div class="discount">
+                # var discount = Math.round(((parseInt(formatedPriceOld) - parseInt(formatedPrice)) / parseInt(formatedPriceOld)) * 100); #
+                #: discount #%
+                </div>
+            # } #
+        </div>
+    </script>
+
+	<script src="scripts/script.js"></script>
+
+</body>
+</html>
