@@ -1,0 +1,120 @@
+/*** META ***/
+
+	* {
+		padding: 0px;
+		margin: 0px;
+		font-family: sans-serif;
+	}
+
+	body {
+		background-color: #056105;
+		background-image: url('http://mrwinther.dk/projects/unisport_test/images/football-no-lines.png');
+		background-size: 20%;
+	}
+
+/*** Classes ***/
+
+	/** Divs **/
+
+	.navbar {
+		position: fixed;
+		width: 100%;
+		max-height: 70px;
+		border-radius: 0px;
+		margin: 0px;
+		z-index: 5;
+	}
+
+	.main_content_container {
+		background-color: white;
+		border-radius: 5px;
+		padding-top: 60px;
+		margin-top: 0px;
+		margin-bottom: 15px;
+		box-shadow: 0 0 15px 2px #999;
+		-moz-box-shadow: 0 0 15px 2px #999;
+		-webkit-box-shadow: 0 0 15px 2px #999;
+	}
+
+	.product_element {
+		min-height: 520px;
+		padding: 10px;
+	}
+
+		.product_element>h4 {
+		   	min-height: 48px;
+		    color: gray;
+		    font-size: 21px;
+		    text-transform: capitalize;
+		}
+
+	.product_discount {
+		position: absolute;
+		background-color: #08AC51;
+		width: 65px;
+		height: inherit;
+		border-radius: 5px;
+		right: 0px;
+		margin: 0 10px 0 0;
+		color: white;
+		font-size: 23px;
+	}
+
+		.product_discount>p {
+			margin: 0;
+		}
+
+	.product-sizes {
+		height: 35px;
+		font-size: 12px;
+	}
+
+	/** Buttons **/
+
+	.buy_btn {
+		display: block;
+		background-color: #08AC51;
+		width: 70%;
+		margin: 4px auto;
+		color: white;
+		font-size: 16px;
+	}
+		.grow { 
+			transition: all 0.1s; 
+		}
+		.grow:hover {
+			color: white;
+			transform: scale(1.1); 
+		}
+
+	/** Images **/ 
+
+	.img-responsive {
+		height: 250px;
+	}
+
+	/** Paragraphs **/
+
+	.product_price {
+		padding: 10px 0 0 0;
+		color: green;
+		font-size: 23px;
+	}
+
+	.product_old_price {
+		color: gray;
+		font-size: 14px;
+	}
+
+	.product_old_price p:empty{
+		display: inline-block;
+	}	
+
+/*** Ids ***/
+
+	/** Divs **/
+
+	#page_logo {
+		max-height: 65px;
+	}
+	

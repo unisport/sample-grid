@@ -1,14 +1,5 @@
-#Fork this project and send back a pull request.
+My suggestion for a simple grid showing the data from external source.
 
-Create simple product grid by fetching and displaying
-the data found here http://www.unisport.dk/api/sample/
-
-What we look for?
-When we review your pull request we look at how the code has been structured and which libraries you decide to use to do the task. There is no right or wrong when it comes to choice in CSS or JavaScript frameworks or libraries
-
-How to fork
-https://help.github.com/articles/fork-a-repo/ 
-
-How to do a pull-request
-https://help.github.com/articles/using-pull-requests/
+Used AngularJS and Bootstrap CSS for keeping it at minimum with the requests, since it's only a one-page application.
+Needs to be opened on Apache server, a bit of php used for fectching data.
 
