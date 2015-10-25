@@ -1,7 +1,7 @@
 // Unisport JS
 
 /** For seeing the sorted JSON object **/
-console.dir(JSON_obj);
+//console.dir(JSON_obj);
 
 // Angular functionalities
 
