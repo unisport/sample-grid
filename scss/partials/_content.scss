@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  border: 1px solid silver;
+  // border: 1px solid silver;
   margin: 0;
 }
 
@@ -17,6 +17,13 @@
   }
 }
 
-p.test {
+p {
   height: 35px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.product {
+  border: 1px solid black;
 }
