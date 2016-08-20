@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  border: 1px solid silver;
+  margin: 0;
+}
+
+.grid-container {
+  max-width: 768px;
+  border: $border;
+  .product {
+    img {
+
+    }
+    p {
+
+    }
+  }
+}
+
+p.test {
+  height: 35px;
+}
