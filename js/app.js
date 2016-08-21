@@ -20,7 +20,7 @@ $(function() {
         var img = $('<img>', {src: product.image, class: "small-photo"}); //product img + data-url for maxi-img
         // console.log(img.data());
         var bigPhotoIcon = $('<img>', {src:"D:/WORKSPACE/sample-grid/images/more-zoom.png", class:'big-photo-icon'}).data("big", product.img_url).addClass('hidden');
-        console.log(bigPhotoIcon.data());
+        // console.log(bigPhotoIcon.data());
         var divNameWrap = $('<div>', {class: "name-wrap"}); //div for Name
         var spanName = $('<span>').text(product.name); //span for Name
 
@@ -33,18 +33,18 @@ $(function() {
           } else {
             pOldPrice.text('');
           }
-        var divDeliveryWrap = $('<div>', {class: "delivery-wrap"}).addClass("hidden"); //div for Delivery
+        var divDeliveryWrap = $('<div>', {class: "delivery-wrap"}); //div for Delivery
         var spanDelivery = $('<span>').text("Delivery: " + product.delivery); //span for Delivery
-        var formSizeWrap = $('<form>', {class: "size-wrap"}).addClass('hidden'); //form for size-wrap
+        var formSizeWrap = $('<form>', {class: "size-wrap"}); //form for size-wrap
         var spanSizeLabel = $('<span>').text("Sizes: "); //span for Size-Label
         var spanSizes = $('<span>', {class: "sizes"}).text(product.sizes); //span for Sizes
         //rest of data
         var divOtherWrap = $('<div>', {class: "other-wrap"}); //div for other-wrap
-        var pInStock = $('<p>', {class: "in-stock"}); //Online (does it mean in Stock?)
+        var divInStock = $('<div>', {class: "in-stock"}); //Online (does it mean in Stock?)
           if (product.online === "1") { //text for displaying when product is in stock
-            pInStock.text("In Stock");
+            divInStock.text("In Stock");
           } else {
-            pInStock.text(" ");
+            divInStock.text("Sold out");
           }
         var pPackage = $('<p>', {class: "package"}); //pPackage ?????????
           if (product.package === "1") {
@@ -60,7 +60,6 @@ $(function() {
           }
         var pIdNumber = $('<p>', {class: "id-number"}).text("Product No: "); //ID
         var spanIdNumber = $('<span>').text(product.id);
-
 
         //create other elements (not json data)
         var divReadMore = $('<div>', {class: "read-more"});
@@ -82,22 +81,52 @@ $(function() {
         //read MORE
         aWrap.append(divReadMore);
         divReadMore.append(aReadMore);
-        //Delivery
-        aWrap.append(divDeliveryWrap);
-        divDeliveryWrap.append(spanDelivery);
-        //Sizes
-        aWrap.append(formSizeWrap);
-        formSizeWrap.append(spanSizeLabel);
-        formSizeWrap.append(spanSizes);
-        //other
-        aWrap.append(divOtherWrap);
-        divOtherWrap.append(pInStock);
-        divOtherWrap.append(pPackage);
-        divOtherWrap.append(pPorto);
-        divOtherWrap.append(pIdNumber);
-        pIdNumber.append(spanIdNumber);
+
         // product to DOM
         productLists.append(divProduct);
+
+        //show all details
+        function showDetails(){
+         divReadMore.each(function(i,v){
+           $(this).click(function(){
+             console.log('read more');
+             var detailsDiv = $('<div>');
+             var detailsFullScreen = $('<div>');
+
+             detailsFullScreen.addClass('fullScreen').fadeIn('slow').appendTo($('.photomax-box'));//add fullScreen class and attach to <body>
+             detailsDiv.addClass('detailsDiv').appendTo(detailsFullScreen);
+
+            //create and add two columns to display info
+            var detailsDivImg = $('<div>').addClass('half lefthalf').appendTo(detailsDiv);
+            var detailsDivInfo = $('<div>').addClass('half righthalf').appendTo(detailsDiv);
+            //clone and append elements that will appear in detailsDiv
+             var imgCloned = img.clone().appendTo(detailsDivImg);
+             var divNameWrapCloned = divNameWrap.clone().appendTo(detailsDivInfo);
+             var divPriceWrapCloned = divPriceWrap.clone().appendTo(detailsDivInfo);
+
+             //Delivery & stock
+             detailsDivInfo.append(divDeliveryWrap);
+             divDeliveryWrap.append(spanDelivery);
+             detailsDivInfo.append(divInStock);
+
+             //Sizes
+             detailsDivInfo.append(formSizeWrap);
+             formSizeWrap.append(spanSizeLabel);
+             formSizeWrap.append(spanSizes);
+             //other
+             detailsDivInfo.append(divOtherWrap);
+             divOtherWrap.append(pPackage);
+             divOtherWrap.append(pPorto);
+             divOtherWrap.append(pIdNumber);
+             pIdNumber.append(spanIdNumber);
+
+
+
+
+           })
+         })
+        }
+        showDetails();
 
         //function for showing big photo
         function showBigPhoto() {

@@ -6,7 +6,7 @@
 
 .grid-container {
   max-width: 768px;
-  border: $border;
+  // border: $border;
 }
 p {
   height: 35px;
@@ -17,10 +17,12 @@ a {
 }
 .product {
   border: 1px solid black;
-  height: 600px;
-  .delivery-wrap, .size-wrap, .other-wrap {
-    // display: none;
-  }
+  // height: 600px;
+
+}
+.delivery-wrap {
+  color: darkgrey;
+  font-size: 14px;
 }
 //classes to be nested later
 .product {
@@ -29,6 +31,7 @@ a {
 }
 .name-wrap {
   margin: 15px auto 5px auto;
+  height: 38px;
   span {
     font-weight: bolder;
   }
@@ -44,9 +47,6 @@ a {
     text-decoration: line-through;
   }
 }
-.sizes {
-  // display: none;
-}
 .read-more {
   border: 1px solid #000;
   color: #000;
@@ -54,6 +54,15 @@ a {
   padding: 2px 6px;
   font-size: 10px;
   margin-bottom: 15px;
+}
+.in-stock {
+  display: inline-block;
+  border: 1px solid #000;
+  color: #000;
+  padding: 2px 6px;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 10px 0;
 }
 .hidden {
   display: none;
@@ -65,4 +74,25 @@ a {
     top: 1%;
     left: 1%;
   }
+}
+.id-number {
+  color: $light-font-color;
+  font-size: 10px;
+}
+.size-wrap span {
+  &:first-of-type {
+  font-weight: bold;
+  text-transform: uppercase;
+  }
+  &:last-of-type {
+    color: #222;
+  }
+}
+.package {
+  margin-top: 15px;
+  font-size: 14px;
+  height: 20px; //change to REM
+}
+.porto {
+  font-size: 14px;
 }

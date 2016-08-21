@@ -45,3 +45,60 @@
       }
     }
   }
+.detailsDiv {
+    // display: block;
+    margin: 10px auto;
+    width: 80%;
+    background-color: white;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;;
+  }
+.half {
+  width: 50%;
+  padding: 5px;
+  // display: inline-block;
+}
+.lefthalf {
+  // background-color: grey;
+  // float: left;
+}
+.righthalf {
+  position: relative;
+  // background-color: lightblue;
+  // float: right;
+}
+
+.destroy-button {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: none;
+  &:before, &:after {
+      $width: 39px;
+      $height: 5px;
+      transform: rotate(-45deg);
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-top: -$height/2;
+      margin-left: -$width/2;
+      display: block;
+      height: $height;
+      width: $width;
+      background-color: $main-color;
+      transition: all 0.25s ease-out;
+      }
+      &:after {
+          transform: rotate(-135deg);
+      }
+    &:hover {
+        background-color: rgba(black,0.2);
+    }
+  }
