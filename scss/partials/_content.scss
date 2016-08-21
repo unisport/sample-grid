@@ -7,16 +7,7 @@
 .grid-container {
   max-width: 768px;
   border: $border;
-  .product {
-    img {
-
-    }
-    p {
-
-    }
-  }
 }
-
 p {
   height: 35px;
 }
@@ -26,4 +17,52 @@ a {
 }
 .product {
   border: 1px solid black;
+  height: 600px;
+  .delivery-wrap, .size-wrap, .other-wrap {
+    // display: none;
+  }
+}
+//classes to be nested later
+.product {
+  padding: 5px;
+  text-align: center;
+}
+.name-wrap {
+  margin: 15px auto 5px auto;
+  span {
+    font-weight: bolder;
+  }
+}
+.price-wrap {
+  color: $main-color;
+  font-size: 20px;
+  .price {
+
+  }
+  .old-price {
+    font-size: 16px;
+    text-decoration: line-through;
+  }
+}
+.sizes {
+  // display: none;
+}
+.read-more {
+  border: 1px solid #000;
+  color: #000;
+  display: inline-block;
+  padding: 2px 6px;
+  font-size: 10px;
+  margin-bottom: 15px;
+}
+.hidden {
+  display: none;
+}
+.product{
+  position: relative;
+  .big-photo-icon {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+  }
 }
