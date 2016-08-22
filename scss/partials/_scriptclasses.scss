@@ -1,0 +1,37 @@
+.destroy {
+  z-index: 15;
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: none;
+  &:before, &:after {
+    $width: 39px;
+    $height: 2px;
+    transform: rotate(-45deg);
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -$height/2;
+    margin-left: -$width/2;
+    display: block;
+    height: $height;
+    width: $width;
+    background-color: $main-color;
+    transition: all 0.25s ease-out;
+  }
+  &:after {
+    transform: rotate(-135deg);
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.hidden {
+  display: none;
+}

@@ -1,30 +1,28 @@
-$columns_amount: 12;
-$width: (100% / $columns_amount);
-
-.grid-container {
-  // max-width: 1170px;
-  // border: $border;
+html {
+  font-size: 10px;
+  body {
+    font-size: 16px;
+    font-family: $other-font, $main-font, sans-serif;
+  }
+}
+ul {
+  list-style-type: none;
   margin: 0 auto;
-  .row {
-    // min-height: 30px;
+  max-width: 768px;
+  border: none;
+  li {
+    display: inline-block;
+    margin: 15px 0;
+    width: 33%;
+    border: none;
+    vertical-align: top;
   }
-  .row::after, .row::before {
-    content: '';
-    display: table;
-    clear: both;
-  }
-  [class*='col-']{
-    float: left;
-    // height: 50px;
-    // border: $border;
-  }
-  .col-1 {
-    border-right: 1px solid rgba(150, 133, 143, 0.65);
-  }
-  @for $i from 1 through $columns_amount {
-    .col-#{$i} { width: $width * $i }
-  }
-  .width-100 {
-    width: 100%;
-  }
+}
+//mediaqueries
+@media only screen and (max-width: 750px) {
+    ul {
+      li {
+        width: 50%;
+      }
+    }
 }

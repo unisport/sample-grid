@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>Unisport Sample</title>
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery.js"> </script>
     <script src="js/app.js"> </script>
@@ -11,45 +11,16 @@
 
 <body>
   <section>
-    <div class="grid-container">
-      <div class="row product-container">
-        <!-- <div class="col-4 product"> -->
-          <!-- <a href="">
-          <img src="https://d2ij1pxeion66i.cloudfront.net/product/152687/078d9086bd96.jpg" data-url="">
-          <div class="name-wrap"><span>Name</span></div>
-          <div class="price-wrap">
-            <span class="price">Price</span>
-            <span class="currency">DKK</span>
-            <p class="old-price">old price</p>
-          </div>
-          <div class="read-more"><a href="">READ MORE</a>
-          </div>
-          <div class="delivery-wrap">
-            <span>Delivery</span>
-          </div>
-          <form class="size-wrap">
-            <span class="size-label">SIZE</span>
-            <span class="sizes">Sizes</span>
-          </form>
-          <div class=other-Wrap>
-            <p class="in-stock">in Stock</p>
-            <p class="package">package</p>
-            <p class="porto">porto</p>
-            <p class=id-number>Product No<span>X</span></p>
-          </div>
-        </a> -->
-       </div>
-       <!-- <div class="col-4 product">
-         <img src="https://d2ij1pxeion66i.cloudfront.net/product/152687/078d9086bd96.jpg">
-         <p>bla <strong>$135</strong></p>
-      </div> -->
-      <!-- <div class="col-4 product">
-        <img src="https://d2ij1pxeion66i.cloudfront.net/product/152687/078d9086bd96.jpg">
-        <p>bla <strong>$135</strong></p>
-     </div> -->
-   </div>
-    </div>
+    <select id="filter">
+      <option class="all" value selected="selected">All</option>
+      <option class="kids" value="kids">Kids</option>
+      <option class="kid-adult" value="teenagers">Teenagers</option>
+      <option class="women" value="women">Women</option>
+    </select>
+      <ul class="row product-list">
+      </ul>
   </section>
 <div class="photomax-box"></div>
+<div class="details-box"></div>
 </body>
 </html>
