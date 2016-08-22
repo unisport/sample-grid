@@ -456,11 +456,6 @@ p {
   padding: 5px;
 }
 
-.full-screen-details .detailsDiv .lefthalf {
-  display: flex;
-  justify-content: center;
-}
-
 .full-screen-details .detailsDiv .righthalf {
   position: relative;
 }
