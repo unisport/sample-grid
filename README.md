@@ -12,3 +12,14 @@ https://help.github.com/articles/fork-a-repo/
 How to do a pull-request
 https://help.github.com/articles/using-pull-requests/
 
+#Løsning 
+Find min løsning i her</br>
+index.html
+js/main.js 
+css/main.css
+
+#Demo
+
+#Frameworks
+- jQuery
+- Bootstrap 4
