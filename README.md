@@ -13,10 +13,10 @@ How to do a pull-request
 https://help.github.com/articles/using-pull-requests/
 
 #Løsning 
-Find min løsning i her</br>
-index.html
-js/main.js 
-css/main.css
+Find min løsning i her:</br>
+<b>index.html</br>
+js/main.js </br>
+css/main.css</b></br>
 
 #Demo
 
