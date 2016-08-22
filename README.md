@@ -19,7 +19,7 @@ js/main.js </br>
 css/main.css</b></br>
 
 #Demo
-https://rawgit.com/rishoej/sample-grid/master/index.html
+https://cdn.rawgit.com/rishoej/sample-grid/master/index.html
 
 #Frameworks
 - jQuery
