@@ -343,6 +343,7 @@ html {
 
 html body {
   font-size: 16px;
+  font-family: "latoregular", "francois_oneregular", sans-serif;
 }
 
 ul {
@@ -366,8 +367,16 @@ ul li {
   }
 }
 
-body {
-  font-family: "latoregular", "francois_oneregular", sans-serif;
+#filter {
+  display: block;
+  margin: 20px auto;
+  font-size: 2rem;
+  border: 2px solid #0abf5a;
+  color: #222;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  padding: 10px;
 }
 
 .product {
