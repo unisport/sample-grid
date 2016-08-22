@@ -52,7 +52,7 @@ $(function() {
           } else {
             pPackage.text("Part of a Set: No");
           }
-        var divPorto = $('<div>', {class: "porto"}); //only show if true
+        var divPorto = $('<div>', {class: "porto"}); //shipping text
           if (product.free_porto === "1") {
             divPorto.text("Free Shipping");
           } else {
@@ -127,7 +127,6 @@ $(function() {
            })
          })
         }
-        showDetails();
 
         //function for showing big photo on a new screen
         function showBigPhoto() {
@@ -174,8 +173,6 @@ $(function() {
           })
         }
 
-        showBigPhoto();
-
         //filter data-kids,women,adolescent
         function filter(){
           var options = $('options');
@@ -202,6 +199,10 @@ $(function() {
         }//end of filter function
 
         filter();
+        showDetails();
+        showBigPhoto();
+
+
 
     }); // end of Insert content
   }
