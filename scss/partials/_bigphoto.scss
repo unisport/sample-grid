@@ -10,14 +10,15 @@
     overflow: scroll;
     margin: 10px auto;
     position: relative;
-    max-width: 90%;
+    max-width: 70%;
     max-height: 95vh;
     .destroy {
       position: fixed;
       top: 15px;
-      right: 6%;
+      right: 16%;
     }
     img {
+      width: 100%;
       overflow: hidden;
       z-index: 12;
     }

@@ -14,24 +14,25 @@
   padding: 0 15px;
   text-align: center;
   position: relative;
+  .big-photo-icon {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+  }
   a {
     text-decoration: none;
     color: black;
-    .big-photo-icon {
-      position: absolute;
-      top: 1%;
-      left: 1%;
-    }
-    .read-more {
-      border: 1px solid #000;
-      color: #222;
-      display: inline-block;
-      padding: 2px 6px;
-      font-size: 1.3rem;
-      margin-bottom: 15px;
-    }
   }
 }
+.read-more {
+  border: 1px solid #000;
+  color: #222;
+  display: inline-block;
+  padding: 2px 6px;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  cursor: pointer;
+  }
 .name-wrap {
   margin: 15px auto 5px auto;
   min-height: 3.8rem;

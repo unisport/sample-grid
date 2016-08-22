@@ -1,12 +1,4 @@
 @font-face {
-  font-family: 'raleway';
-  src: url("../fonts/raleway/raleway-regular-webfont.eot");
-  src: url("../fonts/raleway/raleway-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/raleway/raleway-regular-webfont.woff2") format("woff2"), url("../fonts/raleway/raleway-regular-webfont.woff") format("woff"), url("../fonts/raleway/raleway-regular-webfont.ttf") format("truetype"), url("../fonts/raleway/raleway-regular-webfont.svg#ralewayregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'latoregular';
   src: url("../fonts/Lato/lato-regular.eot");
   src: url("../fonts/Lato/lato-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato/lato-regular.woff2") format("woff2"), url("../fonts/Lato/lato-regular.woff") format("woff"), url("../fonts/Lato/lato-regular.ttf") format("truetype"), url("../fonts/Lato/lato-regular.svg#latoregular") format("svg");
@@ -304,17 +296,18 @@ input[type=button] {
   overflow: scroll;
   margin: 10px auto;
   position: relative;
-  max-width: 90%;
+  max-width: 70%;
   max-height: 95vh;
 }
 
 .full-screen-bigphoto .div-big-img .destroy {
   position: fixed;
   top: 15px;
-  right: 6%;
+  right: 16%;
 }
 
 .full-screen-bigphoto .div-big-img img {
+  width: 100%;
   overflow: hidden;
   z-index: 12;
 }
@@ -365,6 +358,12 @@ ul li {
   ul li {
     width: 50%;
   }
+  .full-screen-bigphoto .div-big-img {
+    max-width: 90%;
+  }
+  .full-screen-bigphoto .div-big-img .destroy {
+    right: 6%;
+  }
 }
 
 #filter {
@@ -385,24 +384,25 @@ ul li {
   position: relative;
 }
 
-.product a {
-  text-decoration: none;
-  color: black;
-}
-
-.product a .big-photo-icon {
+.product .big-photo-icon {
   position: absolute;
   top: 1%;
   left: 1%;
 }
 
-.product a .read-more {
+.product a {
+  text-decoration: none;
+  color: black;
+}
+
+.read-more {
   border: 1px solid #000;
   color: #222;
   display: inline-block;
   padding: 2px 6px;
   font-size: 1.3rem;
   margin-bottom: 15px;
+  cursor: pointer;
 }
 
 .name-wrap {

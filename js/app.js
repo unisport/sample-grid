@@ -11,9 +11,9 @@ $(function() {
         var liProduct = $('<li>', {class: "product"}).data("kids", product.kids).data('kid-adult', product.kid_adult).data('women', product.women); //main product-div
         // console.log(liProduct.data());
         var aWrap = $('<a>', {href: product.url, target: "_blank"}) //link to Product
-          aWrap.on('click', function (event) {
-            event.preventDefault();
-          })
+          // aWrap.on('click', function (event) {
+          //   event.preventDefault();
+          // })
         var img = $('<img>', {src: product.image, class: "small-photo"}); //product img + data-url for maxi-img
         var bigPhotoIcon = $('<img>', {src:"D:/WORKSPACE/sample-grid/images/more-zoom.png", class:'big-photo-icon'}).data("big", product.img_url).addClass('hidden');
         var divNameWrap = $('<div>', {class: "name-wrap"}); //div for Name
@@ -62,14 +62,14 @@ $(function() {
         var spanIdNumber = $('<span>').text(product.id);
 
         //create other elements (not json data)
-        var divReadMore = $('<div>', {class: "read-more"});
-        var aReadMore = $('<a>').text("QUICK LOOK");
+        var divReadMore = $('<div>', {class: "read-more"}).text('QUICK LOOK');
 
 
         //append elements to DOM
+        liProduct.append(bigPhotoIcon);
         liProduct.append(aWrap);
         aWrap.append(img);
-        aWrap.append(bigPhotoIcon);
+        // aWrap.append(bigPhotoIcon);
         //Name
         aWrap.append(divNameWrap);
         divNameWrap.append(spanName);
@@ -79,8 +79,7 @@ $(function() {
         divPriceWrap.append(supCurrency);
         divPriceWrap.append(pOldPrice);
         //read MORE
-        aWrap.append(divReadMore);
-        divReadMore.append(aReadMore);
+        liProduct.append(divReadMore);
         // product to DOM
         productLists.append(liProduct);
 
@@ -88,6 +87,7 @@ $(function() {
         function showDetails(){
           divReadMore.each(function(i,v){
             $(this).click(function(){
+
               var detailsDiv = $('<div>');
               var detailsFullScreen = $('<div>');
 
@@ -134,10 +134,10 @@ $(function() {
           //show and hide zoom icon when hovering on photo
           img.each(function(i,v){
             $(this).on("mouseover", function(){
-              $(this).next().removeClass('hidden');
+              $(this).closest(".product").find(".big-photo-icon").removeClass('hidden'); //finds the right icon
             });
             $(this).on("mouseleave", function(){
-              $(this).next().addClass('hidden');
+              $(this).closest(".product").find(".big-photo-icon").addClass('hidden');
             });
           })
 
@@ -160,8 +160,12 @@ $(function() {
               closeButton.addClass('destroy').appendTo(divBigImg);//add closeButton and attach to <fullScreen>
 
               $('body').on('click', '.destroy', function(){ //exit full screen
+                aWrap.on('click', function (event) { //disables unisport page to open
+                  return true;
+                })
                 fullScreen.fadeOut('slow');
-              });
+
+               });
             })
           //hide zoom icon
             $(this).on("mouseleave", function(){
