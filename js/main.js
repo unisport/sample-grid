@@ -65,7 +65,7 @@ function products(data){
 		// Denne løsning er valgt så de øverste produkter loader først, uden man behøver at vente på alle produkter er loadet.
 		// En forbedring kunne være kun at loade x antal produkter af gang, indtil den besøgende aktivt klikker på en "vis flere" knap eller "gå til næste side"
 		$productGrid.append(products);	
-		}
+	}
 }
 
 $(function () {
