@@ -37,7 +37,7 @@ function products(data){
 			products += '<p class="product-price">' + Math.round(price) + ' <small class="product-currency">' + currency + '</small></p>'; 
 		}
 		
-		// Hvis den gamle pris er større end nuværende pris, vis et rabat mærke i procent samt normalprisen for produktet.
+		// Hvis den gamle pris er større end nuværende pris, vis et rabatmærke i procent samt normalprisen for produktet.
 		// Dette er især smart hvis prisen for et produkt bliver sat op, så vil den gamle lavere pris ikke bliver vist.
 		if(oldPrice > price){
 			products += '<p class="product-price-old">Normalpris ' + oldPrice + '</p>';
@@ -56,7 +56,7 @@ function products(data){
 			products += '<p class="product-size">Kvinder: ' + sizes + '</p></a></div>';
 		}
 		
-		// Jeg har antaget at værdien 0 betyder produktet er one-size.		
+		// Jeg har antaget at værdien 0 betyder produktet er "one size".		
 		else if(kidAdult == 0){
 			products += '<p class="product-size">Størrelse: ' + sizes + '</p></a></div>';
 		}
