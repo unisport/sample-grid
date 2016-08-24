@@ -22,7 +22,7 @@ function products(data){
 		var women = data.products[i].women;
 	
 		// Produkterne er placeret i et Bootstrap grid som gør siden responsiv
-		// Fx 4 produkter på pc og computer, 3 produkter på tablet bred format, 2 produkter på tablet langformat, 1 produkt på smartphone.
+		// Fx 4 produkter på stationær og bærbar, 3 produkter på tablet bred format, 2 produkter på tablet langformat, 1 produkt på smartphone.
 		products = '<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><a href="' + url + '">\
 		<img class="img-fluid product-image" src="' + image + '">\
 		<p class="product-name">' + name +'</p>';
