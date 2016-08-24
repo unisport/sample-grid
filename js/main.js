@@ -79,7 +79,7 @@ $(function () {
             //$("#error-products").text(success);
         },
         error: function(data) {
-        	// Fejlmeddelelse besøgende ikke kan se produkter. 
+        	// Fejlmeddelelse kan ikke besøgende se produkter. 
         	// Fejlnummer #126 gør det nemt at identificere hvor fejlen er.
             error = 'Det er sket en fejl #126. Kontakt support@unisport.dk med fejlnummeret'; 
             $("#error-products").text(error);
