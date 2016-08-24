@@ -4,7 +4,7 @@ function products(data){
 	var amountProducts = data.products.length+" produkter i denne kategori";
 	$('#amount-products').append(amountProducts);
 		
-	//For hver produkt i samlpe.json lav et for loop
+	// For hver produkt i samlpe.json lav et for loop
 	for(i = 0; i < data.products.length; i++){
 		var $productGrid = $('#product-grid');
 		
@@ -73,16 +73,16 @@ $(function () {
 		type: 'GET',
 		url: 'sample.json',
         success: function(data) {
-            products(data);
-            // Kun til fejlfinding 
-        	//success = 'json data blev hentet';
-            //$("#error-products").text(success);
+            	products(data);
+            	// Kun til fejlfinding 
+            	//success = 'json data blev hentet';
+            	//$("#error-products").text(success);
         },
         error: function(data) {
         	// Fejlmeddelelse kan ikke besøgende se produkter. 
         	// Fejlnummer #126 gør det nemt at identificere hvor fejlen er.
-            error = 'Det er sket en fejl #126. Kontakt support@unisport.dk med fejlnummeret'; 
-            $("#error-products").text(error);
+            	error = 'Det er sket en fejl #126. Kontakt support@unisport.dk med fejlnummeret'; 
+            	$("#error-products").text(error);
         },
 	});
 });
