@@ -24,7 +24,7 @@ function products(data){
 		// Produkterne er placeret i et Bootstrap grid som gør siden responsiv
 		// Fx 4 produkter på pc og computer, 3 produkter på tablet bred format, 2 produkter på tablet langformat, 1 produkt på smartphone.
 		products = '<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><a href="' + url + '">\
-		<img class="img-fluid product-image lazy" src="' + image + '">\
+		<img class="img-fluid product-image" src="' + image + '">\
 		<p class="product-name">' + name +'</p>';
 		
 		// Hvis prisen er lig 0, hvilket gavekortet er, vil der stå "vælg beløb" i stedet for "0"
