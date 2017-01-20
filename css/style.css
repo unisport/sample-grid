@@ -1,0 +1,94 @@
+/* #Variables =========================*/
+/* #Font =========================*/
+a, h3, li, span, label {
+  font-family: Arial, Tahoma, sans-serif;
+}
+
+/* #General =======================*/
+.list, .properties {
+  padding: 0;
+}
+
+.dn {
+  display: none;
+}
+
+.sortButton {
+  border: 1px solid green;
+  margin: 10px 0 10px 0;
+  color: white;
+  background-color: green;
+  outline: none;
+  font-weight: bold;
+}
+
+.errorMessage {
+  background-color: white;
+  color: red;
+}
+
+/* #Product =======================*/
+.product {
+  display: block;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 2px 2px 10px #888888;
+  background-color: white;
+}
+.product:hover {
+  box-shadow: 2px 2px 10px rgba(18, 194, 18, 0.79);
+}
+.product .link {
+  text-decoration: none;
+  color: black;
+}
+.product .link:hover {
+  text-decoration: none;
+  color: black;
+}
+.product img {
+  vertical-align: top;
+  margin-top: 10px;
+}
+.product .description {
+  display: inline-block;
+  height: 135px;
+  width: 75%;
+  overflow: auto;
+  margin-top: 15px;
+}
+.product .priceBefore {
+  text-decoration: line-through;
+  color: gray;
+  font-size: 12px;
+}
+.product .price {
+  color: green;
+  font-weight: bold;
+  font-size: 20px;
+}
+.product .discount {
+  color: red;
+  font-weight: bold;
+}
+.product .moreInfo {
+  font-size: 10px;
+  color: gray;
+  font-weight: bold;
+}
+.product .moreInfo:hover {
+  text-decoration: none;
+  color: green;
+}
+
+/* #Properties =======================*/
+.properties li {
+  display: list-item;
+  margin-bottom: 0px;
+  padding: 0;
+  box-shadow: none;
+  list-style: none;
+}
+.properties li:hover {
+  box-shadow: none;
+}

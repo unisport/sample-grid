@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/underscore/underscore.js"></script>
+    <script src="bower_components/handlebars/handlebars.min.js"></script>
+    <script src="js/helpers/helpers.js"></script>
+    <script src="js/app.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <button id="sortByPrice" class="jqs-sortButton sortButton">Sort by price</button>
+    <button id="sortByName" class="jqs-sortButton sortButton">Sort by name</button>
+    <div class="productsContainer">
+        <div class="row"></div>
+    </div>
+    <div class="errorContainer">
+        <div class="row"></div>
+    </div>
+</div>
+<script id="productsListTemplate" type="text/x-handlebars-template">
+    {{#each products}}
+    <div class="col-md-6">
+        <ul class="list">
+            <li class="product">
+                <a class="link" href="{{url}}" title="{{name}}">
+                    <header>
+                        <h3>{{name}}</h3>
+                    </header>
+                    <img src="{{img_url}}" alt="{{name}}">
+
+                    <div class="description">
+                        <ul class="properties">
+                            <li>
+                                <label>Price: </label>
+                                <span class="price"> {{price}}</span><span>kr </span>
+                                {{#isDiscount price_old}}<span class="priceBefore"> before: {{price_old}}</span>{{/isDiscount}}
+                            </li>
+                            {{#isDiscount price_old}}
+                            <li>
+                                <label>Discount: </label><span
+                                    class="discount"> -{{{discount price price_old}}}%</span>
+                            </li>
+                            {{/isDiscount}}
+                            <li>
+                                <label>Sizes: </label> <span>{{{replace sizes "," ", "}}}</span>
+                            </li>
+                        </ul>
+                        <a class="moreInfo" href="{{url}}" title="{{name}}">More info >></a>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    {{/each}}
+</script>
+<script id="errorTemplate" type="text/x-handlebars-template">
+    <div class="col-md-12 errorMessage">
+        <header>
+            <h1>{{error}}</h1>
+        </header>
+    </div>
+</script>
+</body>
+</html>
