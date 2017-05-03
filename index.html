@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Simple Product Grid</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <p><br/><br/></p>
+    <div class= "table-responsive">
+        <table class= "table table-bordered table-hover">
+            <thead>
+              <tr>
+                <th> </th>
+                <th>ID #</th>
+                <th>Name</th>
+                <th>Old Price</th> 
+                <th>Price</th>
+                <th>Currency</th> 
+                <th>Sizes</th> 
+                <th>Customizable</th>
+                <th>Kids</th>  
+                <th>Kid Adult</th>
+                <th>Women</th>    
+                <th>Delivery</th>
+                <th>Free Porto</th>                    
+                <th>Package</th>                           
+                <th>Online</th> 
+                <th>URL</th>                         
+              </tr>
+            </thead>
+        </table>
+    </div>
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+    $(function() {
+        // fetch static json data from saved the file article.json
+        $.getJSON('articles.json', function(data) {
+            var tr = document.getElementById('tr');
+            for (var i = 0; i < data.products.length; i++) {
+                tr = $('<tr/>');
+
+                // take each elements of the products array and add them in the table
+                tr.append("<td>" + "<img height ='50' width='50' src= "+data.products[i].img_url+" />" + "</td>");
+                tr.append("<td>" + data.products[i].id + "</td>");
+                tr.append("<td>" + data.products[i].name + "</td>");
+                tr.append("<td>" + data.products[i].price_old + "</td>");
+                tr.append("<td>" + data.products[i].price + "</td>");
+                tr.append("<td>" + data.products[i].currency + "</td>");
+                tr.append("<td>" + data.products[i].sizes + "</td>");
+                tr.append("<td>" + data.products[i].is_customizable + "</td>");
+                tr.append("<td>" + data.products[i].kids + "</td>");
+                tr.append("<td>" + data.products[i].kid_adult + "</td>");
+                tr.append("<td>" + data.products[i].women + "</td>"); 
+                tr.append("<td>" + data.products[i].delivery + "</td>");
+                tr.append("<td>" + data.products[i].free_porto + "</td>"); 
+                tr.append("<td>" + data.products[i].package + "</td>");
+                tr.append("<td>" + data.products[i].online + "</td>");
+                tr.append("<td>" + "<a href= '"+data.products[i].url+"'> click here </a>" + "</td>")
+                $('.table').append(tr);
+            }
+        });
+    });
+</script>
+</html>
