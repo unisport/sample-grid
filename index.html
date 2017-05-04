@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,67 +7,81 @@
 
     <title>Simple Product Grid</title>
 
-    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <!-- Bootstrap -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body ng-controller="products">
     <p><br/><br/></p>
     <div class= "table-responsive">
         <table class= "table table-bordered table-hover">
             <thead>
-              <tr>
-                <th> </th>
-                <th>ID #</th>
-                <th>Name</th>
-                <th>Old Price</th> 
-                <th>Price</th>
-                <th>Currency</th> 
-                <th>Sizes</th> 
-                <th>Customizable</th>
-                <th>Kids</th>  
-                <th>Kid Adult</th>
-                <th>Women</th>    
-                <th>Delivery</th>
-                <th>Free Porto</th>                    
-                <th>Package</th>                           
-                <th>Online</th> 
-                <th>URL</th>                         
-              </tr>
+                <tr>
+                    <th> </th>
+                    <th> </th>
+                    <th>ID #</th>
+                    <th>Name</th>
+                    <th>Old Price</th> 
+                    <th>Price</th>
+                    <th>Currency</th> 
+                    <th>Sizes</th> 
+                    <th>Customizable</th>
+                    <th>Kids</th>  
+                    <th>Kid Adult</th>
+                    <th>Women</th>    
+                    <th>Delivery</th>
+                    <th>Free Porto</th>                    
+                    <th>Package</th>                           
+                    <th>Online</th> 
+                    <th>URL</th>                         
+                </tr>
             </thead>
+            <tbody>
+                <tr ng-repeat="product in data.products">
+                    <td>
+                        <button ng-hide="product.isFavorite"
+                                ng-click="product.isFavorite = true" class="btn">
+                            <i class="material-icons">star_border</i>
+                        </button>
+                        <button ng-show="product.isFavorite"
+                                ng-click="product.isFavorite = false" class="btn">
+                            <i class="material-icons">star</i>
+                        </button>
+                    </td>
+                    <td> <img height="50" width="50" src ="{{product.img_url}}" /> </td>
+                    <td> {{product.id}} </td>
+                    <td> {{product.name}} </td>
+                    <td class="price-old"> {{product.price_old}} </td>
+                    <td> {{product.price}} </td>
+                    <td> {{product.currency}} </td>
+                    <td> {{product.sizes}} </td>
+                    <td> {{product.is_customizable}} </td>
+                    <td> {{product.kids}} </td>
+                    <td> {{product.kid_adult}} </td>
+                    <td> {{product.women}} </td>
+                    <td> {{product.delivery}} </td>
+                    <td> {{product.free_porto}} </td>
+                    <td> {{product.package}} </td>
+                    <td> {{product.online}} </td>
+                    <td> <a href ="{{product.url}}"> link here </a> </td>
+                </tr>
+            </tbody>
         </table>
     </div>
 </body>
 
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>
-    $(function() {
-        // fetch static json data from saved the file article.json
+    var app = angular.module('app', []);
+    app.controller('products', function($scope) {
+        // fetch and save static json data and append the elements in the table created above
         $.getJSON('articles.json', function(data) {
-            var tr = document.getElementById('tr');
-            for (var i = 0; i < data.products.length; i++) {
-                tr = $('<tr/>');
-
-                // take each elements of the products array and add them in the table
-                tr.append("<td>" + "<img height ='50' width='50' src= "+data.products[i].img_url+" />" + "</td>");
-                tr.append("<td>" + data.products[i].id + "</td>");
-                tr.append("<td>" + data.products[i].name + "</td>");
-                tr.append("<td>" + data.products[i].price_old + "</td>");
-                tr.append("<td>" + data.products[i].price + "</td>");
-                tr.append("<td>" + data.products[i].currency + "</td>");
-                tr.append("<td>" + data.products[i].sizes + "</td>");
-                tr.append("<td>" + data.products[i].is_customizable + "</td>");
-                tr.append("<td>" + data.products[i].kids + "</td>");
-                tr.append("<td>" + data.products[i].kid_adult + "</td>");
-                tr.append("<td>" + data.products[i].women + "</td>"); 
-                tr.append("<td>" + data.products[i].delivery + "</td>");
-                tr.append("<td>" + data.products[i].free_porto + "</td>"); 
-                tr.append("<td>" + data.products[i].package + "</td>");
-                tr.append("<td>" + data.products[i].online + "</td>");
-                tr.append("<td>" + "<a href= '"+data.products[i].url+"'> click here </a>" + "</td>")
-                $('.table').append(tr);
-            }
+            $scope.data = data;
+            $scope.$apply();
         });
     });
 </script>
