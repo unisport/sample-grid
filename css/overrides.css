@@ -1,0 +1,100 @@
+* { outline: none !important; }
+
+/*
+    Bootstrap Layout Overrides 
+*/
+
+/* Global */
+
+a { 
+	color: #333 !important;
+	text-decoration: none !important
+}
+
+.np { padding: 0 !important; }
+
+/* Containers */
+
+.container {
+	margin: 10px auto 0 !important;
+}
+
+	.container table tr td ul {
+		list-style: none !important;
+		margin: 0 !important;
+		padding: 0 !important;
+		text-align: center !important;
+	}
+
+		.container table tr td.c { text-align: center; }
+
+
+/* Search */
+
+.input-sm {
+	padding: 5px 20px 5px 10px !important;
+}
+
+	input[type="search"] {
+		background: url('../img/dball.png') no-repeat 153px 4px;
+	}
+
+		input[type="search"]:focus {
+			background: url('../img/ball.png') no-repeat 153px 4px;
+		}
+
+.form-control:focus {
+	border-color: #0d9609 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+
+/* Pagination */
+
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    color: #fff !important;
+    background-color: #10b30b !important;
+    border-color: #0d9609 !important;
+}
+
+	.pagination > li > a:focus,
+	.pagination > li > a:hover,
+	.pagination > li > span:focus,
+	.pagination > li > span:hover {
+		background-color: #FFF !important;
+	}
+
+		.pagination > li > a,
+		.pagination > li > span {
+			color: #333 !important;
+		}
+
+			.pagination > li.disabled > a {
+				background-color: #efefef !important;
+			}
+
+
+/* DataTable */
+
+.table > thead > tr > th {
+	border-bottom: 0px solid #ddd !important;
+}
+
+	.table-striped > tbody > tr:nth-of-type(odd) {
+		background-color: #fdfdfd !important;
+	}
+
+.table-bordered {
+	border-top: 1px #ddd solid !important;
+	border-bottom: none !important;
+	border-left: 1px #ddd solid !important;
+	border-right: 1px #ddd solid !important;
+}
+
+s.discount { color: #F50000; }

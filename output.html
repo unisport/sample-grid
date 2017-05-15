@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Products</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+</head>
+    <body>
+        <div class="container">
+            <table id="products" class="table table-striped table-bordered" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>#ID</th>
+                        <th>Name</th>
+                        <th>Old Price</th>
+                        <th>Price</th>
+                        <th>Delivery</th>
+                        <th>Sizes</th>
+                        <th>Sizes</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        <th></th>
+                        <th>#ID</th>
+                        <th>Name</th>
+                        <th>Old Price</th>
+                        <th>Price</th>
+                        <th>Delivery</th>
+                        <th>Sizes</th>
+                        <th>Sizes</th>
+                    </tr>
+                </tfoot>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+    </body>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap.min.js"></script>
+    <script>
+        $(function() {
+
+            // Fetching product data
+            $.getJSON('test/articles.json', function(data){
+
+                // Looping through products
+                $.each(data.products, function(i, e){
+
+                    // Only fetch data if online
+                    if(e.online == 1){
+
+                        // Html row template 
+                        var template = '<tr>'+
+                                            '<td class="no-sort"><img src="' + e.image + '" width="100%"></td>' +
+                                            '<td>' + e.id + '</td>' +
+                                            '<td>' + e.name + '</td>' +
+                                            '<td><s>' + e.price_old + '</s></td>' +
+                                            '<td>' + e.price + '</td>' +
+                                            '<td>' + e.delivery + '</td>' +
+                                            '<td>' + e.delivery + '</td>' +
+                                            '<td>' + e.sizes + '</td>' +
+                                       '</tr>';
+
+                            // Appending rows of data to the table
+                            $('tbody').append(template);
+
+                                console.log(e);
+                    }
+                });
+
+                    // Adding data table to loaded products
+                    $('#products').DataTable({
+                        "order": [],
+                        "columnDefs": [ {
+                          "targets"  : 'no-sort',
+                          "orderable": false,
+                        }]
+                    });
+
+            });
+        });
+    </script>
+</html>
