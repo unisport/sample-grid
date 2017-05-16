@@ -4,68 +4,78 @@ $(function() {
     // Otherwise this could be handled with json or jsonp, to live fetch datas from the base url or even another api / url
     //
     // Normally i will pack all code to optimize it, but i guess you guys need to read what i have done ;)
-
+    //
     // Fetching JSON product data
-    $.getJSON('products.json', function(data){
+    //
+    // I tryed to find a way to bypass the crosssite restrictions, and i found out that yahoo query language (yql)
+    // could do the trick, by scraping the page and load the json live.
+    //
+    // $.getJSON('products.json', function(data){ // Normal approach if loading from a json file
 
-        // Looping through products
-        $.each(data.products, function(i, e){
+    // But now we are scraping and loading the page through yahoos crawling api to live fetch the sites data
+    $.getJSON('http://query.yahooapis.com/v1/public/yql', {
+             q: 'SELECT * FROM json WHERE url="https://www.unisport.dk/api/sample"',
+             format: 'json'
+         }, function(data){
 
-            // Only fetch data row if online ( Assuming row named 'online' is a online- hide / show function ? )
-            if(e.online == 1){
+            // Looping through products
+            $.each(data.products, function(i, e){
 
-                // Splitting product sizes into pices
-                var sizes   = e.sizes.split(','),
-                    sizesUl = '<ul>'
-                    typesUl = '<ul>';
+                // Only fetch data row if online ( Assuming row named 'online' is a online- hide / show function ? )
+                if(e.online == 1){
 
-                        // Generating product sizes list
-                        $.each(sizes, function(i, e){
-                            sizesUl += '<li>' + e.trim() + '</li>';
-                        });
+                    // Splitting product sizes into pices
+                    var sizes   = e.sizes.split(','),
+                        sizesUl = '<ul>'
+                        typesUl = '<ul>';
 
-                            // Collecting model types
-                            // Kids
-                            if(e.kids == 1){
-                                typesUl += '<li>Barn</li>';
-                            }
+                            // Generating product sizes list
+                            $.each(sizes, function(i, e){
+                                sizesUl += '<li>' + e.trim() + '</li>';
+                            });
 
-                            // Kid-Adult
-                            if(e.kid_adult == 1){
-                                typesUl += '<li>Teenager</li>';
-                            }
+                                // Collecting model types
+                                // Kids
+                                if(e.kids == 1){
+                                    typesUl += '<li>Barn</li>';
+                                }
 
-                            // Women
-                            if(e.women == 1){
-                                typesUl += '<li>Kvinde</li>';
-                            }
+                                // Kid-Adult
+                                if(e.kid_adult == 1){
+                                    typesUl += '<li>Teenager</li>';
+                                }
 
-                    sizesUl += '</ul>';
-                    typesUl += '</ul>';
+                                // Women
+                                if(e.women == 1){
+                                    typesUl += '<li>Kvinde</li>';
+                                }
 
-                                // Html product row template 
-                                var template = '<tr>'+
-                                                    '<td class="np"><a href="' + e.img_url + '"><img src="' + e.image + '" width="100%"></a></td>' +
-                                                    '<td class="c">' + e.id + '</td>' +
-                                                    '<td><a href="' + e.url + '">' + e.name + '</a></td>' +  // Adding product model types and referral link
-                                                    '<td>' + typesUl + '</td>' + // Adding product types
-                                                    '<td>' + ((sizes != 0) ? sizesUl : '') + '</td>' + // Adding product sizes
-                                                    '<td>' +
-                                                        '<ul>' +
-                                                            // Enables "before discount" price if any
-                                                            ((e.price_old != '0,00') ? '<li><s class="discount">' + e.price_old + ' ' + e.currency + '</s></li>' : '' ) +
-                                                            '<li>' + e.price + ' ' + e.currency + '</li>' +
-                                                        '</ul>' +
-                                                    '</td>' +
-                                                    '<td class="c">' + e.delivery + '</td>' +
-                                                    '<td class="c">' + ((e.is_customizable != 0) ? 'Ja' : 'Nej') + '</td>' +
-                                                    '<td class="c">' + ((e.package != 0) ? 'Ja' : 'Nej') + '</td>' +
-                                               '</tr>';
+                        sizesUl += '</ul>';
+                        typesUl += '</ul>';
 
-                                    // Appending product row to <tbody>
-                                    $('tbody').append(template);
+                                    // Html product row template 
+                                    var template = '<tr>'+
+                                                        '<td class="np"><a href="' + e.img_url + '"><img src="' + e.image + '" width="100%"></a></td>' +
+                                                        '<td class="c">' + e.id + '</td>' +
+                                                        '<td><a href="' + e.url + '">' + e.name + '</a></td>' +  // Adding product model types and referral link
+                                                        '<td>' + typesUl + '</td>' + // Adding product types
+                                                        '<td>' + ((sizes != 0) ? sizesUl : '') + '</td>' + // Adding product sizes
+                                                        '<td>' +
+                                                            '<ul>' +
+                                                                // Enables "before discount" price if any
+                                                                ((e.price_old != '0,00') ? '<li><s class="discount">' + e.price_old + ' ' + e.currency + '</s></li>' : '' ) +
+                                                                '<li>' + e.price + ' ' + e.currency + '</li>' +
+                                                            '</ul>' +
+                                                        '</td>' +
+                                                        '<td class="c">' + e.delivery + '</td>' +
+                                                        '<td class="c">' + ((e.is_customizable != 0) ? 'Ja' : 'Nej') + '</td>' +
+                                                        '<td class="c">' + ((e.package != 0) ? 'Ja' : 'Nej') + '</td>' +
+                                                   '</tr>';
 
-                                        console.log(e);
+                                        // Appending product row to <tbody>
+                                        $('tbody').append(template);
+
+                                            console.log(e);
             }
         });
 
