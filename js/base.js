@@ -10,13 +10,13 @@ $(function() {
     // I tryed to find a way to bypass the crosssite restrictions, and i found out that yahoo query language (yql)
     // could do the trick, by scraping the page and load the json live.
     //
-    // $.getJSON('products.json', function(data){ // Normal approach if loading from a json file
+    $.getJSON('products.json', function(data){ // Normal approach if loading from a json file
 
-    // But now we are scraping and loading the page through yahoos crawling api to live fetch the sites data
-    $.getJSON('http://query.yahooapis.com/v1/public/yql', {
-             q: 'SELECT * FROM json WHERE url="https://www.unisport.dk/api/sample"',
-             format: 'json'
-         }, function(data){
+    // But we can also scrape and load the page through yahoos crawling api to live fetch the sites json data
+    // $.getJSON('http://query.yahooapis.com/v1/public/yql', {
+    //          q: 'SELECT * FROM json WHERE url="https://www.unisport.dk/api/sample/"',
+    //          format: 'json'
+    //      }, function(data){
 
             // Looping through products
             $.each(data.products, function(i, e){
@@ -57,7 +57,7 @@ $(function() {
                                     var template = '<tr>'+
                                                         '<td class="np"><a href="' + e.img_url + '"><img src="' + e.image + '" width="100%"></a></td>' +
                                                         '<td class="c">' + e.id + '</td>' +
-                                                        '<td><a href="' + e.url + '">' + e.name + '</a></td>' +  // Adding product model types and referral link
+                                                        '<td><a href="' + e.url + '">' + e.name + '</a></td>' + // Adding product model types and referral link
                                                         '<td>' + typesUl + '</td>' + // Adding product types
                                                         '<td>' + ((sizes != 0) ? sizesUl : '') + '</td>' + // Adding product sizes
                                                         '<td>' +
