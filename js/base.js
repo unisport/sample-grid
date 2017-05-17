@@ -9,7 +9,7 @@ $(function() {
     //
     // I tryed to find a way to bypass the crosssite restrictions, and i found out that yahoo query language (yql)
     // could do the trick, by scraping the page and load the json live.
-    //
+
     $.getJSON('products.json', function(data){ // Normal approach if loading from a json file
 
     // But we can also scrape and load the page through yahoos crawling api to live fetch the sites json data
@@ -74,8 +74,6 @@ $(function() {
 
                                         // Appending product row to <tbody>
                                         $('tbody').append(template);
-
-                                            console.log(e);
             }
         });
 
