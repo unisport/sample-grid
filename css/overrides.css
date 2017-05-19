@@ -98,3 +98,6 @@ a {
 }
 
 s.discount { color: #F50000; }
+
+.ns::after { display: none!important; } /* No Order sorting */
+.ns { pointer-events: none!important; cursor: default!important; }

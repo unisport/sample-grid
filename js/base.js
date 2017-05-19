@@ -100,8 +100,11 @@ $(function() {
                 // Setting the table responsive
                 responsive: true,
 
-                // Disables row ordering ( Could be activated for price sorting )
-                ordering: false,
+                // Disables row ordering on all classes .ns
+                columnDefs: [{
+                      targets: 'ns',
+                      orderable: false,
+                }],
 
                 // Adding custom page load options for the dropdown menu
                 lengthMenu: [[5, 10, 15, 20], [5, 10, 15, 20]],
