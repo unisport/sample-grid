@@ -106,6 +106,9 @@ $(function() {
                       orderable: false,
                 }],
 
+                // Arrange and sort prices from start, put the cheapest first
+                aaSorting: [[ 6, 'desc' ]],
+
                 // Adding custom page load options for the dropdown menu
                 lengthMenu: [[5, 10, 15, 20], [5, 10, 15, 20]],
 
