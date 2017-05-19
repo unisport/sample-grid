@@ -55,7 +55,7 @@ $(function() {
 
                                     // Html product row template 
                                     var template = '<tr>'+
-                                                        '<td class="np"><a href="' + e.img_url + '"><img src="' + e.image + '" width="100%"></a></td>' +
+                                                        '<td class="np"><img src="' + e.image + '" width="100%"></td>' +
                                                         '<td class="c">' + e.id + '</td>' +
                                                         '<td><a href="' + e.url + '">' + e.name + '</a></td>' + // Adding product model types and referral link
                                                         '<td>' + typesUl + '</td>' + // Adding product types
