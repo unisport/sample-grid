@@ -1,0 +1,61 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: small;
+	background-color: #ccc;
+}
+
+ul{
+	list-style-type: none;
+}
+
+
+div#placeholder{
+	/*width: 50%;*/
+	/*position:relative;*/
+}
+
+div#placeholder > ul > li{
+	padding-bottom: 100px;
+	position: relative;
+}
+
+img{
+	border:1px solid white;
+}
+
+div#description{
+	/*position:absolute;*/
+	padding-left: 130px;
+	margin-top: -125px;
+
+}
+
+ul li#heading{
+	color:#338b22;
+}
+
+#old_price{
+	text-decoration: line-through;
+}
+
+a.button {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 10px;
+  background: #eb6d1a;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  position: absolute;
+  bottom:77px;
+  left:130px;
+}
+
+a.button:hover {
+  background: #c9562c;
+  text-decoration: none;
+}
