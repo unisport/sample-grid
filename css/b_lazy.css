@@ -1,0 +1,59 @@
+	  .example {
+		  overflow:hidden;
+		  position:relative;
+	  }
+	  .example iframe {
+		  position:absolute;
+		  height:100%;
+		  width:100%;
+	  }
+
+	  .list .b-lazy{
+		  max-height:100%;
+		  height:auto;
+	  }
+	  .b-lazy.animate{
+		  opacity:0;
+		  -ms-transform: scale(3);
+		  -moz-transform: scale(3);
+		  -webkit-transform: scale(3);
+		  transform: scale(3);
+		  -ms-transition: all 500ms;
+		  -moz-transition: all 500ms;
+		  -webkit-transition: all 500ms;
+		  transition: all 500ms;
+	  }
+	  .b-loaded.animate {
+		  opacity:1;
+		  -ms-transform: scale(1);
+		  -moz-transform: scale(1);
+		  -webkit-transform: scale(1);
+		  transform: scale(1);
+	  }
+	  
+	      .b-lazy {
+        -webkit-transition: opacity 500ms ease-in-out;
+           -moz-transition: opacity 500ms ease-in-out;
+             -o-transition: opacity 500ms ease-in-out;
+                transition: opacity 500ms ease-in-out;
+                 max-width: 100%;
+                   opacity: 0;
+    }
+    .b-lazy.b-loaded {
+                   opacity: 1;
+    }
+	  
+	.image-wrapper {
+        // Adding a loader and background color. The user will see it
+		// if the image is loading slow.
+        background: #1E1E1E url('loader.gif') center center no-repeat;
+        width: 100%
+    }
+    .ratio_16-9 {
+		
+        padding-bottom: 56.25%; 
+    
+    }
+	.b-lazy {
+		max-width: 100%;
+	}
