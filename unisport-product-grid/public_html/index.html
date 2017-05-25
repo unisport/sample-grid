@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Unisport Products</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <link href='https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <script>
+            $(window).load(function () {
+                $.ajax({
+                    url: "https://www.unisport.dk/api/sample/",
+                    success: function (data) {
+                        var divs = "";
+                        for (i = 0; i < data.products.length; i++) {
+                            if ((i % 4) === 0) {
+                                divs += '</div>' +
+                                        '<div class="section group">';
+                            }
+                            divs += '<div class="col span_1_of_4">' +
+                                    '<a href="' + data.products[i].url + '">' +
+                                    '<div class="white"><img class="center" src="' + data.products[i].image + '" width="210" height="210">' +
+                                    '<p class="price">' + data.products[i].price + '<span class="currency">' + data.products[i].currency + '</span> ';
+                            if (parseInt(data.products[i].price_old) !== 0) {
+                                divs += '<span class="old-price">' + data.products[i].price_old + '<span class="currency">' + data.products[i].currency + '</span></span></p>';
+                            }
+                            divs += '<p class="name">' + data.products[i].name + '</p>' +
+                                    '<p class="small-grey">Levering: ' + data.products[i].delivery + '</p>' +
+                                    '<p class="small-grey">';
+                            if (data.products[i].kids === 0) {
+                                divs += '<span class="kids">BØRN: </span>';
+                            } else {
+                                divs += '<span class="notKids">STØRRELSE: </span>';
+                            }
+                            divs += data.products[i].sizes + '</p>' +
+                                    '</div></a>' +
+                                    '</div>';
+                        }
+                        $("#productsDiv").html(divs);
+                    }});
+            });
+        </script>
+        <div id="productsDiv">
+
+        </div>
+    </body>
+</html>
