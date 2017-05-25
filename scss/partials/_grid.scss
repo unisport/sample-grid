@@ -1,0 +1,37 @@
+html {
+  font-size: 10px;
+  body {
+    font-size: 16px;
+    font-family: $main-font, $other-font, sans-serif;
+  }
+}
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  max-width: 768px;
+  border: none;
+  li {
+    display: inline-block;
+    margin: 15px 0;
+    width: 33%;
+    border: none;
+    vertical-align: top;
+  }
+}
+//mediaqueries
+@media only screen and (max-width: 750px) {
+    ul {
+      li {
+        width: 50%;
+      }
+    }
+    .full-screen-bigphoto {
+      .div-big-img {
+        max-width: 90%;
+        .destroy {
+          // top: 15px;
+          right: 6%;
+        }
+      }
+    }
+}
