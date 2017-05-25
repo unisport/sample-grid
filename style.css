@@ -1,0 +1,16 @@
+.product_image{
+	max-height: 100px;
+	max-width:  100px;
+}
+
+.accept{
+	max-height: 25px;
+	max-width:  25px;
+}
+
+table {
+	margin: 0px auto;
+}
+body{
+	background-color: #050;
+}
