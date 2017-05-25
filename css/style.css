@@ -1,0 +1,32 @@
+.bs-grid {
+    background: #EEE;
+    border: 1px solid #000;
+}
+ .my-inner {
+    padding: 10px;
+    border: 1px solid #ddd;
+    /*height: 360px;*/
+  }
+  .top-padding {
+  	padding-top: 10px;
+  }
+  .current-price {
+  	color:#66BA11;
+  	font-weight: 900;
+  	font-size: 25px;
+  }
+  .previous-price {
+  	color:#FF0000;
+  	text-decoration: line-through;
+  }
+  .delivery {
+  	font-size: 12px;
+  	font-weight: 900;
+  }
+  .billedholder {
+    height: 170px;
+  }
+  .billedholder img{
+    height: 100%;
+    padding: 0 0 15px 0;
+}

@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Unisport product grid</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.20/require.min.js" data-main="js/main"></script>
+</head>
+<body>
+
+
+<script id="produkter" type="text/template">
+<div class="container">
+{{#grouped_each 4 products}}
+<div class="row">
+ {{#each this }}
+<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 top-padding">
+		<div class="my-inner">
+              <h4 class="text-center">{{name}}</h4>
+              	<div class="row">
+					<div class="col-xs-6 text-center">
+						<p class="current-price">{{price}}kr</p>
+ 					</div>
+ 					<div class="col-xs-6 nederst">
+ 						<p class="previous-price">Før {{price_old}} kr</p>
+ 					</div>
+				</div>
+      			<div class="billedholder"><img class="img-responsive center-block" src="{{img_url}}"></div>
+      
+        		<div class="row">
+					<div class="col-xs-6 col-sm-6 col-md-12 col-lg-6 text-center">
+						<p><a class="btn btn-default" href="{{url}}" role="button">Læs mere »</a></p>
+ 					</div>
+ 					<div class="col-xs-6 col-sm-6 col-md-12 col-lg-6 text-center">
+ 						<p class="delivery">Leveringsdato:<br>{{delivery}}</p>
+ 					</div>
+				</div>
+	         </div>
+	    </div>
+	    {{/each}}
+	</div>
+{{/grouped_each}}
+	</div>
+</script>
+
+
+</body>
+</html>
