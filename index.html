@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Unisport</title>
+	<script type ="text/javascript" src="jquery-1.11.1.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	<div id="content">
+	
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var url = "products.json";
+
+			// Get JSON file
+			$.getJSON(url,function(json){
+            	
+            	// For each element in array do the following
+            	$.each(json.latest,function(i,product){
+
+            		// Inside the product div, create seperate product div for each element in array
+					$("#content").append(
+						'<div class="product">'+
+							'<h1>'+product.name+'</h1>'+
+							'<a href="'+product.url+'"><img src="'+product.img_url+'" alt="' +product.name+ '"></a>'+
+							'<p class="new-price">Price:'+product.price+'</p>'+
+							'<p class="old-price">Old price:'+product.price_old+'</p>'+
+							'<p class="delivery">Delivery time:'+product.delivery+'</p>'+
+							'<a href="'+product.url+'">Read more:</a>'
+						+'</div>'
+					);
+				});     
+			})
+
+
+		});
+
+	</script>
+
+</body>
+</html>
