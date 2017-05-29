@@ -1,0 +1,36 @@
+﻿
+
+.thumbnail img {
+    max-height: 200px;
+    padding: 5px;
+}
+
+.img_border {
+    min-height: 199px;
+}
+
+.thumbnail {
+    min-height: 400px;
+    margin: 20px;
+}
+
+body row h4 {
+    margin-left: 10px;
+}
+
+.caption {
+    min-height: 85px;
+}
+
+.row {
+    background-color: #808080;
+    padding: 20px 50px 20px 50px;
+}
+
+.container {
+    background-color: #808080;
+}
+
+.ratings {
+    margin: 5px;
+}
