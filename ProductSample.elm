@@ -1,4 +1,4 @@
-module ProductApp exposing (..)
+module ProductSample exposing (..)
 
 import Html exposing (..)
 import Html.Attributes exposing (..)
@@ -32,22 +32,23 @@ init =
 -- update
 
 type Msg
-  = Show
-  | FetchProducts (Result Http.Error (List Product))
+  = FetchProducts (Result Http.Error (List Product))
 
 update : Msg -> Model -> (Model, Cmd Msg)
 update msg model =
   case msg of
-    Show -> 
-      (model, Cmd.none)
-
     FetchProducts result ->
       case result of
+        {-
+        - Request went well and a list was returned
+        -}
         Ok productList ->
           ({model | products = Just productList}, Cmd.none)
 
         Err error ->
-            {-
+        {-
+        - Error handling
+        -}
             let
                 errMsg = case error of
                     Http.BadPayload msg response ->
@@ -66,8 +67,7 @@ update msg model =
                         Just "Bad status"
             in        
                 ({model | message = errMsg}, Cmd.none)
-            -}
-            ({model | message = (Just (toString error))}, Cmd.none)
+
 
 -- view
 

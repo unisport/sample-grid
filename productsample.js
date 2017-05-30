@@ -9033,7 +9033,7 @@ var _elm_lang$http$Http$StringPart = F2(
 	});
 var _elm_lang$http$Http$stringPart = _elm_lang$http$Http$StringPart;
 
-var _user$project$ProductApp$decodeStringToFloat = A2(
+var _user$project$ProductSample$decodeStringToFloat = A2(
 	_elm_lang$core$Json_Decode$andThen,
 	function (str) {
 		var _p0 = _elm_lang$core$String$toFloat(str);
@@ -9060,10 +9060,10 @@ var _user$project$ProductApp$decodeStringToFloat = A2(
 					A2(_elm_lang$core$String$split, '.', str));
 			},
 			_elm_lang$core$Json_Decode$string)));
-var _user$project$ProductApp$productDiscount = function (product) {
+var _user$project$ProductSample$productDiscount = function (product) {
 	return (_elm_lang$core$Native_Utils.cmp(product.price, product.price_old) < 0) ? 'has-offer' : '';
 };
-var _user$project$ProductApp$productSection = function (product) {
+var _user$project$ProductSample$productSection = function (product) {
 	return A2(
 		_elm_lang$html$Html$div,
 		{
@@ -9096,7 +9096,7 @@ var _user$project$ProductApp$productSection = function (product) {
 									_0: 'product-name',
 									_1: {
 										ctor: '::',
-										_0: _user$project$ProductApp$productDiscount(product),
+										_0: _user$project$ProductSample$productDiscount(product),
 										_1: {ctor: '[]'}
 									}
 								})),
@@ -9127,7 +9127,7 @@ var _user$project$ProductApp$productSection = function (product) {
 			}
 		});
 };
-var _user$project$ProductApp$productListSection = function (model) {
+var _user$project$ProductSample$productListSection = function (model) {
 	var _p1 = model.products;
 	if (_p1.ctor === 'Nothing') {
 		return A2(
@@ -9146,10 +9146,10 @@ var _user$project$ProductApp$productListSection = function (model) {
 				_0: _elm_lang$html$Html_Attributes$class('row'),
 				_1: {ctor: '[]'}
 			},
-			A2(_elm_lang$core$List$map, _user$project$ProductApp$productSection, _p1._0));
+			A2(_elm_lang$core$List$map, _user$project$ProductSample$productSection, _p1._0));
 	}
 };
-var _user$project$ProductApp$showMessage = function (model) {
+var _user$project$ProductSample$showMessage = function (model) {
 	var _p2 = model.message;
 	if (_p2.ctor === 'Nothing') {
 		return A2(
@@ -9167,7 +9167,7 @@ var _user$project$ProductApp$showMessage = function (model) {
 			});
 	}
 };
-var _user$project$ProductApp$view = function (model) {
+var _user$project$ProductSample$view = function (model) {
 	return A2(
 		_elm_lang$html$Html$div,
 		{
@@ -9186,17 +9186,17 @@ var _user$project$ProductApp$view = function (model) {
 				},
 				{
 					ctor: '::',
-					_0: _user$project$ProductApp$showMessage(model),
+					_0: _user$project$ProductSample$showMessage(model),
 					_1: {ctor: '[]'}
 				}),
 			_1: {
 				ctor: '::',
-				_0: _user$project$ProductApp$productListSection(model),
+				_0: _user$project$ProductSample$productListSection(model),
 				_1: {ctor: '[]'}
 			}
 		});
 };
-var _user$project$ProductApp$update = F2(
+var _user$project$ProductSample$update = F2(
 	function (msg, model) {
 		var _p3 = msg;
 		if (_p3.ctor === 'Show') {
@@ -9227,56 +9227,56 @@ var _user$project$ProductApp$update = F2(
 			}
 		}
 	});
-var _user$project$ProductApp$Model = F2(
+var _user$project$ProductSample$Model = F2(
 	function (a, b) {
 		return {message: a, products: b};
 	});
-var _user$project$ProductApp$Product = F5(
+var _user$project$ProductSample$Product = F5(
 	function (a, b, c, d, e) {
 		return {name: a, price: b, price_old: c, image: d, url: e};
 	});
-var _user$project$ProductApp$productDecoder = A6(
+var _user$project$ProductSample$productDecoder = A6(
 	_elm_lang$core$Json_Decode$map5,
-	_user$project$ProductApp$Product,
+	_user$project$ProductSample$Product,
 	A2(_elm_lang$core$Json_Decode$field, 'name', _elm_lang$core$Json_Decode$string),
-	A2(_elm_lang$core$Json_Decode$field, 'price', _user$project$ProductApp$decodeStringToFloat),
-	A2(_elm_lang$core$Json_Decode$field, 'price_old', _user$project$ProductApp$decodeStringToFloat),
+	A2(_elm_lang$core$Json_Decode$field, 'price', _user$project$ProductSample$decodeStringToFloat),
+	A2(_elm_lang$core$Json_Decode$field, 'price_old', _user$project$ProductSample$decodeStringToFloat),
 	A2(_elm_lang$core$Json_Decode$field, 'image', _elm_lang$core$Json_Decode$string),
 	A2(_elm_lang$core$Json_Decode$field, 'url', _elm_lang$core$Json_Decode$string));
-var _user$project$ProductApp$productListDecoder = A2(
+var _user$project$ProductSample$productListDecoder = A2(
 	_elm_lang$core$Json_Decode$field,
 	'products',
-	_elm_lang$core$Json_Decode$list(_user$project$ProductApp$productDecoder));
-var _user$project$ProductApp$FetchProducts = function (a) {
+	_elm_lang$core$Json_Decode$list(_user$project$ProductSample$productDecoder));
+var _user$project$ProductSample$FetchProducts = function (a) {
 	return {ctor: 'FetchProducts', _0: a};
 };
-var _user$project$ProductApp$getProducts = A2(
+var _user$project$ProductSample$getProducts = A2(
 	_elm_lang$http$Http$send,
-	_user$project$ProductApp$FetchProducts,
-	A2(_elm_lang$http$Http$get, '/sample.json', _user$project$ProductApp$productListDecoder));
-var _user$project$ProductApp$init = {
+	_user$project$ProductSample$FetchProducts,
+	A2(_elm_lang$http$Http$get, '/sample.json', _user$project$ProductSample$productListDecoder));
+var _user$project$ProductSample$init = {
 	ctor: '_Tuple2',
 	_0: {
 		message: _elm_lang$core$Maybe$Just(''),
 		products: _elm_lang$core$Maybe$Nothing
 	},
-	_1: _user$project$ProductApp$getProducts
+	_1: _user$project$ProductSample$getProducts
 };
-var _user$project$ProductApp$main = _elm_lang$html$Html$program(
+var _user$project$ProductSample$main = _elm_lang$html$Html$program(
 	{
-		init: _user$project$ProductApp$init,
-		view: _user$project$ProductApp$view,
-		update: _user$project$ProductApp$update,
+		init: _user$project$ProductSample$init,
+		view: _user$project$ProductSample$view,
+		update: _user$project$ProductSample$update,
 		subscriptions: function (_p5) {
 			return _elm_lang$core$Platform_Sub$none;
 		}
 	})();
-var _user$project$ProductApp$Show = {ctor: 'Show'};
+var _user$project$ProductSample$Show = {ctor: 'Show'};
 
 var Elm = {};
-Elm['ProductApp'] = Elm['ProductApp'] || {};
-if (typeof _user$project$ProductApp$main !== 'undefined') {
-    _user$project$ProductApp$main(Elm['ProductApp'], 'ProductApp', undefined);
+Elm['ProductSample'] = Elm['ProductSample'] || {};
+if (typeof _user$project$ProductSample$main !== 'undefined') {
+    _user$project$ProductSample$main(Elm['ProductSample'], 'ProductSample', undefined);
 }
 
 if (typeof define === "function" && define['amd'])
