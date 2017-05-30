@@ -28,12 +28,12 @@
                   return parseFloat(b[fieldName]) - parseFloat(a[fieldName])
                 }
               	// Is Not a Number
-                if(direction === 'ASC')
-                {
-                	return a[fieldName] - b[fieldName]
-                } else {
-                	return b[fieldName] - a[fieldName]
-                }
+                //if(direction === 'ASC')
+                //{
+                //	return a[fieldName] - b[fieldName]
+                //} else {
+                //	return b[fieldName] - a[fieldName]
+                //}
                 
               })
             }
