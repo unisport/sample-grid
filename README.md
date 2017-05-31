@@ -1,3 +1,13 @@
+Here you have my version on how this project can be done in 2 ways, the first one i did all the data got pulled into a table instead of a "grid/collums" wich also works with a very nice modern design over the tables, the second one i did, also have got a little bit more work on the design than the table version.
+
+The things i have used in this project is:
+Bootstrap,
+jquery,
+javaScript,
+JSON,
+HTML,
+CSS
+
 Fork this project and send back a pull request.
 
 1. Display these products http://www.unisport.dk/api/sample/ in a responsive grid, it hase to look nice on mobile and desktop

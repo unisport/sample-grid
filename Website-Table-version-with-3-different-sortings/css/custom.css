@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+.smallP{
+    font-size: 10px;
+    color: #606060;
+}
+
+.priceB{
+    font-size: 14px;
+    color: #009933;
+}
