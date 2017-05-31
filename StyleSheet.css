@@ -1,0 +1,72 @@
+﻿body {
+    background-color: #373737;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+     text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    width: 900px;
+    border: 5px solid white;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background-color: #0abf5a;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.clear  {
+    clear: both;
+}
+
+
+
+.thumbnail  {
+  display: inline-block;
+    color: white;
+    width: 250px;
+    padding: 10px;
+    height:400px;
+    text-align:center;
+    position: relative;
+   font-family: 'Ubuntu', sans-serif;
+   font-style: oblique;
+}
+
+img {
+    width: 200px;
+    margin:10px 10px 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 0;
+    border-radius: 5px;
+
+}
+
+.caption {
+    padding: 10px 0 10px 0;
+  position: absolute;
+  margin: auto;
+  text-align:center;
+  width: 248px;
+  border: 0;
+  height: 120px;
+  background-color: rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pull-right {
+  float: right !important;
+  padding-top: 50px;
+}
+
+h3 {
+    display: block;
+    height: 30px;
+}
