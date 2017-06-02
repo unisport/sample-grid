@@ -3,9 +3,35 @@
     <head>
         <meta charset="utf-8">
         <title>Product Sample</title>
-        <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-        <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
-        <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <style>
+* {
+    font: normal 1rem/1.2 Helvetica, sans-serif;
+}
+@media only screen and (min-device-width: 320px) and (orientation: portrait) {
+    .container {
+        max-width: 320px;
+        margin: auto;
+    }
+    .product-list {}
+    .product {
+        margin-bottom: 10px;
+        height: 400px;
+    }
+    .product img {
+        max-width: 310px;
+        height: auto;
+    }
+    .product-name {
+        float: left;
+        width: 200px;
+    }
+    .product-price {
+        float: right;
+    }
+}
+        </style>
     </head>
     <body>
         <div id="app"></div>
