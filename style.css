@@ -1,0 +1,58 @@
+body {
+}
+
+.fa-check {
+    color:lawngreen;
+}
+.nav, .navbar-brand, .navbar-form, .navbar-right, .navbar-default, .navbar,  .navbar-collapse {
+    height:4em;
+    background-color:white;
+}
+#main{
+	margin-top: 17em;
+	
+}
+footer {
+    position: fixed;
+    height: 10em;
+    bottom: 0;
+    width: 100%;
+}
+h1{
+	font-family: Arial;
+	font-size: 2em;
+	font-weight: bold;	
+}
+h2{
+	font-family: Arial;
+	font-size: 1.5em;		
+}
+h3{
+	font-family: Arial;
+	font-size: 2em;
+	font-weight: bold;	
+}
+h4{
+	font-family: Arial;
+	font-size: 1.25em;	
+}
+p{
+	font-family: Arial;
+	font-size: 1em;	
+}
+.old{
+	width: 5em;
+	height: 5em;
+	 
+}
+
+
+.underline{	
+	border-bottom: solid  thin  #C5C0C1;
+}
+.card > .buttons { 
+         position:absolute; bottom:-0.7em; width:50%; left:25%; text-align: center; opacity:0;/* possion buttons*/
+}
+
+
+
