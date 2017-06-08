@@ -15,6 +15,7 @@ type alias Model =
     { message : Maybe String
     , products : Maybe (List Product)
     , cart : Cart
+    , sort : String
     }
 
 
@@ -39,6 +40,7 @@ init =
     ( { message = Just ""
       , products = Nothing
       , cart = { total = 0.0, products = [] }
+      , sort = "asc"
       }
     , getProducts
     )
@@ -52,11 +54,26 @@ type Msg
     = FetchProducts (Result Http.Error (List Product))
     | AddToCart Product
     | RemoveFromCart Product
+    | SortByPrice String
 
 
 update : Msg -> Model -> ( Model, Cmd Msg )
 update msg model =
     case msg of
+        SortByPrice sort ->
+            let
+                sorter =
+                    if model.sort == "asc" then
+                        "desc"
+                    else
+                        "asc"
+            in
+            ( { model
+                | sort = sorter
+              }
+            , Cmd.none
+            )
+
         AddToCart product ->
             let
                 currentCart =
@@ -124,8 +141,16 @@ update msg model =
 
 view : Model -> Html Msg
 view model =
+    let
+        sortText =
+            if model.sort == "asc" then
+                "Sort price lowest"
+            else
+                "Sort price highest"
+    in
     div [ class "container" ]
         [ div [ class "messages" ] [ showMessage model ]
+        , div [] [ button [ onClick (SortByPrice model.sort) ] [ text sortText ] ]
         , div [] [ showCartSection model.cart ]
         , productListSection model
         ]
@@ -135,8 +160,8 @@ showCartSection : Cart -> Html Msg
 showCartSection cart =
     div []
         [ div [] [ text "Your cart" ]
-        , ul [] (List.map showCartProduct cart.products)
-        , div []
+        , div [] (List.map showCartProduct cart.products)
+        , div [ class "cart-items" ]
             [ span [] [ text "Total:" ]
             , span [] [ text (toString cart.total) ]
             ]
@@ -145,7 +170,7 @@ showCartSection cart =
 
 showCartProduct : Product -> Html Msg
 showCartProduct product =
-    li []
+    div []
         [ span [] [ text product.name ]
         , span [] [ text (toString product.price) ]
         , button [ onClick (RemoveFromCart product) ] [ text "Remove" ]
@@ -166,28 +191,51 @@ productListSection : Model -> Html Msg
 productListSection model =
     case model.products of
         Nothing ->
-            div [ class "product-list" ] [ text "No products" ]
+            div [ class "products-container" ] [ text "No products" ]
 
         Just products ->
-            div [ class "product-list" ] (List.map productSection products)
+            div [ class "products-container" ]
+                [ ul [ class "products" ]
+                    (List.map productSection (sortByPrice model.sort products))
+                ]
+
+
+sortByPrice : String -> List Product -> List Product
+sortByPrice sorter products =
+    if sorter == "asc" then
+        List.sortBy .price products
+    else
+        List.reverse (List.sortBy .price products)
 
 
 productSection : Product -> Html Msg
 productSection product =
-    div [ class "product" ]
-        [ img [ src product.image ] []
-        , span [ class (String.join " " [ "product-name", productDiscount product ]) ] [ text product.name ]
-        , span [ class "product-price" ] [ a [ href product.url ] [ text (toString product.price ++ " Dkk") ] ]
-        , span [] [ button [ onClick (AddToCart product) ] [ text "add to cart" ] ]
+    -- Add let/in
+    let
+        discount =
+            if product.price < product.price_old then
+                "%"
+            else
+                ""
+    in
+    li []
+        [ div [ class "product" ]
+            [ div [ class "splash" ] [ text discount ]
+            , div [ class "image-wrap" ]
+                [ img [ src product.image ] []
+                ]
+            , div [ class "name-wrap" ]
+                [ span [] [ text product.name ]
+                ]
+            , div [ class "price-wrap" ]
+                [ span [ class "price" ] [ text (toString product.price) ]
+                , span [ class "currency" ] [ text "Dkk" ]
+                ]
+            , div [ class "button-wrap" ]
+                [ button [ onClick (AddToCart product) ] [ text "Add to Cart" ]
+                ]
+            ]
         ]
-
-
-productDiscount : Product -> String
-productDiscount product =
-    if product.price < product.price_old then
-        "has-offer"
-    else
-        ""
 
 
 
