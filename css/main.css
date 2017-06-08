@@ -1,0 +1,14 @@
+@font-face {
+	font-family: 'Roboto';
+}
+
+.btn {
+	border: 0 px;
+	border-color: transparent;
+	background: transparent;
+}
+
+.price-old {
+	color: #d30000;
+	text-decoration: line-through;
+}
