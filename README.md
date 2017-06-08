@@ -1,6 +1,6 @@
 Fork this project and send back a pull request.
 
-1. Display these products http://www.unisport.dk/api/sample/ in a responsive grid, it hase to look nice on mobile and desktop
+1. Display these products http://www.unisport.dk/api/sample/ in a responsive grid, it has to look nice on mobile and desktop
 2. Difference between price_old and price should be shown as a discount, how is up to you
 
 Extras
