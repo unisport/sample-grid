@@ -1,17 +1,14 @@
-Fork this project and send back a pull request.
+## Sample grid performed in Elm
 
-1. Display these products http://www.unisport.dk/api/sample/ in a responsive grid, it hase to look nice on mobile and desktop
-2. Difference between price_old and price should be shown as a discount, how is up to you
+"Elm is a functional language that compiles to JavaScript. It competes with projects like React as a tool for creating websites and web apps. Elm has a very strong emphasis on simplicity, ease-of-use, and quality tooling."
+-- https://guide.elm-lang.org/
 
-Extras
-Add a function that sorts the list of products based on lowest price first.
+### The great thing about Elm is
 
-What we look for?
-When we review your pull request we look at how the code has been structured and which libraries you decide to use to do the task. There is no right or wrong when it comes to choice in CSS or JavaScript frameworks or libraries
+* No runtime errors in practice. No null. No undefined is not a function.
+* Friendly error messages that help you add features more quickly.
+* Well-architected code that stays well-architected as your app grows.
 
-How to fork
-https://help.github.com/articles/fork-a-repo/ 
+### How to run
 
-How to do a pull-request
-https://help.github.com/articles/using-pull-requests/
-
+Open dist/index.html using something like npm serve, php -S localhost:8080 or python -m SimpleServerHTTPServer to see the solution.
