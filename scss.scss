@@ -1,0 +1,58 @@
+/* Scss Document */
+
+$primary-color: #fb0065; // variable here setting a color pink to the class test. it vill be written in the scss.css as regular css
+// in this way its only nessery to change color one palce for the hole site
+.test{
+	color: $primary-color;
+}
+$icone-color:lawngreen;
+
+.fa{
+	color:$icone-color;
+}
+
+/*$width: 15em;
+$height:12em; 
+
+.card{
+	width:$width;
+	height:$height;
+}*/
+
+footer{
+	color: $primary-color;// variable here setting a color pink to the footer. 
+}
+
+.site-nav{ // here style are made for nav-ul-li, inables to style all ad the same time. this is nesting the style. notice how the code is inside {}
+	ul{
+		list-style: none;	
+		li{
+		 margin-bottom: 2 em;
+			a{
+				font-size: 1.15 em;
+				text-decoration: none;
+				letter-spacing: 0-15 em;
+				text-transform: uppercase;
+				-webkit-transition: color .3s;
+				transition: color .3s;
+				color: $primary-color;
+			}
+	   	}
+	}
+	
+
+}
+
+@mixin gradient ($gradient-color1, $gradient-color2){ // a mixin controling the gradient
+	background-image: -moz-linear-gradient( 125deg, ($gradient-color1)0%, ($gradient-color2) 100%); // for firefox
+	background-image: -webkit-linear-gradient( 125deg, ($gradient-color1)0%, ($gradient-color2) 100%); // fex google
+	background-image: -ms-linear-gradient( 125deg, ($gradient-color1)0%, ($gradient-color2) 100%); // for microsoft (edge etc)
+	//background-image: -ms-linear-gradient( 125deg, rgb(255,180,170)0%, rgb(208,42,194) 100%); normal coded gradient
+		
+}
+
+
+.old{
+	@include gradient(rgb(249, 7, 7), rgb(249, 199,199))
+}
+

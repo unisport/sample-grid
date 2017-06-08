@@ -1,0 +1,34 @@
+/* Scss Document */
+.test {
+  color: #fb0065; }
+
+.fa {
+  color: lawngreen; }
+
+/*$width: 15em;
+$height:12em; 
+
+.card{
+	width:$width;
+	height:$height;
+}*/
+footer {
+  color: #fb0065; }
+
+.site-nav ul {
+  list-style: none; }
+  .site-nav ul li {
+    margin-bottom: 2 em; }
+    .site-nav ul li a {
+      font-size: 1.15 em;
+      text-decoration: none;
+      letter-spacing: -15 em;
+      text-transform: uppercase;
+      -webkit-transition: color .3s;
+      transition: color .3s;
+      color: #fb0065; }
+
+.old {
+  background-image: -moz-linear-gradient(125deg, #f90707 0%, #f9c7c7 100%);
+  background-image: -webkit-linear-gradient(125deg, #f90707 0%, #f9c7c7 100%);
+  background-image: -ms-linear-gradient(125deg, #f90707 0%, #f9c7c7 100%); }
