@@ -1,21 +1,7 @@
-Fork this project and send back a pull request.
+## Sample grid performed in Elm
 
-1. Display these products http://www.unisport.dk/api/sample/ in a responsive grid, it has to look nice on mobile and desktop
-2. Difference between price_old and price should be shown as a discount, how is up to you
+Open dist/index.html using something like npm serve, php -S localhost:8080 or python -m SimpleServerHTTPServer to see the solution.
 
-### Extras
+### Files
 
-Add a function that sorts the list of products based on lowest price first.
-
-### What we look for?
-
-When we review your pull request we look at how the code has been structured and which libraries you decide to use. There is no right or wrong when it comes to choice in CSS or JavaScript frameworks or libraries
-
-#### How to fork
-
-https://help.github.com/articles/fork-a-repo/ 
-
-#### How to do a pull-request
-
-https://help.github.com/articles/using-pull-requests/
-
+dist/bundle.js is the compiled version of Elm, dist/index.html contains the markup and included the stylesheet from unisport.dk and dist/sample.json is the JSON data used in the sample task
