@@ -1,0 +1,353 @@
+body {
+    padding-bottom: 50px;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 87, 0);
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.switch_button {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(102, 102, 102);
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px;
+    padding: 5px 10px;
+    height: 1.3em;
+    width: 150px;
+    color: white;
+    margin: auto 10px;
+    position: relative;
+}
+
+.switch_button:hover {
+    cursor: pointer;
+}
+
+.active {
+    background-color: rgb(0, 87, 0);
+}
+
+#content {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    overflow: auto;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.product {
+    height: 300px;
+    margin: 30px 10px;
+    position: relative;
+}
+
+.product a {
+    text-decoration: none;
+}
+
+.product h2,
+.product_header {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+    color: rgb(44, 44, 44);
+}
+
+.product h2:hover {
+    text-decoration: underline;
+    color: rgb(0, 87, 0);
+}
+
+.product_header {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.product_info {
+    height: auto;
+    border: 2px solid rgb(44, 44, 44);
+    background-color: white;
+    padding: 0 10px;
+    border-radius: 5px;
+    color: rgb(44, 44, 44);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.product img {
+    margin: 20px auto;
+    display: block;
+    max-width: 100%;
+}
+
+.size {
+    background-color: rgb(44, 44, 44);
+    color: white;
+    padding: 5px;
+    text-align: center;
+}
+
+.availability_box {
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+
+.switch_div {
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    width: 50px;
+}
+
+.switch_div_green {
+    background-color: rgb(0, 87, 0);
+}
+
+.switch_div_red {
+    background-color: rgb(87, 0, 0);
+}
+
+.pricebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+}
+
+.price {
+    color: rgb(0, 87, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+}
+
+.price_old {
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: middle;
+    font-size: 0.9em;
+    margin-left: 15px;
+    line-height: 0.9em;
+}
+
+.price_old span {
+    text-decoration: line-through;
+}
+
+.discountbox {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 60px;
+}
+
+.discount_limit {
+    color: rgb(44, 44, 44);
+    font-size: 0.8em;
+    position: relative;
+    margin: 0 auto;
+}
+
+.img_large {
+    max-width: 100%;
+    max-height: 85vh;
+    height: auto;
+    object-fit: scale-down;
+}
+
+.product_info {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.buy_button {
+    margin: 0px 0px -50px -10px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(0, 87, 0);
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.buy_button:hover {
+    background-color: rgb(0, 119, 0);
+    cursor: pointer;
+}
+
+.buy_button:active {
+    background-color: rgb(44, 44, 44);
+}
+
+
+/*Responsive CSS*/
+
+@media screen and (min-width: 1059px) {
+    .content {
+        width: 80%;
+    }
+    .product {
+        width: 320px;
+        height: 400px;
+    }
+    .product h2 {
+        font-size: 22px;
+        height: 50px;
+    }
+    .product img {
+        height: 65%;
+        top: 50px;
+    }
+    .price_resp {
+        font-size: 2em;
+    }
+    .price_old_resp {
+        margin-left: 20px;
+        line-height: 1em;
+    }
+    .product_content {
+        position: relative;
+    }
+    .img_large {
+        width: 70%;
+        position: absolute;
+    }
+    .product_info {
+        width: 25%;
+        position: absolute;
+        right: 30px;
+    }
+}
+
+@media screen and (min-width: 819px) and (max-width: 1058px) {
+    .content {
+        width: 100%;
+    }
+    .product {
+        width: 240px;
+        height: 300px;
+    }
+    .product h2 {
+        font-size: 18px;
+        height: 40px;
+    }
+    .product img {
+        height: 60%;
+        top: 40px;
+    }
+    .price_resp {
+        font-size: 1.5em;
+    }
+    .price_old_resp {
+        font-size: 0.9em;
+        margin-left: 15px;
+        line-height: 0.9em;
+    }
+    .img_large {
+        width: 60%;
+        position: absolute;
+    }
+    .product_info {
+        width: 35%;
+        position: absolute;
+        right: 30px;
+    }
+}
+
+@media screen and (min-width: 393px) and (max-width: 818px) {
+    .content {
+        width: 100%;
+    }
+    .product {
+        width: 160px;
+        height: 250px;
+        margin: 30px 10px;
+    }
+    .product h2 {
+        font-size: 14px;
+        height: 32px;
+    }
+    .product img {
+        height: 55%;
+        top: 32px;
+    }
+    .price_resp {
+        font-size: 1em;
+    }
+    .price_old_resp {
+        font-size: 0.75em;
+        margin-left: 5px;
+        line-height: 0.75em;
+    }
+    .img_large {
+        width: 90%;
+        position: relative;
+    }
+    .product_info {
+        width: 90%;
+        margin: 15px auto;
+        position: relative;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    .content {
+        width: 100%;
+    }
+    .product {
+        width: 250px;
+        height: 300px;
+        margin: 30px 10px;
+    }
+    .product h2 {
+        font-size: 18px;
+        height: 40px;
+    }
+    .product img {
+        height: 60%;
+        top: 32px;
+    }
+    .price_resp {
+        font-size: 1.5em;
+    }
+    .price_old_resp {
+        font-size: 0.9em;
+        margin-left: 15px;
+        line-height: 0.9em;
+    }
+    .img_large {
+        width: 100%;
+        position: relative;
+    }
+    .product_info {
+        width: 100%;
+        margin: 15px auto;
+        position: relative;
+    }
+}
