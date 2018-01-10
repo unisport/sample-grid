@@ -160,11 +160,14 @@ mat-card-image{
 .round.grey {
     background-color: rgb(122, 120, 120);
 }
-/*///////////////////////////*/
-#myImg {
+ /*|||||||||||||||||||||||||||||||||||
+  ||||||||    Card image    ||||||||||
+  |||||||||||||||||||||||||||||||||||*/
+  #myImg {
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 }
 
 #myImg:hover {opacity: 0.7;}
+

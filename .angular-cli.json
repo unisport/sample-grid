@@ -10,6 +10,7 @@
       "assets": [
         "assets",
         "apiStub",
+        "extraSrc",
         "favicon.ico"
       ],
       "index": "index.html",

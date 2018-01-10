@@ -1,21 +1,27 @@
-Fork this project and send back a pull request.
+# IrProject
 
-1. Display these products http://www.unisport.dk/api/sample/ in a responsive grid, it has to look nice on mobile and desktop
-2. Difference between price_old and price should be shown as a discount, how is up to you
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
 
-### Extras
+## Development server
 
-Add a function that sorts the list of products based on lowest price first.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-### What we look for?
+## Code scaffolding
 
-When we review your pull request we look at how the code has been structured and which libraries you decide to use. There is no right or wrong when it comes to choice in CSS or JavaScript frameworks or libraries
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-#### How to fork
+## Build
 
-https://help.github.com/articles/fork-a-repo/ 
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
-#### How to do a pull-request
+## Running unit tests
 
-https://help.github.com/articles/using-pull-requests/
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

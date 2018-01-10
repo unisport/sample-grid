@@ -2,13 +2,16 @@
   <div class="button-row  text-right">
     <button mat-raised-button class="sort_button col-md-2" (click)=sortByprice()>Sort</button>
   </div>
+
   <div class="row">
-    <div  class="col-sm-2 col-md-4" *ngFor="let product of _productsArray">
+     <div  class="col-sm-2 col-md-4" *ngFor="let product of _productsArray" [@products]="_productsArray.lenght">
       <mat-card class="example-card col-md-12">
           <span class="{{hasDiscount(product) ? 'sale' : 'hidden'}}"> 
             {{getDiscount(product)}}%
           </span>
-          <img mat-card-image id="myImg" src="{{product.image}}" alt="Photo of a {{product.name}}">
+         <a [href]="product.img_url == null ? '..\extraSrc\lightbox\billede-på-vej-ny.jpg' : product.img_url" data-lightbox="image-1" data-title="{{product.name}}">
+            <img mat-card-image id="myImg" src="{{product.image}}" alt="Photo of a {{product.name}}">
+          </a>
           <mat-card-content>
             <mat-card-title class="text-center">{{product.name}}</mat-card-title>
             <h4 class="text-center">

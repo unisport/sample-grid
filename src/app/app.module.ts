@@ -14,6 +14,8 @@ import {FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { HttpClientModule } from '@angular/common/http';
+import {BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import { HttpClientModule } from '@angular/common/http';
     MatGridListModule,
     FormsModule,
     HttpModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   exports: [
     MatButtonModule,

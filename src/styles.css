@@ -77,3 +77,20 @@ a:hover{
     background: -webkit-linear-gradient(left, #54d400 48%, #1b1e21 48%);
     background: linear-gradient(45deg, #54d400 48%, #1b1e21 48%);
 }
+
+
+
+ /*|||||||||||||||||||||||||||||||||||
+  ||||||||    Big images    ||||||||||
+  |||||||||||||||||||||||||||||||||||*/
+  .lb-nav a.lb-next,
+  .lb-nav a.lb-prev{
+    cursor: default !important;
+  }
+  .lb-nav a.lb-next:hover,
+  .lb-nav a.lb-prev:hover{
+    cursor: default !important;
+    display: none !important;
+    opacity: 0 !important;
+  
+  }

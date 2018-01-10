@@ -2,6 +2,8 @@ import { Component, OnInit, ViewChild,ElementRef, AfterViewInit } from '@angular
 import { ApiService } from '../api.service';
 import {ProductInterface} from "../unisport-sample-interface";
 import { HttpClient, HttpHeaders } from '@angular/common/http';
+import { trigger,style,transition,animate,keyframes,query,stagger, state } from '@angular/animations';
+
 
 
 @Component({
@@ -9,6 +11,23 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
   ,providers:[ApiService]
+  ,animations: [
+
+    trigger('products', [
+      transition('* => *', [
+
+        query(':self', style({ opacity: 0 }), {optional: true}),
+
+        query(':self', stagger('500ms', [
+          animate('.8s ease-in', keyframes([
+            style({opacity: 0, transform: 'translateY(-75%)', offset: 0}),
+            style({opacity: .5, transform: 'translateY(35px)',  offset: 0.3}),
+            style({opacity: 1, transform: 'translateY(0)',     offset: 1.0}),
+          ]))]), {optional: true})
+      ])
+    ])
+
+  ]
 })
 
 export class HomeComponent implements OnInit {
@@ -66,4 +85,5 @@ export class HomeComponent implements OnInit {
           }
         });
      } 
+
  }
