@@ -1,0 +1,44 @@
+/*BIG TABLET/SMALL COMPUTER: FROM 1024 to 1200px */
+@media only screen and (max-width: 1200px){
+    .sizes{
+        display: none;
+    }
+}
+
+/* SMALL TABLET/BIG TABLET: FROM 768 to 1023px */
+@media only screen and (max-width: 1023px){
+    section{
+        font-size: 70%;
+    }
+}
+
+/* BIG PHONES/SMALL TABLETS: FROM 481 to 767px */
+@media only screen and (max-width: 767px){
+    .col{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    section{
+        font-size: 150%;
+    }
+
+    li{
+        width: 80%;
+    }
+
+    li img{
+        width: 80%;
+    }
+
+    .discount{
+        font-size: 130%;
+    }
+}
+
+/* SMALL PHONES: FROM 0 to 480px */
+@media only screen and (max-width: 480px){
+    section{
+        font-size: 110%;
+    }
+}
