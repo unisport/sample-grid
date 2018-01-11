@@ -1,0 +1,173 @@
+.fa.fa-truck{
+  font-size: 1.5em;
+  margin:0 0 0 0.5em ;
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+
+/*|||||||||||||||||||||||||||||||||||
+  |||||||||||  Sort Button ||||||||||
+  |||||||||||||||||||||||||||||||||||*/
+.button-row{
+    margin: 1em 0 1em 0;
+}
+.sort_button{
+    border: #000 solid 1px;
+}
+/*|||||||||||||||||||||||||||||||||||
+  |||||||||||    Card      ||||||||||
+  |||||||||||||||||||||||||||||||||||*/
+mat-card {
+    margin-bottom: 0.1em;
+    height: 100%;
+}
+
+.col-md-4 {
+    padding-top: 1em;
+}
+
+/*|||||||||||||||||||||||||||||||||||
+  |||||||||||  Sale label  ||||||||||
+  |||||||||||||||||||||||||||||||||||*/
+mat-card-image{
+    position: relative;
+}
+
+.sale {
+    position: absolute;
+    top:1em;
+    right: 1em;
+    display: inline-block;
+    background: orange;
+    color: white;
+    height: 2.5rem;
+    width: 2.5rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2.5rem;
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+    -webkit-animation: beat 1s ease infinite alternate;
+            animation: beat 1s ease infinite alternate;
+    z-index: 10;
+  }
+  .sale:before, .sale:after {
+    content: "";
+    position: absolute;
+    background: inherit;
+    height: inherit;
+    width: inherit;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+  }
+  .sale:after {
+    -webkit-transform: rotate(60deg);
+            transform: rotate(60deg);
+  }
+  .sale:after .sale {
+    position: relative;
+    display: inline-block;
+    background: orange;
+    color: white;
+    height: 2.5rem;
+    width: 2.5rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2.5rem;
+    margin: 45vh 45vw;
+    -webkit-transform: rotate(-20deg);
+            transform: rotate(-20deg);
+    -webkit-animation: beat 1s ease infinite alternate;
+            animation: beat 1s ease infinite alternate;
+  }
+  .sale:after .sale:before, .sale:after .sale:after {
+    content: "";
+    position: absolute;
+    background: inherit;
+    height: inherit;
+    width: inherit;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    -webkit-transform: rotate(30deg);
+            transform: rotate(30deg);
+  }
+  .sale:after .sale:after {
+    -webkit-transform: rotate(60deg);
+            transform: rotate(60deg);
+  }
+  @-webkit-keyframes beat {
+    from {
+      -webkit-transform: rotate(-20deg) scale(1);
+              transform: rotate(-20deg) scale(1);
+    }
+    to {
+      -webkit-transform: rotate(-20deg) scale(1.1);
+              transform: rotate(-20deg) scale(1.1);
+    }
+  }
+  @keyframes beat {
+    from {
+      -webkit-transform: rotate(-20deg) scale(1);
+              transform: rotate(-20deg) scale(1);
+    }
+    to {
+      -webkit-transform: rotate(-20deg) scale(1.1);
+              transform: rotate(-20deg) scale(1.1);
+    }
+  }
+  @keyframes beat {
+    from {
+      -webkit-transform: rotate(-20deg) scale(1);
+              transform: rotate(-20deg) scale(1);
+    }
+    to {
+      -webkit-transform: rotate(-20deg) scale(1.1);
+              transform: rotate(-20deg) scale(1.1);
+    }
+  }
+  .hidden{
+      display: none;
+  }
+  
+  /*|||||||||||||||||||||||||||||||||||
+  |||||||||||    online      ||||||||||
+  |||||||||||||||||||||||||||||||||||*/
+
+.round {
+    display: inline-block;
+}
+
+.round.round-sm {
+    height: 0.8em;
+    width: 0.8em;
+    line-height: 20px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    font-size: 0.7em;
+}
+
+.round.green {
+    background-color: #42A129;
+}
+.round.grey {
+    background-color: rgb(122, 120, 120);
+}
+ /*|||||||||||||||||||||||||||||||||||
+  ||||||||    Card image    ||||||||||
+  |||||||||||||||||||||||||||||||||||*/
+  #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
