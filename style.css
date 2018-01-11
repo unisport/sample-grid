@@ -1,13 +1,125 @@
+body{
+	background-image: url(soccer.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+}
+
+header{
+	line-height: 60px;
+	margin: 0 auto;
+	width: 640px;
+	text-align:center;
+}
+
+header img {
+	width: 100%;
+	height: auto;
+}
+
+p {
+	font-family: "Times New Roman", Times, serif;
+}
+
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
 }
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	font-size: 30px;
+	text-align: center;
+}
+
+.oldPrice{
+	font-size: 50%;
+	text-decoration: line-through;
+}
+
+.price{
+	font-size: 75%;
+}
+
+.safe{
+	border-radius: 50%;
+	position: relative;
+	width: 50px;
+	height: 50px;
+	background-color: yellow;
+	float: right;
+	top: 10px;
+	right: 10px;
+	
+}
+
+.safe p{
+	font-size: 60%;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 15px; 
+}
+
+@media (max-width: 800px) {
+	header{
+		line-height: 60px;
+		margin: 0 auto;
+		display: block;
+		width: 640px;
+		text-align:center;
+	}
+
+	.grid-item {
+		-ms-flex: 50%;
+		flex: 50%;
+		max-width: 100%;
+	}
+
+	.safe{
+		border-radius: 50%;
+		position: relative;
+		width: 50px;
+		height: 50px;
+		background-color: yellow;
+		float: right;
+		top: 10px;
+		right: 10px;
+	}
+}
+
+@media (max-width: 600px) {
+	header{
+		line-height: 60px;
+		margin: 0 auto;
+		display: block;
+		width: 40%;
+		text-align:center;
+	}
+	.grid-item {
+		-ms-flex: 100%;
+		flex: 100%;
+		max-width: 100%;
+	}
+	.grid-item img{
+		width: 50%;
+	}
+
+	.safe{
+		border-radius: 50%;
+		position: relative;
+		width: 30px;
+		height: 30px;
+		background-color: yellow;
+		float: right;
+		top: 10px;
+		right: 10px;
+	}
+
+	.safe p{
+		font-size: 40%;
+		text-align: center;
+		vertical-align: middle;
+		line-height: 5px; 
+	}
 }
