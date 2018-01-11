@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Unisport - Outlet</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header><img src="logo.png" alt=""></header>
+
+	<div class="grid-container">
+		
+	</div>
+
+	<script>
+
+		$.ajax({
+			url: 'https://www.unisport.dk/api/sample/',
+			dataType: 'json',
+			type: 'get',
+			cache: false,
+			success: function(data){
+				$(data.products).each(function(index, value){
+					
+					var old = value.price_old.replace(/\./g, "");
+					old = parseFloat(old);
+					var newPrice = parseFloat(value.price);
+					var percentRecult = (100 - (newPrice * 100 / old)).toFixed();
+					
+					if (percentRecult == 0 || percentRecult == "NaN") {
+						$('<div class="grid-item"><img class="imgFromURL" src="'+value.image+'" alt=""><p class="price">'+value.price+'</p></div>').appendTo($('.grid-container'));
+					}else{
+						$('<div class="grid-item"><img class="imgFromURL" src="'+value.image+'" alt=""><div class="safe"><p>'+percentRecult+'%</p></div><p class="oldPrice">'+value.price_old+'</p><p class="price">'+value.price+'</p></div>').appendTo($('.grid-container'));
+					}
+
+				})
+			}
+
+		});
+
+
+	</script>
+
+</body>
+</html>
