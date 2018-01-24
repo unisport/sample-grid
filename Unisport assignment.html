@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"
+    <title>Unisport assignment</title>
+<style>
+
+body {
+margin: 0;
+background-color: #f2f2f2;
+font-family: Arial, Helvetica, sans-serif;
+color: #1a1a1a;
+font-size: 1.1em;
+line-height: 1.5;
+text-align: center;
+}
+
+img {
+display: block;
+width: 100%;
+height: auto;
+}
+
+h1, h2, h3 {
+margin: 0;
+padding: 1em 0;
+}
+
+p {
+margin: 0;
+padding: 1em 0;
+}
+
+.btn {
+display: inline-block;
+background-color: #006622;
+color: #ffffff;
+text-decoration: none;
+padding: 1em 2em;
+margin: .5em 0;
+border-radius: 15%;
+}
+
+.btn-1 {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #262626;
+  text-decoration: none;
+  padding: 1em 2em;
+  margin: .5em 0;
+  border-radius: 15%
+}
+
+.btn-2 {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #262626;
+  text-decoration: none;
+  padding: 1em 2em;
+  margin: .5em 0;
+  border-radius: 15%
+}
+
+.btn-3 {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #262626;
+  text-decoration: none;
+  padding: 1em 2em;
+  margin: .5em 0;
+  border-radius: 15%
+}
+
+
+.btn:hover {
+background-color: #33cc00;
+color: #262626;
+}
+
+.btn:visited {
+background-color: #006622;
+color: #ffffff;
+}
+
+.btn-2:hover {
+background-color: #a6a6a6;
+color: #ffffff;
+}
+
+.btn-2:visited {
+background-color: #ffffff;
+color: #262626;
+}
+
+.btn-3:hover {
+background-color: #196619;
+color: #ffffff;
+}
+
+.btn-3:visited {
+background-color: #ffffff;
+color: #262626;
+}
+
+/* Header Showcase */
+
+#showcase {
+min-height: 450px;
+color: #262626;
+text-align: center;
+}
+
+#showcase .bg-image {
+position: absolute;
+background-image: url("https://static.pexels.com/photos/102448/pexels-photo-102448.jpeg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 450px;
+z-index: -1;
+opacity: 0.6;
+}
+
+#showcase h1 {
+padding-top: 100px;
+padding-bottom: 0;
+}
+
+#showcase .content-wrap {
+padding: 0 1.5em;
+}
+
+/* Section A */
+
+#section-a {
+background-color: #ffff00;
+color: #262626;
+padding-bottom: 2em;
+text-align: center;
+}
+
+#section-a .content-wrap {
+padding: 0 1.5em;
+}
+
+/* Section B */
+
+#section-b {
+padding: 2em 1em 1em;
+background-color: #33cc00;
+color: #ffffff;
+}
+
+#section-b ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#section-b li {
+margin-bottom: 0,5em;
+background-color: #33cc00;
+color: #ffffff;
+}
+
+.card-content {
+padding: 1.5em;
+}
+
+/* Section C */
+
+#section-c {
+padding: 2em 1em 1em;
+background-color: #33cc00;
+color: #ffffff;
+}
+
+#section-c ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#section-c li {
+margin-bottom: 0,5em;
+background-color: #33cc00;
+color: #ffffff;
+}
+
+.card-content {
+padding: 1.5em;
+}
+
+/* Section D */
+#section-d {
+background-color: #f2f2f2;
+color: #262626;
+padding: 2em;
+}
+/* Section E */
+#section-e {
+padding: 2em 1em 1em;
+background-color: #ffff00;
+}
+
+#section-e ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#section-e li {
+margin-bottom: 1em;
+color: #262626;
+}
+
+/* Section F */
+#section-f {
+padding: 2em 1em 1em;
+background-color: #ffff00;
+}
+
+#section-f ul {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+#section-f li {
+margin-bottom: 1em;
+color: #262626;
+}
+
+/* Footer*/
+#main-footer {
+padding: 2em;
+background-color: #f2f2f2;
+color: #262626;
+text-align: center;
+}
+
+#main-footer a {
+text-decoration: none;
+}
+
+/* Media Queries */
+
+@media(min-width: 700px) {
+ .grid {
+   display: grid;
+   grid-template-columns: 1fr repeat(2,  1fr) 1fr;
+ }
+
+ .content-wrap, #section-a {
+   grid-column: 2/4;
+   text-align: center;
+ }
+
+.content-wrap, #section-b ul {
+
+}
+
+.box, #main-footer div {
+grid-column: 2/4;
+}
+
+}
+
+
+</style>
+</head>
+<body>
+
+  <!-- Header Showcase -->
+  <header id="showcase" class="grid">
+   <div class="bg-image"></div>
+   <div class="content-wrap">
+    <h1> Football boots, shirts, shorts and more </h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      </p>
+    <a href="#section-b" class="btn"> Go to products</a>
+    </div>
+  </header>
+
+<!-- Main Area -->
+  <main id= "main">
+
+    <!-- Section A -->
+    <section id="section-a" class="grid">
+    <div class="content-wrap">
+      <h1 class="card-title"> SALE</h1>
+         <a href="#section-e" class="btn-2">EXPLORE</a>
+         </section>
+
+    </div>
+
+    <!-- Section B -->
+    <section id="section-b" class="grid">
+    <ul>
+      <li>
+        <div class="card">
+          <img src="https://s3-eu-west-1.amazonaws.com/product-img/162990_maxi_0.jpg" alt="Sevilla" style="width: 100%">
+          </a>
+          <div class="card-content">
+           <h3 class="card-title"> Sevilla Shirt</h3>
+           <p><b>Price:</b> 599,00 DKK <br></br> <b>Sizes:</b> Small, Medium, Large, X-Large, XX-Large <br></br> <b>Delivery:</b> 1-2 days</p>
+             <a href="https://www.unisport.dk/fodboldtroejer/sevilla-udebanetrje-201718/162990/" class="btn-3"> Go to Product Page</a>
+        </div>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <div class="card">
+          <img src="https://thumblr.uniid.it/product/161439/c4e883beeacd.jpg" alt="Lyon" style="width: 100%" >
+          <div class="card-content">
+           <h3 class="card-title"> Lyon Shorts - 2017/2018 Children</h3>
+           <p><b>Price:</b> 269,00 DKK <br></br> <b>Sizes:</b> 128 cm, 152 cm, 164 cm <br></br> <b>Delivery:</b> 1-2 days</p>
+             <a href="https://www.unisport.dk/fodboldtroejer/lyon-udebaneshorts-201718-brn/161439/" class="btn-3">Go to Product Page</a>
+        </div>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <div class="card">
+          <img src="https://s3-eu-west-1.amazonaws.com/product-img/164087_maxi_0.jpg" alt="Wolfburg" style="width: 100%">
+          <div class="card-content">
+           <h3 class="card-title"> Wolfburg home side Shorts </h3>
+           <p><b>Price:</b> 299,00 DKK <br></br> <b>Sizes:</b> Small, Medium, Large, X-Large, XX-Large <br></br> <b>Delivery:</b> 1-2 days</p>
+             <a href="https://www.unisport.dk/fodboldtroejer/wolfsburg-hjemmebaneshorts-201718/164087/" class="btn-3">Go to Product page</a>
+        </div>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <div class="card">
+          <img src="https://s3-eu-west-1.amazonaws.com/product-img/155831_maxi_0.jpg" alt="Timmy" style="width: 100%">
+          <div class="card-content">
+           <h3 class="card-title"> Real Madrid Tøjbamse Timmy Bear</h3>
+           <p><b>Price:</b> 99,00 DKK <br></br> <b>Sizes:</b> One size <br></br> <b>Delivery:</b> 1-2 days</p>
+             <a href="https://www.unisport.dk/fodboldtroejer/real-madrid-tjbamse-timmy-bear-brn/155831/" class="btn-3">Go to Product page</a>
+        </div>
+      </li>
+    </ul>
+    </section>
+
+    <!-- Section C -->
+    <section id="section-c" class="grid">
+    <ul>
+      <li>
+        <div class="card">
+          <img src="https://s3-eu-west-1.amazonaws.com/product-img/163079_maxi_0.jpg" alt="Lazio" style="width: 100%">
+          </a>
+          <div class="card-content">
+           <h3 class="card-title"> Lazio home Shirt blue Kids</h3>
+           <p><b>Price:</b> 519,00 DKK <br></br> <b>Sizes:</b> 133-145cm/2XS, 159-171cm/Small, X-Large <br></br> <b>Delivery:</b> 1-2 days</p>
+             <a href="https://www.unisport.dk/fodboldtroejer/lazio-hjemmebanetrje-201718-brn/163079/" class="btn-3"> Go to Product Page</a>
+        </div>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <div class="card">
+          <img src="https://s3-eu-west-1.amazonaws.com/product-img/163081_maxi_0.jpg" alt="Lazio 3" style="width: 100%" >
+          <div class="card-content">
+           <h3 class="card-title"> Lazio 3. Shirt 2017/18</h3>
+           <p><b>Price:</b> 649,00 DKK <br></br> <b>Sizes:</b>Small, Medium, X-Large <br></br> <b>Delivery:</b> 1-2 days</p>
+             <a href="https://www.unisport.dk/fodboldtroejer/lazio-3-trje-201718/163081/" class="btn-3">Go to Product Page</a>
+        </div>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <div class="card">
+          <img src="https://thumblr.uniid.it/product/153150/8e164079836e.jpg" alt="Lejerbo BK" style="width: 100%">
+          <div class="card-content">
+           <h3 class="card-title"> Lejerbo BK - Baselayer L/Æ Hvid </h3>
+           <p><b>Price:</b> 279,00 DKK <br></br> <b>Sizes:</b> X-Large, XX-Large <br></br> <b>Delivery:</b> 1-2 days</p>
+             <a href="https://www.unisport.dk/team-sport/lejerbo-bk-baselayer-l-hvid/153150/" class="btn-3">Go to Product page</a>
+        </div>
+      </li>
+    </ul>
+    <ul>
+      <li>
+        <div class="card">
+          <img src="https://s3-eu-west-1.amazonaws.com/product-img/161437_maxi_0.jpg" alt="Lyon Mini-Kit" style="width: 100%">
+          <div class="card-content">
+           <h3 class="card-title"> Lyon Hjemmebanesæt 2017/18 Mini-Kit Kids</h3>
+           <p><b>Price:</b> 499,00 DKK <br></br> <b>Sizes:</b> 92cm, 98cm, 104cm, 110cm <br></br> <b>Delivery:</b> 1-2 days</p>
+             <a href="https://www.unisport.dk/fodboldtroejer/lyon-hjemmebanest-201718-mini-kit-brn/161437/" class="btn-3">Go to Product page</a>
+        </div>
+      </li>
+    </ul>
+    </section>
+
+      <!-- Section D -->
+  <section id="section-d" class="grid">
+    <div class="content-wrap">
+      <h2 class="content-title"></h2>
+      <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+        minim veniam. </p>
+      </div>
+    </section>
+
+      <!-- Section E -->
+    <section id="section-e" class="grid">
+      <ul>
+        <li>
+          <div class="card">
+            <img src="https://s3-eu-west-1.amazonaws.com/product-img/132284_maxi_0.jpg" alt="Puma" style="width: 100%">
+            </a>
+            <div class="card-content">
+             <h3 class="card-title"> Puma Pitch 1 Shirt</h3>
+             <p><b>Price:</b> <strike>249,00 DKK</strike> <b>Only in January: 124,00 DKK</b> <br></br> <b>Sizes:</b> Large, X-Large, XX-Large <br></br> <b>Delivery:</b> 1-2 days</p>
+               <a href="https://www.unisport.dk/fodboldudstyr/puma-spilletrje-pitch-l-grnhvid/132284/" class="btn-2"> Go to Product Page</a>
+          </div>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <div class="card">
+            <img src="https://s3-eu-west-1.amazonaws.com/product-img/164019_maxi_0.jpg" alt="Nike Bomber Jacket" style="width: 100%">
+            <div class="card-content">
+             <h3 class="card-title"> Nike Bomber Jacket NSW Tech Fleece - Grey/Black Children</h3>
+             <p><b>Price:</b> <strike>699,00 DKK</strike> <b>Now: 629,00 DKK</b><br></br><b>Sizes:</b> Boys XS: 122-128 cm, Boys S: 128-137 cm, Boys M: 137-147 cm, Boys L: 147-158 cm <br></br> <b>Delivery:</b> 1-2 days</p>
+               <a href="https://www.unisport.dk/fodbold365/nike-bomber-jakke-nsw-tech-fleece-grasort-brn/164019/" class="btn-2">Go to Product Page</a>
+          </div>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <div class="card">
+            <img src="https://s3-eu-west-1.amazonaws.com/product-img/165078_maxi_0.jpg" alt="FC Fjordbold" style="width: 100%">
+            <div class="card-content">
+             <h3 class="card-title"> FC Fjordbold - Blue </h3>
+             <p><b>Price:</b><strike>280,00 DKK</strike> <b>Now: 229,00,00 DKK</b> <br></br> <b>Sizes:</b> XX-Small, Small, Medium, Large, X-Large, 2XL/3X <br></br> <b>Delivery:</b> 1-2 days</p>
+               <a href="https://www.unisport.dk/team-sport/fc-fjordbold-spilertrje-bla/165078/" class="btn-2">Go to Product Page</a>
+          </div>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <div class="card">
+            <img src="https://s3-eu-west-1.amazonaws.com/product-img/163097_maxi_0.jpg" alt="Nice" style="width: 100%">
+            <div class="card-content">
+             <h3 class="card-title"> Nice Training Pants black </h3>
+             <p><b>Price:</b> <strike>389,00 DKK</strike> <b>Only in January: 233,00 DKK</b><br></br> <b>Sizes:</b> XX-Small, Small, Medium, Large, X-Large, 2XL/3X <br></br> <b>Delivery:</b> 1-2 days</p>
+               <a href="https://www.unisport.dk/fodboldtroejer/nice-trningsbukser-sort/163097" class="btn-2">Go to Product Page</a>
+          </div>
+        </li>
+      </ul>
+      </section>
+
+      <!-- Section F -->
+    <section id="section-f" class="grid">
+      <ul>
+        <li>
+          <div class="card">
+            <img src="https://s3-eu-west-1.amazonaws.com/product-img/168442_maxi_0.jpg" alt="adidas Condivo 18" style="width: 100%">
+            </a>
+            <div class="card-content">
+             <h3 class="card-title"> adidas Taining shirt Warm Condivo 18 - Navy/white Kid</h3>
+             <p><b>Price:</b> <strike>529,00 DKK</strike> <b>Now: 476,00 DKK</b> <br></br> <b>Sizes:</b> 116 cm, 128 cm, 164 cm <br></br> <b>Delivery:</b> 1-2 days</p>
+               <a href="https://www.unisport.dk/fodboldudstyr/adidas-trningstrje-warm-condivo-18-navyhvid-brn/168442/" class="btn-2"> Go to Product Page</a>
+          </div>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <div class="card">
+            <img src="https://s3-eu-west-1.amazonaws.com/product-img/143132_maxi_0.jpg" alt="Adidas Condivo16" style="width: 100%">
+            <div class="card-content">
+             <h3 class="card-title"> adidas Condivo 16 Set Navy/Blue Kids</h3>
+             <p class="pad"><b>Price:</b> <strike>698,00 DKK</strike> <b>Now: 558,00 DKK</b><br></br><b>Sizes:</b> Boys XS: 122-128 cm, Boys S: 128-137 cm, Boys M: 137-147 cm, Boys L: 147-158 cm <br></br> <b>Delivery:</b> 1-2 days</p>
+               <a href="https://www.unisport.dk/fodboldudstyr/adidas-condivo-16-st-navybla-brn/143132/" class="btn-2">Go to Product Page</a>
+          </div>
+        </li>
+      </ul>
+</section>
+
+<!-- Footer -->
+<footer id="main-footer" class="grid">
+  <div> Coding by Sophia Ronnenberg</div>
+  <div> Header picture is royalty free. From <a href="pexel.com">pexel.com</a></div>
+</footer>
+</body>
+</html>
