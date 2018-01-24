@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+
+</head>
+<body >
+<main class="container">
+    <nav class="navbar  navbar-light navbar navbar-toggleable-xd " >
+
+        <div class="navbar-header row" id="header">
+            <img src="img/logo.png" class="logo-btn" alt="Logo"/>
+            <a class="navbar-brand" href="#">UniSport  <small>Exercise</small></a>
+
+            <!-- A bug in bootstrap 4.0.0
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <div>
+                <form class="form-inline" id="orderby_form">
+                    <div class="input-group">
+                        <div class="input-group-btn">
+                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Order By
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#" data-bind="click:AppVM.Sort_priceLowest()">Price lowest</a>
+                                <a class="dropdown-item" href="#" data-bind="click:AppVM.Sort_priceHigest()">Price Highest</a>
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Text input with dropdown button" id="orderby_input"/>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="row" id="main_content" data-bind="foreach:Products">
+        <div class="col-sm-4">
+            <div class="product">
+                <div class="discount" data-bind="style:{visibility:AppVM.Visible(price,price_old),
+                backgroundColor:AppVM.BackgroundColor(price,price_old)}" >
+                    <p><span data-bind="text:(AppVM.DiscountPercentage(price,price_old))"></span><span>%</span> </p>
+                </div>
+                <img data-bind="attr:{src:image}" alt="product image"  />
+            </div>
+            <div class="product_name"> <p class="product_name" data-bind="text: name"></p> </div>
+            <div class="product_price">
+                <p><span  class="product_price_number"data-bind="text: price"></span>
+                    <span class="product_price_currency" data-bind="text:currency"></span></p>
+            </div>
+            <div class="product_oldprice" data-bind="style:{visibility:AppVM.Visible(price,price_old)}">
+                <p>Old Price:<span class="product_oldprice_number" data-bind="text: price_old"></span>
+                    <span class="product_oldprice_currency">DKK</span></p>
+            </div>
+            <div class="product_delivery" >
+                <p>Delivery:<span class="product_delivery_detail" data-bind="text: delivery"></span></p>
+            </div>
+            <div>
+                <p class="product_size">Size:<span data-bind="text: sizes"></span></p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+</main>
+<script type="text/html">
+
+    <div class="col-sm-3">
+        <div class="product">
+        <div class="discount"><p>-20%</p></div>
+    <img src="https://thumblr.uniid.it/product/162990/3f3332361a9e.jpg" alt="product image">
+        </div>
+        <p class="product_name">Sevilla Udebanetrøje 2017/18</p>
+    <P class="product_price">599,00 <sup>DKK</sup></P>
+    <p class="product_oldprice">1000,00 <span>DKK</span></p>
+    <p class="product_delivery">delivery</p>
+        <p class="product_size">SIZE:<span>X-Small, Small, Medium, Large, X-Large, XX-Large, XXX-Large</span></p>
+    </div>
+</script>
+
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js'></script>
+<script src="script.js"></script>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</body>
+</html>

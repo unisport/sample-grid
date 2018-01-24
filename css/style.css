@@ -1,0 +1,164 @@
+a:hover {
+    background-color: #39ac39;
+    color: azure;
+}
+a img :hover {
+    border: none!important;
+    display: block;
+}
+.logo-btn  {
+    padding: 0px 15px;
+    height: 48px;
+    border: 0;
+    float: left;
+}
+.navbar-brand {
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: black;
+    padding: 2px 7px;
+
+}
+.navbar{
+    background-color: #e6e6e6;
+    border-radius: 0px 0px 5px 5px;
+    padding:5px;
+}
+.navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
+}
+#orderby_form .input-group-btn{
+    background-color: #fff;
+}
+#orderby_form .btn-secondary{
+    color: black;
+    background-color: #fff;
+    border:none;
+    outline: none;
+}
+#orderby_form .form-control{
+    border:none;
+    border-radius:0;
+}
+#orderby_form {
+    outline: none;
+    padding: 2px 7px;
+}
+.product{
+    text-align: center;
+    height: inherit;
+    padding: 5px;
+    margin: 0 auto;
+}
+.discount{
+    width: 45px;
+    height: 45px;
+    float:right;
+    text-align: center;
+    line-height: 45px;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+.green{
+    background-color: #0abf5a;
+}
+.yellow{
+    background-color: #ff0;
+}
+.product img{
+    width: 100%;
+    position: relative;
+    top: -15px;
+    z-index: -1;
+}
+
+.product_name{
+    font-family: 'Anton', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.1em;
+}
+.product_oldprice p{
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    margin:0;
+    padding: 0;
+}
+.product_oldprice_number{
+    font-size: 12px;
+    font-weight: 200;
+    color: #787878;
+    text-decoration: line-through;
+    line-height: 1.1em;
+    display: inline;
+}
+.product_oldprice_currency{
+    font-size: 12px;
+    font-weight: 200;
+    color: #787878;
+    text-decoration: line-through;
+    line-height: 1.1em;
+    display: inline;
+}
+.product_price{
+    display: block;
+    text-align: center;
+}
+.product_price_number{
+    color: #0abf5a;
+    font-weight: 200;
+    font-size: 1.6em;
+    display: inline;
+    line-height: 1.2em;
+}
+.product_price_currency{
+    color: black;
+    font-weight: 100;
+    font-size: 1em;
+    vertical-align: top;
+    display: inline;
+}
+.product_delivery p{
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    margin: 0;
+}
+.product_delivery_detail{
+    font-size: 12px;
+    font-weight: 200;
+    color: #787878;
+    text-align: center;
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+}
+.product_size{
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    line-height: 1.1em;
+    margin: 0;
+    padding: 0;
+}
+.product_size span{
+    font-size: 12px;
+    font-weight: 400;
+    color: #787878;
+    text-align: center;
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+}
+.test{
+    visibility: hidden;
+
+}
