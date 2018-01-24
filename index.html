@@ -10,35 +10,24 @@
 </head>
 <body >
 <main class="container">
-    <nav class="navbar  navbar-light navbar navbar-toggleable-xd " >
-
-        <div class="navbar-header row" id="header">
-            <img src="img/logo.png" class="logo-btn" alt="Logo"/>
-            <a class="navbar-brand" href="#">UniSport  <small>Exercise</small></a>
-
-            <!-- A bug in bootstrap 4.0.0
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button> -->
-            <div>
-                <form class="form-inline" id="orderby_form">
-                    <div class="input-group">
-                        <div class="input-group-btn">
-                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Order By
-                            </button>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#" data-bind="click:AppVM.Sort_priceLowest()">Price lowest</a>
-                                <a class="dropdown-item" href="#" data-bind="click:AppVM.Sort_priceHigest()">Price Highest</a>
-                            </div>
+    <nav class="navbar  navbar-light bg-faded navbar-toggleable-md">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" class="logo-btn" alt="Logo"/>UniSport  <small>Assignment</small></a>
+        <div id="navbar_items">
+            <form class="form-inline my-2 my-lg-0" id="orderby_form">
+                <div class="input-group">
+                    <div class="input-group-btn">
+                        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Order By
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#" data-bind="click:AppVM.Sort_priceLowest()">Price lowest</a>
+                            <a class="dropdown-item" href="#" data-bind="click:AppVM.Sort_priceHigest()">Price Highest</a>
                         </div>
-                        <input type="text" class="form-control" aria-label="Text input with dropdown button" id="orderby_input"/>
-
                     </div>
-                </form>
-            </div>
+                    <input type="text" class=" form-control mr-sm-2" aria-label="Text input with dropdown button" id="orderby_input"/>
+                </div>
+            </form>
         </div>
-
     </nav>
 
     <div class="row" id="main_content" data-bind="foreach:Products">
@@ -76,13 +65,13 @@
 
     <div class="col-sm-3">
         <div class="product">
-        <div class="discount"><p>-20%</p></div>
-    <img src="https://thumblr.uniid.it/product/162990/3f3332361a9e.jpg" alt="product image">
+            <div class="discount"><p>-20%</p></div>
+            <img src="https://thumblr.uniid.it/product/162990/3f3332361a9e.jpg" alt="product image">
         </div>
         <p class="product_name">Sevilla Udebanetrøje 2017/18</p>
-    <P class="product_price">599,00 <sup>DKK</sup></P>
-    <p class="product_oldprice">1000,00 <span>DKK</span></p>
-    <p class="product_delivery">delivery</p>
+        <P class="product_price">599,00 <sup>DKK</sup></P>
+        <p class="product_oldprice">1000,00 <span>DKK</span></p>
+        <p class="product_delivery">delivery</p>
         <p class="product_size">SIZE:<span>X-Small, Small, Medium, Large, X-Large, XX-Large, XXX-Large</span></p>
     </div>
 </script>
@@ -92,9 +81,8 @@
 
 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" ></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js'></script>
 <script src="script.js"></script>
 <!-- Bootstrap CSS -->

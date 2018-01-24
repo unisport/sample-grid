@@ -7,7 +7,7 @@ a img :hover {
     display: block;
 }
 .logo-btn  {
-    padding: 0px 15px;
+    padding: 0px 0px;
     height: 48px;
     border: 0;
     float: left;
@@ -16,7 +16,7 @@ a img :hover {
     font-family: 'Anton', sans-serif;
     font-size: 25px;
     color: black;
-    padding: 2px 7px;
+    padding: 0px 0px;
 
 }
 .navbar{
@@ -24,10 +24,7 @@ a img :hover {
     border-radius: 0px 0px 5px 5px;
     padding:5px;
 }
-.navbar-toggle {
-    padding: 10px;
-    margin: 25px 15px 25px 0;
-}
+
 #orderby_form .input-group-btn{
     background-color: #fff;
 }
@@ -38,12 +35,13 @@ a img :hover {
     outline: none;
 }
 #orderby_form .form-control{
-    border:none;
+    border:1px;
     border-radius:0;
 }
 #orderby_form {
     outline: none;
     padding: 2px 7px;
+    border-color: black;
 }
 .product{
     text-align: center;
