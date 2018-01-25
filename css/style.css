@@ -1,11 +1,4 @@
-a:hover {
-    background-color: #39ac39;
-    color: azure;
-}
-a img :hover {
-    border: none!important;
-    display: block;
-}
+
 .logo-btn  {
     padding: 0px 0px;
     height: 48px;
@@ -17,7 +10,6 @@ a img :hover {
     font-size: 25px;
     color: black;
     padding: 0px 0px;
-
 }
 .navbar{
     background-color: #e6e6e6;
@@ -165,8 +157,4 @@ a img :hover {
     line-height: 1em;
     margin: 0;
     padding: 0;
-}
-.test{
-    visibility: hidden;
-
 }
