@@ -7,7 +7,7 @@
 
 </head>
 <body >
-<main class="container">
+<div class="container">
     <nav class="navbar  navbar-light bg-faded navbar-toggleable-md sticky-top ">
         <a class="navbar-brand" href="#"><img src="img/logo.png" class="logo-btn" alt="Logo"/>UniSport  <small>Assignment</small></a>
         <div id="navbar_items">
@@ -28,7 +28,7 @@
         </div>
     </nav>
 
-    <div class="row" id="main_content" data-bind="foreach:Products">
+    <main class="row" id="main_content" data-bind="foreach:Products">
         <div class="col-sm-4">
             <div class="product">
                 <div class="discount" data-bind="style:{visibility:AppVM.Visible(price,price_old),
@@ -54,8 +54,8 @@
             </div>
         </div>
 
-    </div>
-</main>
+    </main>
+</div>
 
 <!-- jQuery first, then Tether, then Bootstrap JS. -->
 
