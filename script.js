@@ -63,7 +63,7 @@ var AppVM = AppVM || function(){
 }();
 ko.applyBindings(AppVM);
 $(document).ready(function(){
-    $.getJSON("/../Unisport/data/product.json",function(data){
+    $.getJSON("data/product.json",function(data){
         AppVM.LoadJson(data);
     })
     $("#orderby_input").val("");
