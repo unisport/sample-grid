@@ -28,7 +28,7 @@
         </div>
     </nav>
 
-    <main class="row" id="main_content" data-bind="foreach:Products">
+    <main class="row" data-bind="foreach:Products">
         <div class="col-sm-4">
             <div class="product">
                 <div class="discount" data-bind="style:{visibility:AppVM.Visible(price,price_old),
