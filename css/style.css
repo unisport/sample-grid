@@ -25,23 +25,33 @@ a img :hover {
     padding:5px;
 }
 
-#orderby_form .input-group-btn{
+#orderby_form div{
     background-color: #fff;
 }
-#orderby_form .btn-secondary{
+#orderby_form button{
+    padding: 6px 12px;
+    background-color: #fff;
     color: black;
-    background-color: #fff;
     border:none;
-    outline: none;
 }
-#orderby_form .form-control{
-    border:1px;
+#orderby_form button:focus,button:active{
+   outline: 0;
+}
+#orderby_form.button:active{
+    outline: 0;
+}
+
+
+#orderby_form input{
+    border:0;
     border-radius:0;
+    outline:  none;
 }
 #orderby_form {
-    outline: none;
     padding: 2px 7px;
-    border-color: black;
+    border:black solid 1px;
+    background-color: #fff;
+    margin: 8px 8px;
 }
 .product{
     text-align: center;

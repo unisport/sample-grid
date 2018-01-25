@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
@@ -15,7 +14,7 @@
             <form class="form-inline my-2 my-lg-0" id="orderby_form">
                 <div class="input-group">
                     <div class="input-group-btn">
-                        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Order By
                         </button>
                         <div class="dropdown-menu">
@@ -23,7 +22,7 @@
                             <a class="dropdown-item" href="#" data-bind="click:AppVM.Sort_priceHigest()">Price Highest</a>
                         </div>
                     </div>
-                    <input type="text" class=" form-control mr-sm-2" aria-label="Text input with dropdown button" id="orderby_input"/>
+                    <input type="text" class="mr-sm-2" aria-label="Text input with dropdown button" id="orderby_input" readonly="readonly"/>
                 </div>
             </form>
         </div>
@@ -56,9 +55,6 @@
         </div>
 
     </div>
-
-
-
 </main>
 
 <!-- jQuery first, then Tether, then Bootstrap JS. -->
