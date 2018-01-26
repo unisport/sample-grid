@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Teko" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>UNISPORT Grid Sample</title>
+</head>
+
+<body>
+    <main>
+        <h1 id="header-title">UNISPORT Grid Sample</h1>
+        <div class="main-container">
+            <div class="filter-by-container">
+                <p class="sort-by-p">Sort by: </p>
+                <select onChange="changeFilter()" class="filter-by">
+                    <option selected="selected" disabled>Relevance</option>
+                    <option value="1">Price Low to High</option>
+                    <option value="2">Price High to Low</option>
+                </select>
+            </div>
+            <hr>
+            <div id="product-container">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2018 Unisport. All rights reserved</p>
+    </footer>
+</body>
+
+</html>
+<script src="script.js"></script>
+<script>
+</script>
