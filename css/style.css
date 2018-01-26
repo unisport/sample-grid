@@ -1,0 +1,149 @@
+
+.logo-btn  {
+    padding: 0;
+    height: 48px;
+    border: 0;
+}
+.navbar-brand {
+    font-family: 'Anton', sans-serif;
+    font-size: 25px;
+    color: black;
+    padding: 0 ;
+}
+.navbar{
+    background-color: #e6e6e6;
+    border-radius: 0 0 5px 5px;
+    padding:5px;
+}
+#orderby_form {
+    padding: 2px 7px;
+    border:black solid 1px;
+    background-color: #fff;
+    margin: 8px 8px;
+    float: right;
+}
+#orderby_form button{
+    padding: 6px 12px;
+    background-color: #fff;
+    color: black;
+    border:none;
+}
+#orderby_form button:focus{
+   outline: 0;
+}
+
+#orderby_form input{
+    display: none;
+    width: 6em;
+}
+.product{
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+}
+.discount{
+    width: 50px;
+    height: 50px;
+    float:right;
+    text-align: center;
+    line-height: 50px;
+    border: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+}
+.product img{
+    width: 100%;
+    position: relative;
+    top: -25px;
+    z-index: -1;
+}
+.product_name{
+    font-family: 'Anton', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.1em;
+}
+.product_oldprice p{
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    margin:0;
+    padding: 0;
+}
+.product_oldprice_number{
+    font-size: 12px;
+    font-weight: 200;
+    color: #787878;
+    text-decoration: line-through;
+    line-height: 1.1em;
+    display: inline;
+}
+.product_oldprice_currency{
+    font-size: 12px;
+    font-weight: 200;
+    color: #787878;
+    text-decoration: line-through;
+    line-height: 1.1em;
+    display: inline;
+}
+.product_price{
+    text-align: center;
+}
+.product_price_number{
+    color: #0abf5a;
+    font-weight: 200;
+    font-size: 1.6em;
+    display: inline;
+    line-height: 1.2em;
+}
+.product_price_currency{
+    color: black;
+    font-weight: 100;
+    font-size: 1em;
+    vertical-align: top;
+    display: inline;
+}
+.product_delivery p{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    margin: 0;
+}
+.product_delivery_detail{
+    font-size: 12px;
+    font-weight: 200;
+    color: #787878;
+    text-align: center;
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+}
+.product_size{
+    font-size: 13px;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    line-height: 1.1em;
+    margin: 0;
+    padding: 0;
+}
+.product_size span{
+    font-size: 12px;
+    font-weight: 400;
+    color: #787878;
+    text-align: center;
+    line-height: 1em;
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (min-width: 768px) {
+    #orderby_form input{
+        border:0;
+        border-radius:0;
+        outline:  none;
+        display: inline;
+    }
+}
