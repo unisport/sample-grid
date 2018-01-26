@@ -20,6 +20,7 @@
     border:black solid 1px;
     background-color: #fff;
     margin: 8px 8px;
+    float: right;
 }
 #orderby_form button{
     padding: 6px 12px;
@@ -30,10 +31,10 @@
 #orderby_form button:focus{
    outline: 0;
 }
+
 #orderby_form input{
-    border:0;
-    border-radius:0;
-    outline:  none;
+    display: none;
+    width: 6em;
 }
 .product{
     text-align: center;
@@ -137,4 +138,12 @@
     line-height: 1em;
     margin: 0;
     padding: 0;
+}
+@media only screen and (min-width: 768px) {
+    #orderby_form input{
+        border:0;
+        border-radius:0;
+        outline:  none;
+        display: inline;
+    }
 }
