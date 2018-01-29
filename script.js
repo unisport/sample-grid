@@ -5,7 +5,7 @@ var filterValue = 0; // Depending on the filter value, the products will be sort
 // if value = 1 : sort ascending ; if value = 2 : sort descending
 
 // get json Data, assign it to data and run function
-$.getJSON(proxy + 'https://cors-anywhere.herokuapp.com/https://www.unisport.dk/api/sample/', function (jsonData) {
+$.getJSON(proxy + 'https://www.unisport.dk/api/sample/', function (jsonData) {
     data = jsonData;
     displayProducts();
 });
