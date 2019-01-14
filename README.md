@@ -1,11 +1,7 @@
 Fork this project and send back a pull request.
 
-1. Display these products http://www.unisport.dk/api/sample/ in a responsive grid, it has to look nice on mobile and desktop
-2. Difference between price_old and price should be shown as a discount, how is up to you
-
-### Extras
-
-Add a function that sorts the list of products based on lowest price first.
+1. Display these products https://www.unisport.dk/api/products/batch/?list=179249,179838,174351,180011,180020,178429 in a responsive grid, it has to fit on to mobile and desktop. How much information you show pr product is up to you
+2. Sort the products based on discount, lowest discount at the top
 
 ### What we look for?
 
