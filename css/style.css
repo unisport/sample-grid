@@ -1,0 +1,26 @@
+body {
+	background-color: whitesmoke;
+}
+.card-title {
+	font-size: 18px;
+	font-family: helvetica neue;
+}
+.card-text {
+	font-weight: bold;
+	text-align: right;
+	font-family: helvetica neue;
+}
+.btn {
+	font-family: helvetica neue;
+}
+.dropdown-item {
+	font-family: helvetica neue;
+	font-size: 13px;
+}
+.delivery {
+	text-align: left;
+}
+.vertical-center {
+	display: flex;
+	text-align: center;
+}
