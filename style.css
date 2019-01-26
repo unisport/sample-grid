@@ -4,12 +4,50 @@
 
     --font-main: 'Montserrat';
 }
+/*** GENERAL ***/
 body {
+    margin: 0;
     font-family: var(--font-main), sans-serif;
 }
 p {
     font-size: 12px;
 }
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*** DUMMY NAVIGATION ***/
+nav {
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid var(--color-grey);
+}
+nav img {
+    height: 50px;
+}
+nav a {
+    margin-right: 10px;
+    color: grey;
+    font-size: 14px;
+}
+.nav__icons--accent-color {
+    color: var(--color-accent);
+}
+input {
+    width: 150px;
+    padding: 8px 15px;
+    border: 1px solid var(--color-grey);
+    border-radius: 2px;
+}
+input::placeholder {
+    color: var(--color-accent);
+    font-size: 12px;
+
+}
+
 
 /*** CARD STYLE ***/
 #product__card {
