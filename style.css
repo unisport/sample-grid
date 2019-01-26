@@ -151,6 +151,7 @@ input::placeholder {
 /*** GRID ***/
 main {
     width: 100vw;
+    margin-top: 20px;
     display: grid;
     grid-template-areas:
             "section__filter"
@@ -178,6 +179,12 @@ main {
     align-items: flex-start;
     flex-wrap: wrap;
 }
+.dummy-placeholder {
+    height: 0;
+    width: 220px;
+    padding: 15px 10px;
+    margin: 4px;
+}
 
 /*** MEDIA QUERIES ***/
 @media only screen and (max-width: 360px) {
@@ -191,5 +198,28 @@ main {
 @media only screen and (max-width: 740px) {
     #menu--mobile{display: initial;}
     .nav__links{display: none;}
+}
+@media only screen and (min-width: 1000px) {
+    main {
+        margin-top: 70px;
+        grid-template-areas:
+                "section__filter section__products-list";
+    }
+    section h3 {
+        text-orientation: sideways;
+    }
+    #section__products-list {
 
+    }
+    #section__filter {
+        height: 80vh;
+        width: 20vw;
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        color: var(--color-accent);
+        border: 1px solid var(--color-grey);
+    }
 }

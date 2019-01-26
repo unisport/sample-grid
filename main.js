@@ -35,14 +35,13 @@ fetch("https://www.unisport.dk/api/products/batch/?list=179249,179838,174351,180
         productCardClone.querySelector(".product__icons").style.justifyContent = "flex-end";
       }
 
-      sectionProductsList.appendChild(productCardClone);
+      sectionProductsList.prepend(productCardClone);
     })
   });
 
 function sortByDiscount(a, b) {
   let discountA = parseInt(a.discount_percentage) || 0;
   let discountB = parseInt(b.discount_percentage) || 0;
-
   if (discountA < discountB) {
     return -1;
   }
