@@ -178,3 +178,18 @@ main {
     align-items: flex-start;
     flex-wrap: wrap;
 }
+
+/*** MEDIA QUERIES ***/
+@media only screen and (max-width: 360px) {
+    input{
+        width: 0;
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+}
+@media only screen and (max-width: 740px) {
+    #menu--mobile{display: initial;}
+    .nav__links{display: none;}
+
+}
