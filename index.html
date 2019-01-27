@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Job Assignment - Simple Grid</title>
+</head>
+<body>
+<!-- DUMMY NAVIGATION -->
+    <nav>
+        <i id="menu--mobile" class="fas fa-bars"></i>
+        <img src="unisport-logo.png" alt="Unisport logo">
+        <div class="nav__links">
+            <a href="">Football Boots <span class="nav__icons--accent-color"><i class="fas fa-angle-down"></i></span></a>
+            <a href="">Football Shirts <span class="nav__icons--accent-color"><i class="fas fa-angle-down"></i></span></a>
+            <a href="">Equipment <span class="nav__icons--accent-color"><i class="fas fa-angle-down"></i></span></a>
+            <a href="">Sale <span class="nav__icons--accent-color"><i class="fas fa-angle-down"></i></span></a>
+        </div>
+        <input name="search" type="text" class="fas" placeholder="&#xf002;">
+        <a href=""><i class="fas fa-shopping-cart"></i></a>
+    </nav>
+<!-- MAIN SECTION (filtering + products) -->
+    <main>
+        <!-- filtering section -->
+        <section id="section__filter">
+            <h3>Filtering could be placed here...</h3>
+        </section>
+        <!-- products wrapper -->
+        <section id="section__products-list">
+            <div class="dummy-placeholder"></div>
+            <div class="dummy-placeholder"></div>
+            <div class="dummy-placeholder"></div>
+            <div class="dummy-placeholder"></div>
+            <div class="dummy-placeholder"></div>
+        </section>
+    </main>
+    <template id="template__product">
+        <div id="product__card">
+            <svg id="product__discount--svg" xmlns="http://www.w3.org/2000/svg"
+                 width="64.69"
+                 height="49.76"
+                 viewBox="0 0 582.22 447.85">
+                <path class="a" d="M284.47,447.8a6.64,6.64,0,0,1-7.41-5.76c-1.78-15.14,3.53-51.17-.22-54-4.49-3.37-177.25,17.69-223.3-41.84s-88.73-235.85-9-295.37S438.76-30,526.37,65.45s77.49,257.19-68.51,321.21C343.41,436.84,298.53,446.13,284.47,447.8Z"/>
+                <text class="b" transform="translate(58.1 263.41)">
+                    -<tspan id="product__discount--amount">20</tspan>%
+                </text>
+            </svg>
+            <img class="product__image" src="https://thumblr.uniid.it/product/179249/b5bb8cf25dca.jpg" alt="Product image">
+            <div class="product__icons">
+                <h1 class="product__custom"><i class="fas fa-paint-brush"></i> <span>CUSTOMIZE</span> </h1>
+                <h1 class="product__like"><i class="fas fa-heart"></i></h1>
+            </div>
+            <div class="product__details-wrapper">
+                <h1 class="product__name"> The name of the product goes here</h1>
+                <div class="product__prices">
+                    <p class="product__price--old">OLD PRICE</p>
+                    <p class="product__price--new">NEW PRICE</p>
+                </div>
+            </div>
+        </div>
+    </template>
+    <script src="main.js"></script>
+</body>
+</html>
