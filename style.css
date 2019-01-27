@@ -1,9 +1,9 @@
 :root {
     --color-accent: #0BBF5A;
     --color-grey: #CBCCCD;
-
     --font-main: 'Montserrat';
 }
+
 /*** GENERAL ***/
 body {
     margin: 0;
@@ -205,12 +205,7 @@ main {
         grid-template-areas:
                 "section__filter section__products-list";
     }
-    section h3 {
-        text-orientation: sideways;
-    }
-    #section__products-list {
-
-    }
+    section h3 {text-orientation: sideways;}
     #section__filter {
         height: 80vh;
         width: 20vw;
