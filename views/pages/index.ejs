@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<% include ../includes/head.ejs %>
+
+    <body>
+
+      <% data.products.sort(function(a,b) { return a.discount_percentage > b.discount_percentage? -1:1  }) %>
+      <% data.products.forEach(function (product){ %>
+                    <div class="row">
+                        <div class="col-md-7"><h3><%= product.name %></h3>
+                          <p>Product ID: <%= product.id %><br>Price: <%= product.price.slice(0, 2) + "." + product.price.slice(3) %> DKK</p>
+                          <% if (product.discount_percentage !== '0'){ %>
+                            <div class="discount">
+                            <p>Old price: <%= product.price_old %></p>
+                            <p>Discount: <%= product.discount_percentage %> %</p>
+                          </div>
+                            <% } %>
+                          <p>Sizes:  
+                          <select name="" id="">
+                            <% var size = product.sizes.split(',') %>
+                              <% for (var i = 0; i < size.length; i++ ){ %>
+                                <option value=""><%= size[i] %></option>
+                             <% } %>
+                            </select>
+                          </p>
+                          </div>
+                            <div class="col-md-5"><img src="<%= product.image %>" alt="<%= product.id %> image" class="image"></div>
+                          </div>
+                          <hr>
+                          <br>
+                                              <% }) %>
+
+    </body>
+    
+
+</html>
