@@ -1,8 +1,8 @@
 ## Jonas' notes
 
 To run this project:
-1. Run a "npm install" and let it run
-2. Write "npm start" and open webbrowser and go to http://localhost:3000 and you're good to go
+1. Write "npm install" in the terminal and let it run
+2. Write "npm start" in the terminal and open webbrowser and go to http://localhost:3000 and you're good to go
 
 
 Fork this project and send back a pull request.
