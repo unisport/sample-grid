@@ -1,0 +1,7 @@
+{
+    "restartable": "rs",
+    "events": {
+        "start": "node -e require('./console.js').start()",
+        "restart": "node -e require('./console.js').restart()"
+    }
+}

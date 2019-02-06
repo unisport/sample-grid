@@ -1,0 +1,21 @@
+html{
+    background-color: #F0F0F0 ;
+}
+body{
+    width: 1170px;
+    margin:0 auto;
+    padding: 15px;
+
+}
+h1,h2{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    font-family: 'Karla', sans-serif;
+}
+hr{
+    border-top: 10px solid #ccc;
+}
+.discount{
+    color: #F00
+}
