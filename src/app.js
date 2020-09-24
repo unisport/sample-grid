@@ -4,7 +4,7 @@
 import React, {Suspense, lazy, useState, useEffect} from "react";
 
 // Dynamic loading
-const Hello = lazy(() => import("./lib/Hello"));
+const ProductList = lazy(() => import("./lib/ProductList"));
 
 // Load data
 // TODO: Move to separate file
@@ -30,9 +30,10 @@ const App = () => {
         // No products have been loaded
         return <div>Loading... slow internet is a bitch!</div>;
     } else {
+        let products = data.products || [];
         // Products have been loaded
         return <Suspense fallback={<div>Loading...</div>}>
-                <Hello />
+                <ProductList products={products} />
             </Suspense>
     }
 }

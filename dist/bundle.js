@@ -29694,8 +29694,8 @@ __webpack_require__.r(__webpack_exports__);
  */
  // Dynamic loading
 
-var Hello = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_3__["lazy"])(function () {
-  return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./lib/Hello */ "./src/lib/Hello.js"));
+var ProductList = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_3__["lazy"])(function () {
+  return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ./lib/ProductList */ "./src/lib/ProductList.js"));
 }); // Load data
 // TODO: Move to separate file
 
@@ -29752,10 +29752,13 @@ var App = function App() {
     // No products have been loaded
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, "Loading... slow internet is a bitch!");
   } else {
-    // Products have been loaded
+    var products = data.products || []; // Products have been loaded
+
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_3__["Suspense"], {
       fallback: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, "Loading...")
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(Hello, null));
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(ProductList, {
+      products: products
+    }));
   }
 };
 
