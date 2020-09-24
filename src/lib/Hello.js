@@ -1,10 +1,11 @@
-import React, {useContext} from 'react'
+import React, { useContext } from "react";
+import UserContext from "../context/User";
 
 const Hello = () => {
-  let context = useContext("LocaleContext");
+  let context = useContext(UserContext);
   console.log(context);
 
-  return (<div>Hello</div>);
+  return <div>Hello</div>;
 };
 
 export default Hello;

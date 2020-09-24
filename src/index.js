@@ -1,27 +1,22 @@
-import React, {useState, createContext, useContext, Suspense, lazy} from "react";
+import React from "react";
 import {render} from "react-dom";
-const Hello = lazy(() => import("./lib/Hello"));
-// Create locale as context
-const LocaleContext = createContext('locale');
 
-function Example() {
-  let context = useContext(LocaleContext);
-  const [count, setCount] = useState(0);
+import App from "./app";
+import UserContext from "./context/User";
 
-  return (
-    <div>Hello Pussy</div>
-  );
+// Mount element
+const rootElm = document.getElementById("root-element");
+
+// Create a user object
+const User = {
+    locale: navigator.language || "en-GB",
 }
 
-const rootElm = document.getElementById("root-element");
-let locale = navigator.language || "en-GB";
-
+// Render the app
 render(
-  <LocaleContext.Provider value={{locale}}>
-    <Suspense fallback={<div>Loading...</div>}>
-      <Hello />
-    </Suspense>
-  </LocaleContext.Provider>
+    <UserContext.Provider value={User}>
+        <App />
+    </UserContext.Provider>
   ,
   rootElm
 );
