@@ -1,0 +1,12 @@
+.product_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-content: space-evenly;
+    align-content: space-around;
+}
+.product_list__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
