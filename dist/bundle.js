@@ -29695,7 +29695,7 @@ __webpack_require__.r(__webpack_exports__);
  // Dynamic loading
 
 var ProductList = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_3__["lazy"])(function () {
-  return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ./lib/ProductList */ "./src/lib/ProductList.js"));
+  return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./lib/ProductList */ "./src/lib/ProductList.js"));
 }); // Load data
 // TODO: Move to separate file
 

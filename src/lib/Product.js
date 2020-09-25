@@ -24,9 +24,9 @@ const priceFormat = (number, currency, locale) => {
 const Product = (props) => {
     let context = useContext(UserContext);
     return <div className="product_list__item">
-            <div>{props.name}</div>
-            <div><img src={props.image} /></div>
-            <div>{priceFormat((props.price/100), props.currency, context.locale)}</div>
+            <div className="product_list__item_title">{props.name}</div>
+            <div className="product_list__item_image"><img src={props.image} /></div>
+            <div className="product_list__item_price">{priceFormat((props.price/100), props.currency, context.locale)}</div>
         </div>
 }
 
