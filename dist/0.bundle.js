@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[0],{
 
-/***/ "./src/lib/Product.js":
-/*!****************************!*\
-  !*** ./src/lib/Product.js ***!
-  \****************************/
+/***/ "./src/lib/Product/Product.js":
+/*!************************************!*\
+  !*** ./src/lib/Product/Product.js ***!
+  \************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -11,7 +11,7 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _context_User__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../context/User */ "./src/context/User.js");
+/* harmony import */ var _context_User__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../context/User */ "./src/context/User.js");
 /**
  * Product
  *
@@ -54,10 +54,10 @@ var Product = function Product(props) {
 
 /***/ }),
 
-/***/ "./src/lib/ProductList.js":
-/*!********************************!*\
-  !*** ./src/lib/ProductList.js ***!
-  \********************************/
+/***/ "./src/lib/Product/ProductList.js":
+/*!****************************************!*\
+  !*** ./src/lib/Product/ProductList.js ***!
+  \****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -65,19 +65,16 @@ var Product = function Product(props) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Product__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Product */ "./src/lib/Product.js");
-/* harmony import */ var _context_User__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../context/User */ "./src/context/User.js");
+/* harmony import */ var _Product__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Product */ "./src/lib/Product/Product.js");
 /**
  * ProductList
  *
  * @param props object
  */
 
-
  // ProductList Component
 
 var ProductList = function ProductList(props) {
-  var context = Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(_context_User__WEBPACK_IMPORTED_MODULE_2__["default"]);
   var products = props.products;
   var productGrid = products.map(function (product, indx) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Product__WEBPACK_IMPORTED_MODULE_1__["default"], {

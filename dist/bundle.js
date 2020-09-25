@@ -29685,6 +29685,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_slicedToArray__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _lib_UI_Header__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./lib/UI/Header */ "./src/lib/UI/Header.js");
 
 
 
@@ -29692,10 +29693,12 @@ __webpack_require__.r(__webpack_exports__);
 /**
  *
  */
+ // UI components
+
  // Dynamic loading
 
 var ProductList = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_3__["lazy"])(function () {
-  return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./lib/ProductList */ "./src/lib/ProductList.js"));
+  return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./lib/Product/ProductList */ "./src/lib/Product/ProductList.js"));
 }); // Load data
 // TODO: Move to separate file
 
@@ -29806,7 +29809,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
- // Mount element
+ // Mount elements
 
 var rootElm = document.getElementById("root-element"); // Create a user object
 
@@ -29817,6 +29820,32 @@ var User = {
 Object(react_dom__WEBPACK_IMPORTED_MODULE_1__["render"])( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context_User__WEBPACK_IMPORTED_MODULE_3__["default"].Provider, {
   value: User
 }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_app__WEBPACK_IMPORTED_MODULE_2__["default"], null)), rootElm);
+
+/***/ }),
+
+/***/ "./src/lib/UI/Header.js":
+/*!******************************!*\
+  !*** ./src/lib/UI/Header.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/**
+ */
+
+
+
+var Header = function Header(props) {
+  return /*#__PURE__*/Object(react_dom__WEBPACK_IMPORTED_MODULE_1__["createPortal"])(props.children, document.createElement("div"));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Header);
 
 /***/ })
 

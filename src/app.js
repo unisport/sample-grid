@@ -1,41 +1,46 @@
 /**
  *
  */
-import React, {Suspense, lazy, useState, useEffect} from "react";
-
+import React, { Suspense, lazy, useState, useEffect } from "react";
+// UI components
+import Header from "./lib/UI/Header";
 // Dynamic loading
-const ProductList = lazy(() => import("./lib/ProductList"));
+const ProductList = lazy(() => import("./lib/Product/ProductList"));
 
 // Load data
 // TODO: Move to separate file
-const useFetch = url => {
-    const [data, setData] = useState(null);
+const useFetch = (url) => {
+  const [data, setData] = useState(null);
 
-    async function fetchData() {
-        const response = await fetch(url);
-        const json = await response.json();
-        setData(json);
-    }
+  async function fetchData() {
+    const response = await fetch(url);
+    const json = await response.json();
+    setData(json);
+  }
 
-    useEffect(() => {fetchData()}, [url]);
+  useEffect(() => {
+    fetchData();
+  }, [url]);
 
-    return data;
-}
+  return data;
+};
 
 // Main app
 const App = () => {
-    const data = useFetch("/data.json");
+  const data = useFetch("/data.json");
 
-    if (data === null) {
-        // No products have been loaded
-        return <div>Loading... slow internet is a bitch!</div>;
-    } else {
-        let products = data.products || [];
-        // Products have been loaded
-        return <Suspense fallback={<div>Loading...</div>}>
-                <ProductList products={products} />
-            </Suspense>
-    }
-}
+  if (data === null) {
+    // No products have been loaded
+    return <div>Loading... slow internet is a bitch!</div>;
+  } else {
+    let products = data.products || [];
+    // Products have been loaded
+    return (
+      <Suspense fallback={<div>Loading...</div>}>
+        <ProductList products={products} />
+      </Suspense>
+    );
+  }
+};
 
 export default App;
