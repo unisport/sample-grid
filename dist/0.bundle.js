@@ -30,7 +30,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var priceFormat = function priceFormat(number, currency, locale) {
   return number.toLocaleString(locale, {
-    style: 'currency',
+    style: "currency",
     currency: currency
   });
 };
@@ -75,7 +75,9 @@ __webpack_require__.r(__webpack_exports__);
  // ProductList Component
 
 var ProductList = function ProductList(props) {
-  var products = props.products;
+  var products = props.products.sort(function (a, b) {
+    return a.price - b.price;
+  });
   var productGrid = products.map(function (product, indx) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Product__WEBPACK_IMPORTED_MODULE_1__["default"], {
       key: indx,

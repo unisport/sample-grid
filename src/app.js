@@ -2,8 +2,6 @@
  *
  */
 import React, { Suspense, lazy, useState, useEffect } from "react";
-// UI components
-import Header from "./lib/UI/Header";
 // Dynamic loading
 const ProductList = lazy(() => import("./lib/Product/ProductList"));
 

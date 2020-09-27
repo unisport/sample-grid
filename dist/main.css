@@ -1,0 +1,21 @@
+body {
+    font-size: 18px;
+    line-height: 1.6;
+}
+#root-element {
+    width: 90vw;
+    margin: 0 auto;
+}
+.product_list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.product_list__item {
+    width: 300px;
+}
+.product_list__item_image {
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+}

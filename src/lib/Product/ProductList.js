@@ -8,7 +8,7 @@ import Product from "./Product";
 
 // ProductList Component
 const ProductList = (props) => {
-  let products = props.products;
+  let products = props.products.sort((a, b) => a.price - b.price);
 
   let productGrid = products.map((product, indx) => (
     <Product
