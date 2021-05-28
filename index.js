@@ -7,10 +7,10 @@ async function init() {
   const respons = await fetch(link);
   const data = await respons.json();
 
-  // sort by discount (most discounted product first)
+  // sort by discount (least discounted product first)
   const products = data.products;
   products.sort((a, b) => {
-    return b.prices.discount_percentage - a.prices.discount_percentage;
+    return a.prices.discount_percentage - b.prices.discount_percentage;
   });
 
   // set up product grid
@@ -20,9 +20,8 @@ async function init() {
 function addProductsToGrid(products) {
   //template for each product
   const template = document.querySelector("template");
-  //container of products
+  //container of products + make sure it's empty
   const container = document.querySelector("#product-grid");
-  //make sure container is empty
   container.innerHTML = "";
 
   //add each product via template and appendChild
@@ -30,8 +29,7 @@ function addProductsToGrid(products) {
     const clone = template.cloneNode(true).content;
 
     // Add read more link
-    clone.querySelector("a").href =
-      "https://www.unisport.dk" + product.relative_url;
+    clone.querySelector("a").href = product.url;
 
     // Add name
     clone.querySelector("h2").textContent = product.name;

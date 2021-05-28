@@ -36,7 +36,7 @@ h1 {
 /* Product item */
 #product-grid article {
   background-color: rgb(255, 255, 255);
-  box-shadow: 0px 2px 4px gray;
+  box-shadow: 0px 2px 4px rgba(128, 128, 128, 0.486);
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -55,6 +55,10 @@ img {
   width: 100%;
 }
 
+/* Product name */
+h2 {
+  font-size: 1.2rem;
+}
 /* Price */
 p {
   margin: 10px 0;
