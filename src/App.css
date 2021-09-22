@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+.App-link {
+  color: #61dafb;
+}
+.image-grid {
+  padding: 0px;
+}
+
+.title-div {
+  text-align: center;
+  display: inline-block;
+}
+
+.price-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0cd428;
+}
+
+.product-square {
+  /*border-style: solid;
+  border-color: rgb(238, 238, 238);*/
+  margin-bottom: 100px;
+}
+
+.desc {
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  min-height: 63px;
+  max-width: 225px;
+}
+.desc:hover {
+  color: #0cd428;
+}
+.img-fluid {
+  text-align: center;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.rrp-text {
+  color: grey;
+  font-size: 16px;
+  text-decoration: line-through;
+}
+
+.size-list {
+  min-width: 94px;
+  height: 20px;
+  font-family: "Montserrat", sans-serif;
+  border-top: white;
+  border-left: white;
+  border-right: white;
+  border-color: #0cd428;
+}
+.percent {
+  padding: 2px;
+  position: relative;
+  color: white;
+  font-weight: bold;
+  width: 50px;
+  margin-left: 75px;
+  margin-top: 25px;
+  z-index: 100;
+  background-color: #0cd428;
+}
+.option {
+  display: block;
+  white-space: nowrap;
+  min-height: 1.7em;
+  margin: 10px;
+}
