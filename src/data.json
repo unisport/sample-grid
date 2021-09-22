@@ -1,0 +1,4963 @@
+{
+  "products": [
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldtroejer/danmark-hjemmebanetrje-euro-2020-forudbestilling-august/200776/",
+      "price": "49900",
+      "product_main_image": "https://thumblr.uniid.it/product/200776/fd27fd9338bd.jpg",
+      "delivery": "Preorder",
+      "discount_type": null,
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 499,
+        "max_price": 499,
+        "recommended_retail_price": 499,
+        "discount_percentage": 0
+      },
+      "id": "200776",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "EURO",
+        "quarter": "Carry Over",
+        "club_national": "National",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Red"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "nationality": "Denmark",
+        "team": "N/A",
+        "pricepoint": "Fan shirts",
+        "print_type": "N/A",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Hummel",
+        "print_color": "N/A"
+      },
+      "name": "Danmark Hjemmebanetr\u00f8je EURO 2020 FORUDBESTILLING Oktober",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldtroejer/danmark-hjemmebanetrje-euro-2020-forudbestilling-august/200776/",
+      "product_labels": [],
+      "online": true,
+      "price_old": "49900",
+      "attributes": {
+        "league": "EURO",
+        "quarter": "Carry Over",
+        "club_national": "National",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Red"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "nationality": "Denmark",
+        "team": "N/A",
+        "pricepoint": "Fan shirts",
+        "print_type": "N/A",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Hummel",
+        "print_color": "N/A"
+      },
+      "min_max_prices": {
+        "price_old": 499,
+        "currency": "DKK",
+        "max": 499,
+        "min": 499
+      },
+      "image": "https://thumblr.uniid.it/product/200776/e18bfa90d2a5.jpg",
+      "stock": [
+        {
+          "name_short": "X-Large",
+          "pk": 5,
+          "order_by": 7,
+          "name": "X-Large",
+          "stock_info": ""
+        },
+        {
+          "name_short": "XX-Large",
+          "pk": 6,
+          "order_by": 8,
+          "name": "XX-Large",
+          "stock_info": ""
+        },
+        {
+          "name_short": "XXX-Large",
+          "pk": 36,
+          "order_by": 9,
+          "name": "3XL",
+          "stock_info": ""
+        },
+        {
+          "name_short": "4X-Large",
+          "pk": 37,
+          "order_by": 10,
+          "name": "4XL",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldtroejer/danmark-3-trje-euro-2020-forudbestilling-august/200811/",
+      "price": "49900",
+      "product_main_image": "https://thumblr.uniid.it/product/200811/180847e9810e.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": true,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 499,
+        "max_price": 499,
+        "recommended_retail_price": 499,
+        "discount_percentage": 0
+      },
+      "id": "200811",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "EURO",
+        "quarter": "Carry Over",
+        "club_national": "National",
+        "sleeve": "Short sleeves",
+        "players": ["N/A"],
+        "color": ["Red"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Third Kits",
+        "item_type": "Football shirts",
+        "sorting_shirts": "N/A",
+        "nationality": "Denmark",
+        "team": "N/A",
+        "pricepoint": "Fan shirts",
+        "print_type": "N/A",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Hummel",
+        "print_color": "White"
+      },
+      "name": "Danmark 3. Tr\u00f8je EURO 2020",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldtroejer/danmark-3-trje-euro-2020-forudbestilling-august/200811/",
+      "product_labels": [
+        {
+          "name": "Kun medlemmer",
+          "color": "#ffffff",
+          "priority": 10,
+          "active": true,
+          "background_color": "#000000",
+          "id": 100
+        }
+      ],
+      "online": true,
+      "price_old": "49900",
+      "attributes": {
+        "league": "EURO",
+        "quarter": "Carry Over",
+        "club_national": "National",
+        "sleeve": "Short sleeves",
+        "players": ["N/A"],
+        "color": ["Red"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Third Kits",
+        "item_type": "Football shirts",
+        "sorting_shirts": "N/A",
+        "nationality": "Denmark",
+        "team": "N/A",
+        "pricepoint": "Fan shirts",
+        "print_type": "N/A",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Hummel",
+        "print_color": "White"
+      },
+      "min_max_prices": {
+        "price_old": 499,
+        "currency": "DKK",
+        "max": 499,
+        "min": 499
+      },
+      "image": "https://thumblr.uniid.it/product/200811/23a2929b8185.jpg",
+      "stock": [
+        {
+          "name_short": "X-Small",
+          "pk": 162,
+          "order_by": 3,
+          "name": "X-Small",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldtrjer/manchester-united-hjemmebanetroje-202122-kvinde/222649/",
+      "price": "69900",
+      "product_main_image": "https://thumblr.uniid.it/product/222649/85c9d2e26386.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 699,
+        "max_price": 699,
+        "recommended_retail_price": 699,
+        "discount_percentage": 0
+      },
+      "id": "222649",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "players": ["N/A"],
+        "color": ["Red"],
+        "gender": ["Women"],
+        "teamsport": "N/A",
+        "material": ["Polyester"],
+        "segment": "License",
+        "kit": "Home Kits",
+        "item_type": "Football shirts",
+        "sorting_shirts": "N/A",
+        "team": "Manchester United",
+        "pricepoint": "Fan shirts",
+        "nationality": "England",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "adidas"
+      },
+      "name": "Manchester United Hjemmebanetr\u00f8je 2021/22 Kvinde",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldtrjer/manchester-united-hjemmebanetroje-202122-kvinde/222649/",
+      "product_labels": [
+        {
+          "name": "Kvinde",
+          "color": "#ffffff",
+          "priority": 6,
+          "active": true,
+          "background_color": "#000000",
+          "id": 65
+        }
+      ],
+      "online": true,
+      "price_old": "69900",
+      "attributes": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "players": ["N/A"],
+        "color": ["Red"],
+        "gender": ["Women"],
+        "teamsport": "N/A",
+        "material": ["Polyester"],
+        "segment": "License",
+        "kit": "Home Kits",
+        "item_type": "Football shirts",
+        "sorting_shirts": "N/A",
+        "team": "Manchester United",
+        "pricepoint": "Fan shirts",
+        "nationality": "England",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "adidas"
+      },
+      "min_max_prices": {
+        "price_old": 699,
+        "currency": "DKK",
+        "max": 699,
+        "min": 699
+      },
+      "image": "https://thumblr.uniid.it/product/222649/8a8a6b5c6253.jpg",
+      "stock": [
+        {
+          "name_short": "XX-Small",
+          "pk": 288,
+          "order_by": 2,
+          "name": "XX-Small",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "X-Small",
+          "pk": 162,
+          "order_by": 3,
+          "name": "X-Small",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Small",
+          "pk": 2,
+          "order_by": 4,
+          "name": "Small",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Medium",
+          "pk": 3,
+          "order_by": 5,
+          "name": "Medium",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Large",
+          "pk": 1,
+          "order_by": 6,
+          "name": "Large",
+          "stock_info": "Only one left"
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldstovler/nike-phantom-gt-2-elite-fg-uv-navyhvidlilla/225707/",
+      "price": "199900",
+      "product_main_image": "https://thumblr.uniid.it/product/225707/c2c35a6079a7.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": true,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 1999,
+        "max_price": 1999,
+        "recommended_retail_price": 1999,
+        "discount_percentage": 0
+      },
+      "id": "225707",
+      "currency": "DKK",
+      "attribute_english": {
+        "boot_benefit": "Control",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "White",
+        "players": ["N/A"],
+        "color": ["Purple", "Blue"],
+        "gender": ["Women", "Men's"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-08-01",
+        "item_type": "Football boots",
+        "boot_collection": "Phantom GT",
+        "position": ["Strikers", "Wingers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "N/A",
+        "quarter": "Q3",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "name": "Nike Phantom GT 2 Elite FG UV - Navy/Hvid/Lilla",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldstovler/nike-phantom-gt-2-elite-fg-uv-navyhvidlilla/225707/",
+      "product_labels": [
+        {
+          "name": "Kun medlemmer",
+          "color": "#ffffff",
+          "priority": 10,
+          "active": true,
+          "background_color": "#000000",
+          "id": 100
+        },
+        {
+          "name": "Nyhed",
+          "color": "#ffffff",
+          "priority": 5,
+          "active": true,
+          "background_color": "#000000",
+          "id": 10
+        }
+      ],
+      "online": true,
+      "price_old": "199900",
+      "attributes": {
+        "boot_benefit": "Control",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "White",
+        "players": ["N/A"],
+        "color": ["Purple", "Blue"],
+        "gender": ["Women", "Men's"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-08-01",
+        "item_type": "Football boots",
+        "boot_collection": "Phantom GT",
+        "position": ["Strikers", "Wingers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "N/A",
+        "quarter": "Q3",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "min_max_prices": {
+        "price_old": 1999,
+        "currency": "DKK",
+        "max": 1999,
+        "min": 1999
+      },
+      "image": "https://thumblr.uniid.it/product/225707/a60e530fe68f.jpg",
+      "stock": [
+        {
+          "name_short": "EU 36",
+          "pk": 415,
+          "order_by": 33,
+          "name": "EU 36/US 4Y",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 36\u00bd",
+          "pk": 416,
+          "order_by": 34,
+          "name": "EU 36\u00bd/US 4\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 37\u00bd",
+          "pk": 417,
+          "order_by": 35,
+          "name": "EU 37\u00bd/US 5Y",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 38",
+          "pk": 418,
+          "order_by": 36,
+          "name": "EU 38/US 5\u00bdY",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 38\u00bd",
+          "pk": 419,
+          "order_by": 40,
+          "name": "EU 38\u00bd/US 6",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40",
+          "pk": 421,
+          "order_by": 42,
+          "name": "EU 40/US 7",
+          "stock_info": "Only one left"
+        },
+        {
+          "name_short": "EU 40\u00bd",
+          "pk": 422,
+          "order_by": 43,
+          "name": "EU 40\u00bd/US 7\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 41",
+          "pk": 423,
+          "order_by": 44,
+          "name": "EU 41/US 8",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 42",
+          "pk": 424,
+          "order_by": 45,
+          "name": "EU 42/US 8\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 43",
+          "pk": 426,
+          "order_by": 47,
+          "name": "EU 43/US 9\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 47",
+          "pk": 432,
+          "order_by": 53,
+          "name": "EU 47/US 12\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 47\u00bd",
+          "pk": 433,
+          "order_by": 54,
+          "name": "EU 47\u00bd/US 13",
+          "stock_info": "Low in stock"
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldtroejer/danmark-hjemmebanetrje-euro-2020-brn/200777/",
+      "price": "44900",
+      "product_main_image": "https://thumblr.uniid.it/product/200777/578884aa5e0a.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 449,
+        "max_price": 449,
+        "recommended_retail_price": 449,
+        "discount_percentage": 0
+      },
+      "id": "200777",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "EURO",
+        "quarter": "Carry Over",
+        "club_national": "National",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Red"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "nationality": "Denmark",
+        "team": "N/A",
+        "pricepoint": "Fan shirts",
+        "print_type": "N/A",
+        "age": ["Kids"],
+        "shirt_season": "2021/22",
+        "brand": "Hummel",
+        "print_color": "N/A"
+      },
+      "name": "Danmark Hjemmebanetr\u00f8je EURO 2020 B\u00f8rn",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldtroejer/danmark-hjemmebanetrje-euro-2020-brn/200777/",
+      "product_labels": [
+        {
+          "name": "B\u00f8rn",
+          "color": "#ffffff",
+          "priority": 7,
+          "active": true,
+          "background_color": "#000000",
+          "id": 48
+        }
+      ],
+      "online": true,
+      "price_old": "44900",
+      "attributes": {
+        "league": "EURO",
+        "quarter": "Carry Over",
+        "club_national": "National",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Red"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "nationality": "Denmark",
+        "team": "N/A",
+        "pricepoint": "Fan shirts",
+        "print_type": "N/A",
+        "age": ["Kids"],
+        "shirt_season": "2021/22",
+        "brand": "Hummel",
+        "print_color": "N/A"
+      },
+      "min_max_prices": {
+        "price_old": 449,
+        "currency": "DKK",
+        "max": 449,
+        "min": 449
+      },
+      "image": "https://thumblr.uniid.it/product/200777/05cd00af369b.jpg",
+      "stock": [
+        {
+          "name_short": "8-10 Years",
+          "pk": 296,
+          "order_by": 6,
+          "name": "128 cm",
+          "stock_info": ""
+        },
+        {
+          "name_short": "10-12 Years",
+          "pk": 317,
+          "order_by": 7,
+          "name": "140 cm",
+          "stock_info": ""
+        },
+        {
+          "name_short": "12-14 Years",
+          "pk": 297,
+          "order_by": 8,
+          "name": "152 cm",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldtroejer/paris-saint-germain-hjemmebanetrje-jordan-x-psg-202122-brn/217763/",
+      "price": "54900",
+      "product_main_image": "https://thumblr.uniid.it/product/217763/b9ab5fbaaf20.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": true,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 549,
+        "max_price": 549.95,
+        "recommended_retail_price": 549.95,
+        "discount_percentage": 0
+      },
+      "id": "217763",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "players": ["N/A"],
+        "color": ["Blue"],
+        "gender": ["Women", "Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "item_type": "Football shirts",
+        "sorting_shirts": "N/A",
+        "team": "Paris Saint Germain",
+        "pricepoint": "Fan shirts",
+        "nationality": "France",
+        "age": ["Kids"],
+        "shirt_season": "2021/22",
+        "brand": "Nike"
+      },
+      "name": "Paris Saint-Germain Hjemmebanetr\u00f8je Jordan x PSG 2021/22 B\u00f8rn",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldtroejer/paris-saint-germain-hjemmebanetrje-jordan-x-psg-202122-brn/217763/",
+      "product_labels": [
+        {
+          "name": "Kun medlemmer",
+          "color": "#ffffff",
+          "priority": 10,
+          "active": true,
+          "background_color": "#000000",
+          "id": 100
+        },
+        {
+          "name": "B\u00f8rn",
+          "color": "#ffffff",
+          "priority": 7,
+          "active": true,
+          "background_color": "#000000",
+          "id": 48
+        }
+      ],
+      "online": true,
+      "price_old": "54900",
+      "attributes": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "players": ["N/A"],
+        "color": ["Blue"],
+        "gender": ["Women", "Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "item_type": "Football shirts",
+        "sorting_shirts": "N/A",
+        "team": "Paris Saint Germain",
+        "pricepoint": "Fan shirts",
+        "nationality": "France",
+        "age": ["Kids"],
+        "shirt_season": "2021/22",
+        "brand": "Nike"
+      },
+      "min_max_prices": {
+        "price_old": 549.95,
+        "currency": "DKK",
+        "max": 549.95,
+        "min": 549
+      },
+      "image": "https://thumblr.uniid.it/product/217763/6ffa983874db.jpg",
+      "stock": [
+        {
+          "name_short": "6-8 Years",
+          "pk": 1855,
+          "order_by": 0,
+          "name": "XS: 122-128 cm",
+          "stock_info": ""
+        },
+        {
+          "name_short": "8-10 Years",
+          "pk": 1856,
+          "order_by": 1,
+          "name": "S: 128-137 cm",
+          "stock_info": ""
+        },
+        {
+          "name_short": "10-12 Years",
+          "pk": 1857,
+          "order_by": 2,
+          "name": "M: 137-147 cm",
+          "stock_info": ""
+        },
+        {
+          "name_short": "12-14 Years",
+          "pk": 1858,
+          "order_by": 3,
+          "name": "L: 147-158 cm",
+          "stock_info": ""
+        },
+        {
+          "name_short": "14-16 Years",
+          "pk": 1859,
+          "order_by": 4,
+          "name": "XL: 158-170 cm",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldstoevler/nike-mercurial-vapor-14-elite-fg-impulse-turkisgrn/217769/",
+      "price": "179900",
+      "product_main_image": "https://thumblr.uniid.it/product/217769/d05233480993.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": "weeks_on_hand",
+      "is_exclusive": true,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 1799,
+        "max_price": 1799,
+        "recommended_retail_price": 1999,
+        "discount_percentage": 10
+      },
+      "id": "217769",
+      "currency": "DKK",
+      "attribute_english": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "Black",
+        "item_type": "Football boots",
+        "color": ["Blue", "Turquoise"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-05-01",
+        "players": ["N/A"],
+        "boot_collection": "Mercurial Vapor",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Impulse",
+        "quarter": "Q1",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "name": "Nike Mercurial Vapor 14 Elite FG Impulse - Turkis/Gr\u00f8n",
+      "discount_percentage": 10,
+      "url": "https://www.unisport.dk/fodboldstoevler/nike-mercurial-vapor-14-elite-fg-impulse-turkisgrn/217769/",
+      "product_labels": [
+        {
+          "name": "Kun medlemmer",
+          "color": "#ffffff",
+          "priority": 10,
+          "active": true,
+          "background_color": "#000000",
+          "id": 100
+        }
+      ],
+      "online": true,
+      "price_old": "199900",
+      "attributes": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "Black",
+        "item_type": "Football boots",
+        "color": ["Blue", "Turquoise"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-05-01",
+        "players": ["N/A"],
+        "boot_collection": "Mercurial Vapor",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Impulse",
+        "quarter": "Q1",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "min_max_prices": {
+        "price_old": 1999,
+        "currency": "DKK",
+        "max": 1799,
+        "min": 1799
+      },
+      "image": "https://thumblr.uniid.it/product/217769/a5a64970dc09.jpg",
+      "stock": [
+        {
+          "name_short": "EU 36",
+          "pk": 415,
+          "order_by": 33,
+          "name": "EU 36/US 4Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 36\u00bd",
+          "pk": 416,
+          "order_by": 34,
+          "name": "EU 36\u00bd/US 4\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 37\u00bd",
+          "pk": 417,
+          "order_by": 35,
+          "name": "EU 37\u00bd/US 5Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38",
+          "pk": 418,
+          "order_by": 36,
+          "name": "EU 38/US 5\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38\u00bd",
+          "pk": 419,
+          "order_by": 40,
+          "name": "EU 38\u00bd/US 6",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 39",
+          "pk": 420,
+          "order_by": 41,
+          "name": "EU 39/US 6\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40",
+          "pk": 421,
+          "order_by": 42,
+          "name": "EU 40/US 7",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40\u00bd",
+          "pk": 422,
+          "order_by": 43,
+          "name": "EU 40\u00bd/US 7\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 41",
+          "pk": 423,
+          "order_by": 44,
+          "name": "EU 41/US 8",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 42",
+          "pk": 424,
+          "order_by": 45,
+          "name": "EU 42/US 8\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 42\u00bd",
+          "pk": 425,
+          "order_by": 46,
+          "name": "EU 42\u00bd/US 9",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 43",
+          "pk": 426,
+          "order_by": 47,
+          "name": "EU 43/US 9\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 46",
+          "pk": 431,
+          "order_by": 52,
+          "name": "EU 46/US 12",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 47",
+          "pk": 432,
+          "order_by": 53,
+          "name": "EU 47/US 12\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 47\u00bd",
+          "pk": 433,
+          "order_by": 54,
+          "name": "EU 47\u00bd/US 13",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldtroejer/nike-paris-saint-germain-hjemmebanetrje-jordan-x-psg-202122/217758/",
+      "price": "74900",
+      "product_main_image": "https://thumblr.uniid.it/product/217758/e8bea92486e0.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 749,
+        "max_price": 749.95,
+        "recommended_retail_price": 749.95,
+        "discount_percentage": 0
+      },
+      "id": "217758",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Blue"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "team": "Paris Saint Germain",
+        "pricepoint": "Fan shirts",
+        "nationality": "France",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Nike"
+      },
+      "name": "Paris Saint-Germain Hjemmebanetr\u00f8je Jordan x PSG 2021/22",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldtroejer/nike-paris-saint-germain-hjemmebanetrje-jordan-x-psg-202122/217758/",
+      "product_labels": [],
+      "online": true,
+      "price_old": "74900",
+      "attributes": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Blue"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "team": "Paris Saint Germain",
+        "pricepoint": "Fan shirts",
+        "nationality": "France",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Nike"
+      },
+      "min_max_prices": {
+        "price_old": 749.95,
+        "currency": "DKK",
+        "max": 749.95,
+        "min": 749
+      },
+      "image": "https://thumblr.uniid.it/product/217758/3df90b3e5225.jpg",
+      "stock": [
+        {
+          "name_short": "Small",
+          "pk": 2,
+          "order_by": 4,
+          "name": "Small",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Medium",
+          "pk": 3,
+          "order_by": 5,
+          "name": "Medium",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Large",
+          "pk": 1,
+          "order_by": 6,
+          "name": "Large",
+          "stock_info": ""
+        },
+        {
+          "name_short": "X-Large",
+          "pk": 5,
+          "order_by": 7,
+          "name": "X-Large",
+          "stock_info": ""
+        },
+        {
+          "name_short": "XX-Large",
+          "pk": 6,
+          "order_by": 8,
+          "name": "XX-Large",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldstoevler/nike-mercurial-vapor-14-elite-fg-black-x-prism-sortgulrd/213590/",
+      "price": "133900",
+      "product_main_image": "https://thumblr.uniid.it/product/213590/ce87d707a638.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": "weeks_on_hand",
+      "is_exclusive": true,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 1339,
+        "max_price": 1339,
+        "recommended_retail_price": 1999,
+        "discount_percentage": 33
+      },
+      "id": "213590",
+      "currency": "DKK",
+      "attribute_english": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "White",
+        "players": ["N/A"],
+        "color": ["Black"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-02-15",
+        "item_type": "Football boots",
+        "boot_collection": "Mercurial Vapor",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Black x Prism",
+        "quarter": "Q1",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "name": "Nike Mercurial Vapor 14 Elite FG Black x Prism - Sort/Gul/R\u00f8d",
+      "discount_percentage": 33,
+      "url": "https://www.unisport.dk/fodboldstoevler/nike-mercurial-vapor-14-elite-fg-black-x-prism-sortgulrd/213590/",
+      "product_labels": [
+        {
+          "name": "Kun medlemmer",
+          "color": "#ffffff",
+          "priority": 10,
+          "active": true,
+          "background_color": "#000000",
+          "id": 100
+        }
+      ],
+      "online": true,
+      "price_old": "199900",
+      "attributes": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "White",
+        "players": ["N/A"],
+        "color": ["Black"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-02-15",
+        "item_type": "Football boots",
+        "boot_collection": "Mercurial Vapor",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Black x Prism",
+        "quarter": "Q1",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "min_max_prices": {
+        "price_old": 1999,
+        "currency": "DKK",
+        "max": 1339,
+        "min": 1339
+      },
+      "image": "https://thumblr.uniid.it/product/213590/242000fcf642.jpg",
+      "stock": [
+        {
+          "name_short": "EU 36",
+          "pk": 415,
+          "order_by": 33,
+          "name": "EU 36/US 4Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 36\u00bd",
+          "pk": 416,
+          "order_by": 34,
+          "name": "EU 36\u00bd/US 4\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 37\u00bd",
+          "pk": 417,
+          "order_by": 35,
+          "name": "EU 37\u00bd/US 5Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38",
+          "pk": 418,
+          "order_by": 36,
+          "name": "EU 38/US 5\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38\u00bd",
+          "pk": 419,
+          "order_by": 40,
+          "name": "EU 38\u00bd/US 6",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 39",
+          "pk": 420,
+          "order_by": 41,
+          "name": "EU 39/US 6\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40",
+          "pk": 421,
+          "order_by": 42,
+          "name": "EU 40/US 7",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40\u00bd",
+          "pk": 422,
+          "order_by": 43,
+          "name": "EU 40\u00bd/US 7\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 41",
+          "pk": 423,
+          "order_by": 44,
+          "name": "EU 41/US 8",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 46",
+          "pk": 431,
+          "order_by": 52,
+          "name": "EU 46/US 12",
+          "stock_info": "Only one left"
+        },
+        {
+          "name_short": "EU 47",
+          "pk": 432,
+          "order_by": 53,
+          "name": "EU 47/US 12\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 47\u00bd",
+          "pk": 433,
+          "order_by": 54,
+          "name": "EU 47\u00bd/US 13",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldtrojer/ajax-3-troje-202122-born/223002/",
+      "price": "52900",
+      "product_main_image": "https://thumblr.uniid.it/product/223002/104f8771faeb.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 529,
+        "max_price": 529,
+        "recommended_retail_price": 529,
+        "discount_percentage": 0
+      },
+      "id": "223002",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Black"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "material": ["Polyester"],
+        "segment": "License",
+        "kit": "Third Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "team": "Ajax Amsterdam",
+        "pricepoint": "Fan shirts",
+        "nationality": "Netherlands",
+        "age": ["Kids"],
+        "shirt_season": "2021/22",
+        "brand": "adidas"
+      },
+      "name": "Ajax 3. Tr\u00f8je 2021/22 B\u00f8rn",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldtrojer/ajax-3-troje-202122-born/223002/",
+      "product_labels": [
+        {
+          "name": "B\u00f8rn",
+          "color": "#ffffff",
+          "priority": 7,
+          "active": true,
+          "background_color": "#000000",
+          "id": 48
+        }
+      ],
+      "online": true,
+      "price_old": "52900",
+      "attributes": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Black"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "material": ["Polyester"],
+        "segment": "License",
+        "kit": "Third Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "team": "Ajax Amsterdam",
+        "pricepoint": "Fan shirts",
+        "nationality": "Netherlands",
+        "age": ["Kids"],
+        "shirt_season": "2021/22",
+        "brand": "adidas"
+      },
+      "min_max_prices": {
+        "price_old": 529,
+        "currency": "DKK",
+        "max": 529,
+        "min": 529
+      },
+      "image": "https://thumblr.uniid.it/product/223002/621cf3ce9391.jpg",
+      "stock": [
+        {
+          "name_short": "6-8 Years",
+          "pk": 197,
+          "order_by": 6,
+          "name": "128 cm",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "8-10 Years",
+          "pk": 196,
+          "order_by": 7,
+          "name": "140 cm",
+          "stock_info": ""
+        },
+        {
+          "name_short": "10-12 Years",
+          "pk": 198,
+          "order_by": 8,
+          "name": "152 cm",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldstoevler/nike-mercurial-vapor-14-elite-fg-spectrum-rdslv/213591/",
+      "price": "139900",
+      "product_main_image": "https://thumblr.uniid.it/product/213591/2e097e3be312.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": "weeks_on_hand",
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 1399,
+        "max_price": 1999.0,
+        "recommended_retail_price": 1999,
+        "discount_percentage": 30
+      },
+      "id": "213591",
+      "currency": "DKK",
+      "attribute_english": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "White",
+        "players": ["N/A"],
+        "color": ["Red"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-02-16",
+        "item_type": "Football boots",
+        "boot_collection": "Mercurial Vapor",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Spectrum",
+        "quarter": "Q1",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "name": "Nike Mercurial Vapor 14 Elite FG Spectrum - R\u00f8d/S\u00f8lv",
+      "discount_percentage": 30,
+      "url": "https://www.unisport.dk/fodboldstoevler/nike-mercurial-vapor-14-elite-fg-spectrum-rdslv/213591/",
+      "product_labels": [],
+      "online": true,
+      "price_old": "199900",
+      "attributes": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "White",
+        "players": ["N/A"],
+        "color": ["Red"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-02-16",
+        "item_type": "Football boots",
+        "boot_collection": "Mercurial Vapor",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Spectrum",
+        "quarter": "Q1",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "min_max_prices": {
+        "price_old": 1999,
+        "currency": "DKK",
+        "max": 1999.0,
+        "min": 1399
+      },
+      "image": "https://thumblr.uniid.it/product/213591/20f5b6a50639.jpg",
+      "stock": [
+        {
+          "name_short": "EU 36",
+          "pk": 415,
+          "order_by": 33,
+          "name": "EU 36/US 4Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 36\u00bd",
+          "pk": 416,
+          "order_by": 34,
+          "name": "EU 36\u00bd/US 4\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 37\u00bd",
+          "pk": 417,
+          "order_by": 35,
+          "name": "EU 37\u00bd/US 5Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38",
+          "pk": 418,
+          "order_by": 36,
+          "name": "EU 38/US 5\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38\u00bd",
+          "pk": 419,
+          "order_by": 40,
+          "name": "EU 38\u00bd/US 6",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 39",
+          "pk": 420,
+          "order_by": 41,
+          "name": "EU 39/US 6\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40",
+          "pk": 421,
+          "order_by": 42,
+          "name": "EU 40/US 7",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40\u00bd",
+          "pk": 422,
+          "order_by": 43,
+          "name": "EU 40\u00bd/US 7\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 41",
+          "pk": 423,
+          "order_by": 44,
+          "name": "EU 41/US 8",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 42",
+          "pk": 424,
+          "order_by": 45,
+          "name": "EU 42/US 8\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 46",
+          "pk": 431,
+          "order_by": 52,
+          "name": "EU 46/US 12",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 47",
+          "pk": 432,
+          "order_by": 53,
+          "name": "EU 47/US 12\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 47\u00bd",
+          "pk": 433,
+          "order_by": 54,
+          "name": "EU 47\u00bd/US 13",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldtroejer/chelsea-hjemmebanetrje-202122/217793/",
+      "price": "74900",
+      "product_main_image": "https://thumblr.uniid.it/product/217793/d05f9186b906.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": true,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 749.95,
+        "max_price": 749.95,
+        "recommended_retail_price": 749.95,
+        "discount_percentage": 0
+      },
+      "id": "217793",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Blue"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "nationality": "England",
+        "team": "Chelsea",
+        "pricepoint": "Fan shirts",
+        "print_type": "Premier League",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Nike",
+        "print_color": "White"
+      },
+      "name": "Chelsea Hjemmebanetr\u00f8je 2021/22",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldtroejer/chelsea-hjemmebanetrje-202122/217793/",
+      "product_labels": [
+        {
+          "name": "Kun medlemmer",
+          "color": "#ffffff",
+          "priority": 10,
+          "active": true,
+          "background_color": "#000000",
+          "id": 100
+        }
+      ],
+      "online": true,
+      "price_old": "74900",
+      "attributes": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Blue"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "nationality": "England",
+        "team": "Chelsea",
+        "pricepoint": "Fan shirts",
+        "print_type": "Premier League",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Nike",
+        "print_color": "White"
+      },
+      "min_max_prices": {
+        "price_old": 749.95,
+        "currency": "DKK",
+        "max": 749.95,
+        "min": 749.95
+      },
+      "image": "https://thumblr.uniid.it/product/217793/8ebe9d3ad17c.jpg",
+      "stock": [
+        {
+          "name_short": "Small",
+          "pk": 2,
+          "order_by": 4,
+          "name": "Small",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Medium",
+          "pk": 3,
+          "order_by": 5,
+          "name": "Medium",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Large",
+          "pk": 1,
+          "order_by": 6,
+          "name": "Large",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldstovler/nike-mercurial-vapor-14-elite-fg-rawdacious-hvidrodpink/226546/",
+      "price": "199900",
+      "product_main_image": "https://thumblr.uniid.it/product/226546/ff073ef3e10c.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": true,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 1999,
+        "max_price": 1999,
+        "recommended_retail_price": 1999,
+        "discount_percentage": 0
+      },
+      "id": "226546",
+      "currency": "DKK",
+      "attribute_english": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "Black",
+        "players": ["N/A"],
+        "color": ["White"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-07-01",
+        "item_type": "Football boots",
+        "boot_collection": "Mercurial Vapor",
+        "position": ["Strikers", "Wingers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Rawdacious",
+        "quarter": "Q3",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "name": "Nike Mercurial Vapor 14 Elite FG Rawdacious - Hvid/R\u00f8d/Pink",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldstovler/nike-mercurial-vapor-14-elite-fg-rawdacious-hvidrodpink/226546/",
+      "product_labels": [
+        {
+          "name": "Kun medlemmer",
+          "color": "#ffffff",
+          "priority": 10,
+          "active": true,
+          "background_color": "#000000",
+          "id": 100
+        }
+      ],
+      "online": true,
+      "price_old": "199900",
+      "attributes": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "Black",
+        "players": ["N/A"],
+        "color": ["White"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-07-01",
+        "item_type": "Football boots",
+        "boot_collection": "Mercurial Vapor",
+        "position": ["Strikers", "Wingers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Rawdacious",
+        "quarter": "Q3",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "min_max_prices": {
+        "price_old": 1999,
+        "currency": "DKK",
+        "max": 1999,
+        "min": 1999
+      },
+      "image": "https://thumblr.uniid.it/product/226546/871afeadbd79.jpg",
+      "stock": [
+        {
+          "name_short": "EU 36",
+          "pk": 415,
+          "order_by": 33,
+          "name": "EU 36/US 4Y",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 40",
+          "pk": 421,
+          "order_by": 42,
+          "name": "EU 40/US 7",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40\u00bd",
+          "pk": 422,
+          "order_by": 43,
+          "name": "EU 40\u00bd/US 7\u00bd",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 41",
+          "pk": 423,
+          "order_by": 44,
+          "name": "EU 41/US 8",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 47",
+          "pk": 432,
+          "order_by": 53,
+          "name": "EU 47/US 12\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 47\u00bd",
+          "pk": 433,
+          "order_by": 54,
+          "name": "EU 47\u00bd/US 13",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldtrojer/manchester-united-udebanetroje-202122-kvinde-forudbestilling/222822/",
+      "price": "69900",
+      "product_main_image": "https://thumblr.uniid.it/product/222822/37f1560b18ec.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 699,
+        "max_price": 699,
+        "recommended_retail_price": 699,
+        "discount_percentage": 0
+      },
+      "id": "222822",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Blue"],
+        "gender": ["Women"],
+        "teamsport": "N/A",
+        "material": ["Polyester"],
+        "segment": "License",
+        "kit": "Away Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "nationality": "England",
+        "team": "Manchester United",
+        "pricepoint": "Fan shirts",
+        "print_type": "Premier League",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "adidas",
+        "print_color": "N/A"
+      },
+      "name": "Manchester United Udebanetr\u00f8je 2021/22 Kvinde",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldtrojer/manchester-united-udebanetroje-202122-kvinde-forudbestilling/222822/",
+      "product_labels": [
+        {
+          "name": "Kvinde",
+          "color": "#ffffff",
+          "priority": 6,
+          "active": true,
+          "background_color": "#000000",
+          "id": 65
+        }
+      ],
+      "online": true,
+      "price_old": "69900",
+      "attributes": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Blue"],
+        "gender": ["Women"],
+        "teamsport": "N/A",
+        "material": ["Polyester"],
+        "segment": "License",
+        "kit": "Away Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "nationality": "England",
+        "team": "Manchester United",
+        "pricepoint": "Fan shirts",
+        "print_type": "Premier League",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "adidas",
+        "print_color": "N/A"
+      },
+      "min_max_prices": {
+        "price_old": 699,
+        "currency": "DKK",
+        "max": 699,
+        "min": 699
+      },
+      "image": "https://thumblr.uniid.it/product/222822/42bc5bf9d696.jpg",
+      "stock": [
+        {
+          "name_short": "XX-Small",
+          "pk": 288,
+          "order_by": 2,
+          "name": "XX-Small",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "X-Small",
+          "pk": 162,
+          "order_by": 3,
+          "name": "X-Small",
+          "stock_info": "Only one left"
+        },
+        {
+          "name_short": "Small",
+          "pk": 2,
+          "order_by": 4,
+          "name": "Small",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "Medium",
+          "pk": 3,
+          "order_by": 5,
+          "name": "Medium",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Large",
+          "pk": 1,
+          "order_by": 6,
+          "name": "Large",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "X-Large",
+          "pk": 5,
+          "order_by": 7,
+          "name": "X-Large",
+          "stock_info": "Only one left"
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldstovler/nike-phantom-gt-2-elite-fg-rawdacious-hvidrodpink/225701/",
+      "price": "199900",
+      "product_main_image": "https://thumblr.uniid.it/product/225701/2b1bed5c003e.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": true,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 1999,
+        "max_price": 1999,
+        "recommended_retail_price": 1999,
+        "discount_percentage": 0
+      },
+      "id": "225701",
+      "currency": "DKK",
+      "attribute_english": {
+        "boot_benefit": "Control",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "Black",
+        "players": ["N/A"],
+        "color": ["White"],
+        "gender": ["Women", "Men's"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-07-01",
+        "item_type": "Football boots",
+        "boot_collection": "Phantom GT",
+        "position": ["Midfielders", "Wingers", "Strikers"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Rawdacious",
+        "quarter": "Q3",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "name": "Nike Phantom GT 2 Elite FG Rawdacious - Hvid/R\u00f8d/Pink",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldstovler/nike-phantom-gt-2-elite-fg-rawdacious-hvidrodpink/225701/",
+      "product_labels": [
+        {
+          "name": "Kun medlemmer",
+          "color": "#ffffff",
+          "priority": 10,
+          "active": true,
+          "background_color": "#000000",
+          "id": 100
+        }
+      ],
+      "online": true,
+      "price_old": "199900",
+      "attributes": {
+        "boot_benefit": "Control",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "Black",
+        "players": ["N/A"],
+        "color": ["White"],
+        "gender": ["Women", "Men's"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-07-01",
+        "item_type": "Football boots",
+        "boot_collection": "Phantom GT",
+        "position": ["Midfielders", "Wingers", "Strikers"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Rawdacious",
+        "quarter": "Q3",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "min_max_prices": {
+        "price_old": 1999,
+        "currency": "DKK",
+        "max": 1999,
+        "min": 1999
+      },
+      "image": "https://thumblr.uniid.it/product/225701/1b07c59de3c0.jpg",
+      "stock": [
+        {
+          "name_short": "EU 36",
+          "pk": 415,
+          "order_by": 33,
+          "name": "EU 36/US 4Y",
+          "stock_info": "Only one left"
+        },
+        {
+          "name_short": "EU 36\u00bd",
+          "pk": 416,
+          "order_by": 34,
+          "name": "EU 36\u00bd/US 4\u00bdY",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 40",
+          "pk": 421,
+          "order_by": 42,
+          "name": "EU 40/US 7",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40\u00bd",
+          "pk": 422,
+          "order_by": 43,
+          "name": "EU 40\u00bd/US 7\u00bd",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 41",
+          "pk": 423,
+          "order_by": 44,
+          "name": "EU 41/US 8",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 44\u00bd",
+          "pk": 428,
+          "order_by": 49,
+          "name": "EU 44\u00bd/US 10\u00bd",
+          "stock_info": "Low in stock"
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldstovler/nike-phantom-gt-2-elite-fg-motivation-hvidrodneonsort/225705/",
+      "price": "199900",
+      "product_main_image": "https://thumblr.uniid.it/product/225705/4818149580e4.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": true,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 1999,
+        "max_price": 1999,
+        "recommended_retail_price": 1999,
+        "discount_percentage": 0
+      },
+      "id": "225705",
+      "currency": "DKK",
+      "attribute_english": {
+        "boot_benefit": "Control",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "Black",
+        "players": ["N/A"],
+        "color": ["White"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-07-15",
+        "item_type": "Football boots",
+        "boot_collection": "Phantom GT",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Motivation",
+        "quarter": "Q3",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "name": "Nike Phantom GT 2 Elite FG Motivation - Hvid/R\u00f8d/Neon/Sort",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldstovler/nike-phantom-gt-2-elite-fg-motivation-hvidrodneonsort/225705/",
+      "product_labels": [
+        {
+          "name": "Kun medlemmer",
+          "color": "#ffffff",
+          "priority": 10,
+          "active": true,
+          "background_color": "#000000",
+          "id": 100
+        }
+      ],
+      "online": true,
+      "price_old": "199900",
+      "attributes": {
+        "boot_benefit": "Control",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "Black",
+        "players": ["N/A"],
+        "color": ["White"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-07-15",
+        "item_type": "Football boots",
+        "boot_collection": "Phantom GT",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Motivation",
+        "quarter": "Q3",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "min_max_prices": {
+        "price_old": 1999,
+        "currency": "DKK",
+        "max": 1999,
+        "min": 1999
+      },
+      "image": "https://thumblr.uniid.it/product/225705/3b3d55673175.jpg",
+      "stock": [
+        {
+          "name_short": "EU 36",
+          "pk": 415,
+          "order_by": 33,
+          "name": "EU 36/US 4Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 36\u00bd",
+          "pk": 416,
+          "order_by": 34,
+          "name": "EU 36\u00bd/US 4\u00bdY",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 37\u00bd",
+          "pk": 417,
+          "order_by": 35,
+          "name": "EU 37\u00bd/US 5Y",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 38",
+          "pk": 418,
+          "order_by": 36,
+          "name": "EU 38/US 5\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38\u00bd",
+          "pk": 419,
+          "order_by": 40,
+          "name": "EU 38\u00bd/US 6",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 39",
+          "pk": 420,
+          "order_by": 41,
+          "name": "EU 39/US 6\u00bd",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 40",
+          "pk": 421,
+          "order_by": 42,
+          "name": "EU 40/US 7",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40\u00bd",
+          "pk": 422,
+          "order_by": 43,
+          "name": "EU 40\u00bd/US 7\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 41",
+          "pk": 423,
+          "order_by": 44,
+          "name": "EU 41/US 8",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 42",
+          "pk": 424,
+          "order_by": 45,
+          "name": "EU 42/US 8\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 42\u00bd",
+          "pk": 425,
+          "order_by": 46,
+          "name": "EU 42\u00bd/US 9",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 43",
+          "pk": 426,
+          "order_by": 47,
+          "name": "EU 43/US 9\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 44",
+          "pk": 427,
+          "order_by": 48,
+          "name": "EU 44/US 10",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 46",
+          "pk": 431,
+          "order_by": 52,
+          "name": "EU 46/US 12",
+          "stock_info": "Only one left"
+        },
+        {
+          "name_short": "EU 47",
+          "pk": 432,
+          "order_by": 53,
+          "name": "EU 47/US 12\u00bd",
+          "stock_info": "Only one left"
+        },
+        {
+          "name_short": "EU 47\u00bd",
+          "pk": 433,
+          "order_by": 54,
+          "name": "EU 47\u00bd/US 13",
+          "stock_info": "Low in stock"
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldtrojer/liverpool-udebanetrje-202122/226350/",
+      "price": "74900",
+      "product_main_image": "https://thumblr.uniid.it/product/226350/6c4c9cb42e89.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 749,
+        "max_price": 749.95,
+        "recommended_retail_price": 749.95,
+        "discount_percentage": 0
+      },
+      "id": "226350",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Brown", "White"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Away Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "team": "Liverpool",
+        "pricepoint": "Fan shirts",
+        "nationality": "England",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Nike"
+      },
+      "name": "Liverpool Udebanetr\u00f8je 2021/22",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldtrojer/liverpool-udebanetrje-202122/226350/",
+      "product_labels": [],
+      "online": true,
+      "price_old": "74900",
+      "attributes": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Brown", "White"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Away Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "team": "Liverpool",
+        "pricepoint": "Fan shirts",
+        "nationality": "England",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Nike"
+      },
+      "min_max_prices": {
+        "price_old": 749.95,
+        "currency": "DKK",
+        "max": 749.95,
+        "min": 749
+      },
+      "image": "https://thumblr.uniid.it/product/226350/7db9596bc84a.jpg",
+      "stock": [
+        {
+          "name_short": "X-Small",
+          "pk": 162,
+          "order_by": 3,
+          "name": "X-Small",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Small",
+          "pk": 2,
+          "order_by": 4,
+          "name": "Small",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Medium",
+          "pk": 3,
+          "order_by": 5,
+          "name": "Medium",
+          "stock_info": ""
+        },
+        {
+          "name_short": "X-Large",
+          "pk": 5,
+          "order_by": 7,
+          "name": "X-Large",
+          "stock_info": ""
+        },
+        {
+          "name_short": "XX-Large",
+          "pk": 6,
+          "order_by": 8,
+          "name": "XX-Large",
+          "stock_info": ""
+        },
+        {
+          "name_short": "XXX-Large",
+          "pk": 36,
+          "order_by": 9,
+          "name": "3XL",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldstoevler/nike-mercurial-vapor-14-elite-fg-dragonfly-hvidslvlilla-limited-edition/213576/",
+      "price": "189900",
+      "product_main_image": "https://thumblr.uniid.it/product/213576/827f62e88410.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": "weeks_on_hand",
+      "is_exclusive": true,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 1899,
+        "max_price": 1899,
+        "recommended_retail_price": 1999,
+        "discount_percentage": 0
+      },
+      "id": "213576",
+      "currency": "DKK",
+      "attribute_english": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "Black",
+        "players": ["N/A"],
+        "color": ["White"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-02-01",
+        "item_type": "Football boots",
+        "boot_collection": "Mercurial Vapor",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Dragonfly",
+        "quarter": "Q1",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "name": "Nike Mercurial Vapor 14 Elite FG Dragonfly - Hvid/S\u00f8lv/Lilla LIMITED EDITION",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldstoevler/nike-mercurial-vapor-14-elite-fg-dragonfly-hvidslvlilla-limited-edition/213576/",
+      "product_labels": [
+        {
+          "name": "Kun medlemmer",
+          "color": "#ffffff",
+          "priority": 10,
+          "active": true,
+          "background_color": "#000000",
+          "id": 100
+        }
+      ],
+      "online": true,
+      "price_old": "199900",
+      "attributes": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "Black",
+        "players": ["N/A"],
+        "color": ["White"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-02-01",
+        "item_type": "Football boots",
+        "boot_collection": "Mercurial Vapor",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Dragonfly",
+        "quarter": "Q1",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "min_max_prices": {
+        "price_old": 1999,
+        "currency": "DKK",
+        "max": 1899,
+        "min": 1899
+      },
+      "image": "https://thumblr.uniid.it/product/213576/165e2f2d1d65.jpg",
+      "stock": [
+        {
+          "name_short": "EU 36",
+          "pk": 415,
+          "order_by": 33,
+          "name": "EU 36/US 4Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 47\u00bd",
+          "pk": 433,
+          "order_by": 54,
+          "name": "EU 47\u00bd/US 13",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldtroejer/fc-kbenhavn-hjemmebanetrje-202122/228808/",
+      "price": "69900",
+      "product_main_image": "https://thumblr.uniid.it/product/228808/154687ba7f9c.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 699,
+        "max_price": 699,
+        "recommended_retail_price": 699,
+        "discount_percentage": 0
+      },
+      "id": "228808",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["White"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "nationality": "Denmark",
+        "team": "F.C. K\u00f8benhavn",
+        "pricepoint": "Fan shirts",
+        "print_type": "N/A",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "adidas",
+        "print_color": "Blue"
+      },
+      "name": "F.C. K\u00f8benhavn Hjemmebanetr\u00f8je 2021/22",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldtroejer/fc-kbenhavn-hjemmebanetrje-202122/228808/",
+      "product_labels": [],
+      "online": true,
+      "price_old": "69900",
+      "attributes": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["White"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "nationality": "Denmark",
+        "team": "F.C. K\u00f8benhavn",
+        "pricepoint": "Fan shirts",
+        "print_type": "N/A",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "adidas",
+        "print_color": "Blue"
+      },
+      "min_max_prices": {
+        "price_old": 699,
+        "currency": "DKK",
+        "max": 699,
+        "min": 699
+      },
+      "image": "https://thumblr.uniid.it/product/228808/de2f5aee1c15.jpg",
+      "stock": [
+        {
+          "name_short": "X-Large",
+          "pk": 5,
+          "order_by": 7,
+          "name": "X-Large",
+          "stock_info": "Low in stock"
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldtrojer/manchester-united-3-troje-202122-authentic/222411/",
+      "price": "114900",
+      "product_main_image": "https://thumblr.uniid.it/product/222411/f15023ce7648.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": true,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 1149,
+        "max_price": 1149,
+        "recommended_retail_price": 1149,
+        "discount_percentage": 0
+      },
+      "id": "222411",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "players": ["N/A"],
+        "color": ["Blue"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Third Kits",
+        "item_type": "Football shirts",
+        "sorting_shirts": "N/A",
+        "team": "Manchester United",
+        "pricepoint": "Player shirts",
+        "nationality": "England",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "adidas"
+      },
+      "name": "Manchester United 3. Tr\u00f8je 2021/22 Authentic",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldtrojer/manchester-united-3-troje-202122-authentic/222411/",
+      "product_labels": [
+        {
+          "name": "Kun medlemmer",
+          "color": "#ffffff",
+          "priority": 10,
+          "active": true,
+          "background_color": "#000000",
+          "id": 100
+        },
+        {
+          "name": "Player edition",
+          "color": "#ffffff",
+          "priority": 8,
+          "active": true,
+          "background_color": "#000000",
+          "id": 59
+        }
+      ],
+      "online": true,
+      "price_old": "114900",
+      "attributes": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "players": ["N/A"],
+        "color": ["Blue"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Third Kits",
+        "item_type": "Football shirts",
+        "sorting_shirts": "N/A",
+        "team": "Manchester United",
+        "pricepoint": "Player shirts",
+        "nationality": "England",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "adidas"
+      },
+      "min_max_prices": {
+        "price_old": 1149,
+        "currency": "DKK",
+        "max": 1149,
+        "min": 1149
+      },
+      "image": "https://thumblr.uniid.it/product/222411/86c3fb3e8c30.jpg",
+      "stock": [
+        {
+          "name_short": "X-Small",
+          "pk": 162,
+          "order_by": 3,
+          "name": "X-Small",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Small",
+          "pk": 2,
+          "order_by": 4,
+          "name": "Small",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldtroejer/liverpool-hjemmebanetroje-202122/217740/",
+      "price": "74900",
+      "product_main_image": "https://thumblr.uniid.it/product/217740/3df44e01db18.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 749,
+        "max_price": 749,
+        "recommended_retail_price": 749,
+        "discount_percentage": 0
+      },
+      "id": "217740",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Red"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "team": "Liverpool",
+        "pricepoint": "Fan shirts",
+        "nationality": "England",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Nike"
+      },
+      "name": "Liverpool Hjemmebanetr\u00f8je 2021/22",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldtroejer/liverpool-hjemmebanetroje-202122/217740/",
+      "product_labels": [],
+      "online": true,
+      "price_old": "74900",
+      "attributes": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Red"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "team": "Liverpool",
+        "pricepoint": "Fan shirts",
+        "nationality": "England",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Nike"
+      },
+      "min_max_prices": {
+        "price_old": 749,
+        "currency": "DKK",
+        "max": 749,
+        "min": 749
+      },
+      "image": "https://thumblr.uniid.it/product/217740/7bbe8c66aff4.jpg",
+      "stock": [
+        {
+          "name_short": "X-Small",
+          "pk": 162,
+          "order_by": 3,
+          "name": "X-Small",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Small",
+          "pk": 2,
+          "order_by": 4,
+          "name": "Small",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Medium",
+          "pk": 3,
+          "order_by": 5,
+          "name": "Medium",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Large",
+          "pk": 1,
+          "order_by": 6,
+          "name": "Large",
+          "stock_info": ""
+        },
+        {
+          "name_short": "X-Large",
+          "pk": 5,
+          "order_by": 7,
+          "name": "X-Large",
+          "stock_info": ""
+        },
+        {
+          "name_short": "XX-Large",
+          "pk": 6,
+          "order_by": 8,
+          "name": "XX-Large",
+          "stock_info": ""
+        },
+        {
+          "name_short": "XXX-Large",
+          "pk": 36,
+          "order_by": 9,
+          "name": "3XL",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldstovler/nike-mercurial-vapor-14-elite-fg-motivation-neonrodsort/226547/",
+      "price": "199900",
+      "product_main_image": "https://thumblr.uniid.it/product/226547/501dea8f676d.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 1999,
+        "max_price": 1999,
+        "recommended_retail_price": 1999,
+        "discount_percentage": 0
+      },
+      "id": "226547",
+      "currency": "DKK",
+      "attribute_english": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "Black",
+        "item_type": "Football boots",
+        "color": ["Yellow"],
+        "gender": ["Women", "Men's"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-07-15",
+        "players": ["N/A"],
+        "boot_collection": "Mercurial Vapor",
+        "position": ["Midfielders", "Strikers", "Wingers"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Motivation",
+        "quarter": "Q3",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "name": "Nike Mercurial Vapor 14 Elite FG Motivation - Neon/R\u00f8d/Sort",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldstovler/nike-mercurial-vapor-14-elite-fg-motivation-neonrodsort/226547/",
+      "product_labels": [],
+      "online": true,
+      "price_old": "199900",
+      "attributes": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "Black",
+        "item_type": "Football boots",
+        "color": ["Yellow"],
+        "gender": ["Women", "Men's"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-07-15",
+        "players": ["N/A"],
+        "boot_collection": "Mercurial Vapor",
+        "position": ["Midfielders", "Strikers", "Wingers"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Motivation",
+        "quarter": "Q3",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "min_max_prices": {
+        "price_old": 1999,
+        "currency": "DKK",
+        "max": 1999,
+        "min": 1999
+      },
+      "image": "https://thumblr.uniid.it/product/226547/ec485198547b.jpg",
+      "stock": [
+        {
+          "name_short": "EU 38",
+          "pk": 418,
+          "order_by": 36,
+          "name": "EU 38/US 5\u00bdY",
+          "stock_info": "Only one left"
+        },
+        {
+          "name_short": "EU 38\u00bd",
+          "pk": 419,
+          "order_by": 40,
+          "name": "EU 38\u00bd/US 6",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 39",
+          "pk": 420,
+          "order_by": 41,
+          "name": "EU 39/US 6\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40",
+          "pk": 421,
+          "order_by": 42,
+          "name": "EU 40/US 7",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 40\u00bd",
+          "pk": 422,
+          "order_by": 43,
+          "name": "EU 40\u00bd/US 7\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 41",
+          "pk": 423,
+          "order_by": 44,
+          "name": "EU 41/US 8",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 42\u00bd",
+          "pk": 425,
+          "order_by": 46,
+          "name": "EU 42\u00bd/US 9",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 43",
+          "pk": 426,
+          "order_by": 47,
+          "name": "EU 43/US 9\u00bd",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 44",
+          "pk": 427,
+          "order_by": 48,
+          "name": "EU 44/US 10",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 46",
+          "pk": 431,
+          "order_by": 52,
+          "name": "EU 46/US 12",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 47",
+          "pk": 432,
+          "order_by": 53,
+          "name": "EU 47/US 12\u00bd",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 47\u00bd",
+          "pk": 433,
+          "order_by": 54,
+          "name": "EU 47\u00bd/US 13",
+          "stock_info": "Low in stock"
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldstvler/nike-mercurial-vapor-14-elite-fg-renew-sortgra/226542/",
+      "price": "199900",
+      "product_main_image": "https://thumblr.uniid.it/product/226542/f280ee0475b6.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": true,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 1999,
+        "max_price": 1999,
+        "recommended_retail_price": 1999,
+        "discount_percentage": 0
+      },
+      "id": "226542",
+      "currency": "DKK",
+      "attribute_english": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "White",
+        "players": ["N/A"],
+        "color": ["Black"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-06-15",
+        "item_type": "Football boots",
+        "boot_collection": "Mercurial Vapor",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Renew",
+        "quarter": "Q3",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "name": "Nike Mercurial Vapor 14 Elite FG Renew - Sort/Gr\u00e5",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldstvler/nike-mercurial-vapor-14-elite-fg-renew-sortgra/226542/",
+      "product_labels": [
+        {
+          "name": "Kun medlemmer",
+          "color": "#ffffff",
+          "priority": 10,
+          "active": true,
+          "background_color": "#000000",
+          "id": 100
+        }
+      ],
+      "online": true,
+      "price_old": "199900",
+      "attributes": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "White",
+        "players": ["N/A"],
+        "color": ["Black"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-06-15",
+        "item_type": "Football boots",
+        "boot_collection": "Mercurial Vapor",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Renew",
+        "quarter": "Q3",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "min_max_prices": {
+        "price_old": 1999,
+        "currency": "DKK",
+        "max": 1999,
+        "min": 1999
+      },
+      "image": "https://thumblr.uniid.it/product/226542/aa1114d09f4b.jpg",
+      "stock": [
+        {
+          "name_short": "EU 36",
+          "pk": 415,
+          "order_by": 33,
+          "name": "EU 36/US 4Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 36\u00bd",
+          "pk": 416,
+          "order_by": 34,
+          "name": "EU 36\u00bd/US 4\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 37\u00bd",
+          "pk": 417,
+          "order_by": 35,
+          "name": "EU 37\u00bd/US 5Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38",
+          "pk": 418,
+          "order_by": 36,
+          "name": "EU 38/US 5\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38\u00bd",
+          "pk": 419,
+          "order_by": 40,
+          "name": "EU 38\u00bd/US 6",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 39",
+          "pk": 420,
+          "order_by": 41,
+          "name": "EU 39/US 6\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40",
+          "pk": 421,
+          "order_by": 42,
+          "name": "EU 40/US 7",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40\u00bd",
+          "pk": 422,
+          "order_by": 43,
+          "name": "EU 40\u00bd/US 7\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 41",
+          "pk": 423,
+          "order_by": 44,
+          "name": "EU 41/US 8",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 42",
+          "pk": 424,
+          "order_by": 45,
+          "name": "EU 42/US 8\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 42\u00bd",
+          "pk": 425,
+          "order_by": 46,
+          "name": "EU 42\u00bd/US 9",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 43",
+          "pk": 426,
+          "order_by": 47,
+          "name": "EU 43/US 9\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 47",
+          "pk": 432,
+          "order_by": 53,
+          "name": "EU 47/US 12\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 47\u00bd",
+          "pk": 433,
+          "order_by": 54,
+          "name": "EU 47\u00bd/US 13",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldstoevler/nike-mercurial-vapor-13-academy-mg-black-x-chile-red-sortrdgra-brn/206016/",
+      "price": "26900",
+      "product_main_image": "https://thumblr.uniid.it/product/206016/21323837562d.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": "weeks_on_hand",
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 269,
+        "max_price": 269,
+        "recommended_retail_price": 499,
+        "discount_percentage": 46
+      },
+      "id": "206016",
+      "currency": "DKK",
+      "attribute_english": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Academy",
+        "warehouse_customization_color": "White",
+        "item_type": "Football boots",
+        "color": ["Black"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Synthetic",
+        "sort_date": "2020-08-01",
+        "players": ["N/A"],
+        "boot_collection": "Mercurial Vapor",
+        "position": ["Midfielders", "Strikers", "Wingers"],
+        "pricepoint": "Best sellers",
+        "brand_collection": "Nike Football Black x Chile Red",
+        "quarter": "Q3",
+        "segment": "Footwear",
+        "age": ["Kids"],
+        "boot_surface": ["Grass (FG)", "Artificial grass (AG)"]
+      },
+      "name": "Nike Mercurial Vapor 13 Academy MG Black X Chile Red - Sort/R\u00f8d/Gr\u00e5 B\u00f8rn",
+      "discount_percentage": 46,
+      "url": "https://www.unisport.dk/fodboldstoevler/nike-mercurial-vapor-13-academy-mg-black-x-chile-red-sortrdgra-brn/206016/",
+      "product_labels": [
+        {
+          "name": "B\u00f8rn",
+          "color": "#ffffff",
+          "priority": 7,
+          "active": true,
+          "background_color": "#000000",
+          "id": 48
+        }
+      ],
+      "online": true,
+      "price_old": "49900",
+      "attributes": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Academy",
+        "warehouse_customization_color": "White",
+        "item_type": "Football boots",
+        "color": ["Black"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Synthetic",
+        "sort_date": "2020-08-01",
+        "players": ["N/A"],
+        "boot_collection": "Mercurial Vapor",
+        "position": ["Midfielders", "Strikers", "Wingers"],
+        "pricepoint": "Best sellers",
+        "brand_collection": "Nike Football Black x Chile Red",
+        "quarter": "Q3",
+        "segment": "Footwear",
+        "age": ["Kids"],
+        "boot_surface": ["Grass (FG)", "Artificial grass (AG)"]
+      },
+      "min_max_prices": {
+        "price_old": 499,
+        "currency": "DKK",
+        "max": 269,
+        "min": 269
+      },
+      "image": "https://thumblr.uniid.it/product/206016/673a83b5b307.jpg",
+      "stock": [
+        {
+          "name_short": "EU 30",
+          "pk": 407,
+          "order_by": 24,
+          "name": "EU 30/US 12\u00bdC",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 31\u00bd",
+          "pk": 409,
+          "order_by": 26,
+          "name": "EU 31\u00bd/US 13\u00bdC",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 33",
+          "pk": 411,
+          "order_by": 28,
+          "name": "EU 33/US 1\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 34",
+          "pk": 413,
+          "order_by": 30,
+          "name": "EU 34/US 2\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 35\u00bd",
+          "pk": 292,
+          "order_by": 32,
+          "name": "EU 35\u00bd/US 3\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 36",
+          "pk": 415,
+          "order_by": 33,
+          "name": "EU 36/US 4Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 36\u00bd",
+          "pk": 416,
+          "order_by": 34,
+          "name": "EU 36\u00bd/US 4\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 37\u00bd",
+          "pk": 417,
+          "order_by": 35,
+          "name": "EU 37\u00bd/US 5Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38",
+          "pk": 418,
+          "order_by": 36,
+          "name": "EU 38/US 5\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38\u00bd",
+          "pk": 1237,
+          "order_by": 37,
+          "name": "EU 38\u00bd/US 6Y",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldtroejer/barcelona-hjemmebanetrje-202122/217810/",
+      "price": "74900",
+      "product_main_image": "https://thumblr.uniid.it/product/217810/786a21c8d3d5.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 749,
+        "max_price": 749.95,
+        "recommended_retail_price": 749.95,
+        "discount_percentage": 0
+      },
+      "id": "217810",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Blue", "Red", "Multicolor"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "nationality": "Spain",
+        "team": "FC Barcelona",
+        "pricepoint": "Fan shirts",
+        "print_type": "N/A",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Nike",
+        "print_color": "White"
+      },
+      "name": "Barcelona Hjemmebanetr\u00f8je 2021/22",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldtroejer/barcelona-hjemmebanetrje-202122/217810/",
+      "product_labels": [],
+      "online": true,
+      "price_old": "74900",
+      "attributes": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Blue", "Red", "Multicolor"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "nationality": "Spain",
+        "team": "FC Barcelona",
+        "pricepoint": "Fan shirts",
+        "print_type": "N/A",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Nike",
+        "print_color": "White"
+      },
+      "min_max_prices": {
+        "price_old": 749.95,
+        "currency": "DKK",
+        "max": 749.95,
+        "min": 749
+      },
+      "image": "https://thumblr.uniid.it/product/217810/a9b658afb857.jpg",
+      "stock": [
+        {
+          "name_short": "X-Small",
+          "pk": 162,
+          "order_by": 3,
+          "name": "X-Small",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Small",
+          "pk": 2,
+          "order_by": 4,
+          "name": "Small",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Medium",
+          "pk": 3,
+          "order_by": 5,
+          "name": "Medium",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Large",
+          "pk": 1,
+          "order_by": 6,
+          "name": "Large",
+          "stock_info": ""
+        },
+        {
+          "name_short": "X-Large",
+          "pk": 5,
+          "order_by": 7,
+          "name": "X-Large",
+          "stock_info": ""
+        },
+        {
+          "name_short": "XX-Large",
+          "pk": 6,
+          "order_by": 8,
+          "name": "XX-Large",
+          "stock_info": "Only one left"
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldstoevler/nike-mercurial-vapor-14-elite-fg-silver-safari-hvidsortslvneon/217710/",
+      "price": "155900",
+      "product_main_image": "https://thumblr.uniid.it/product/217710/6718eec88b5f.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": "weeks_on_hand",
+      "is_exclusive": true,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 1559,
+        "max_price": 1559,
+        "recommended_retail_price": 1999,
+        "discount_percentage": 22
+      },
+      "id": "217710",
+      "currency": "DKK",
+      "attribute_english": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "Neon Yellow",
+        "players": ["Cristiano Ronaldo"],
+        "color": ["White"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-04-01",
+        "item_type": "Football boots",
+        "boot_collection": "Mercurial Vapor",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Mercurial Silver Safari",
+        "quarter": "Q1",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "name": "Nike Mercurial Vapor 14 Elite FG Silver Safari - Hvid/Sort/S\u00f8lv/Neon",
+      "discount_percentage": 22,
+      "url": "https://www.unisport.dk/fodboldstoevler/nike-mercurial-vapor-14-elite-fg-silver-safari-hvidsortslvneon/217710/",
+      "product_labels": [
+        {
+          "name": "Kun medlemmer",
+          "color": "#ffffff",
+          "priority": 10,
+          "active": true,
+          "background_color": "#000000",
+          "id": 100
+        }
+      ],
+      "online": true,
+      "price_old": "199900",
+      "attributes": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "Neon Yellow",
+        "players": ["Cristiano Ronaldo"],
+        "color": ["White"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-04-01",
+        "item_type": "Football boots",
+        "boot_collection": "Mercurial Vapor",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Mercurial Silver Safari",
+        "quarter": "Q1",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "min_max_prices": {
+        "price_old": 1999,
+        "currency": "DKK",
+        "max": 1559,
+        "min": 1559
+      },
+      "image": "https://thumblr.uniid.it/product/217710/2032239ccd25.jpg",
+      "stock": [
+        {
+          "name_short": "EU 36",
+          "pk": 415,
+          "order_by": 33,
+          "name": "EU 36/US 4Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 36\u00bd",
+          "pk": 416,
+          "order_by": 34,
+          "name": "EU 36\u00bd/US 4\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 37\u00bd",
+          "pk": 417,
+          "order_by": 35,
+          "name": "EU 37\u00bd/US 5Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38",
+          "pk": 418,
+          "order_by": 36,
+          "name": "EU 38/US 5\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38\u00bd",
+          "pk": 419,
+          "order_by": 40,
+          "name": "EU 38\u00bd/US 6",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 39",
+          "pk": 420,
+          "order_by": 41,
+          "name": "EU 39/US 6\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40",
+          "pk": 421,
+          "order_by": 42,
+          "name": "EU 40/US 7",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40\u00bd",
+          "pk": 422,
+          "order_by": 43,
+          "name": "EU 40\u00bd/US 7\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 41",
+          "pk": 423,
+          "order_by": 44,
+          "name": "EU 41/US 8",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 47",
+          "pk": 432,
+          "order_by": 53,
+          "name": "EU 47/US 12\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 47\u00bd",
+          "pk": 433,
+          "order_by": 54,
+          "name": "EU 47\u00bd/US 13",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldstoevler/nike-phantom-gt-elite-fg-3d-blapinkgul-limited-edition/217706/",
+      "price": "164900",
+      "product_main_image": "https://thumblr.uniid.it/product/217706/21fa96c45477.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": "weeks_on_hand",
+      "is_exclusive": true,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 1649,
+        "max_price": 1649,
+        "recommended_retail_price": 2199,
+        "discount_percentage": 25
+      },
+      "id": "217706",
+      "currency": "DKK",
+      "attribute_english": {
+        "boot_benefit": "Control",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "White",
+        "item_type": "Football boots",
+        "color": ["Blue"],
+        "gender": ["Women", "Men's"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-04-01",
+        "players": ["N/A"],
+        "boot_collection": "Phantom GT",
+        "position": ["Midfielders", "Strikers", "Wingers"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Phantom 3D",
+        "quarter": "Q1",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "name": "Nike Phantom GT Elite FG 3D - Bl\u00e5/Pink/Gul LIMITED EDITION",
+      "discount_percentage": 25,
+      "url": "https://www.unisport.dk/fodboldstoevler/nike-phantom-gt-elite-fg-3d-blapinkgul-limited-edition/217706/",
+      "product_labels": [
+        {
+          "name": "Kun medlemmer",
+          "color": "#ffffff",
+          "priority": 10,
+          "active": true,
+          "background_color": "#000000",
+          "id": 100
+        }
+      ],
+      "online": true,
+      "price_old": "219900",
+      "attributes": {
+        "boot_benefit": "Control",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "White",
+        "item_type": "Football boots",
+        "color": ["Blue"],
+        "gender": ["Women", "Men's"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-04-01",
+        "players": ["N/A"],
+        "boot_collection": "Phantom GT",
+        "position": ["Midfielders", "Strikers", "Wingers"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Phantom 3D",
+        "quarter": "Q1",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "min_max_prices": {
+        "price_old": 2199,
+        "currency": "DKK",
+        "max": 1649,
+        "min": 1649
+      },
+      "image": "https://thumblr.uniid.it/product/217706/3f51cd9bf6b7.jpg",
+      "stock": [
+        {
+          "name_short": "EU 36",
+          "pk": 415,
+          "order_by": 33,
+          "name": "EU 36/US 4Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 36\u00bd",
+          "pk": 416,
+          "order_by": 34,
+          "name": "EU 36\u00bd/US 4\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 37\u00bd",
+          "pk": 417,
+          "order_by": 35,
+          "name": "EU 37\u00bd/US 5Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38",
+          "pk": 418,
+          "order_by": 36,
+          "name": "EU 38/US 5\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38\u00bd",
+          "pk": 419,
+          "order_by": 40,
+          "name": "EU 38\u00bd/US 6",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 39",
+          "pk": 420,
+          "order_by": 41,
+          "name": "EU 39/US 6\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40",
+          "pk": 421,
+          "order_by": 42,
+          "name": "EU 40/US 7",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40\u00bd",
+          "pk": 422,
+          "order_by": 43,
+          "name": "EU 40\u00bd/US 7\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 41",
+          "pk": 423,
+          "order_by": 44,
+          "name": "EU 41/US 8",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 47\u00bd",
+          "pk": 433,
+          "order_by": 54,
+          "name": "EU 47\u00bd/US 13",
+          "stock_info": "Low in stock"
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldstvler/adidas-x-speedflow-fg-meteorite-rodsortrod/222189/",
+      "price": "208900",
+      "product_main_image": "https://thumblr.uniid.it/product/222189/529a6e7908cb.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": "weeks_on_hand",
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 2089,
+        "max_price": 2089,
+        "recommended_retail_price": 2199,
+        "discount_percentage": 0
+      },
+      "id": "222189",
+      "currency": "DKK",
+      "attribute_english": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "club_national": "N/A",
+        "warehouse_customization_color": "White",
+        "players": ["Lionel Messi"],
+        "color": ["Red"],
+        "gender": ["Men's", "Women"],
+        "brand": "adidas",
+        "boot_material": "Knit",
+        "sort_date": "2021-07-01",
+        "item_type": "Football boots",
+        "boot_model": "+",
+        "boot_collection": "X Speedflow",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "For superstars",
+        "brand_collection": "adidas Meteorite",
+        "quarter": "Q3",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "name": "adidas X Speedflow + FG Meteorite - R\u00f8d/Sort/R\u00f8d",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldstvler/adidas-x-speedflow-fg-meteorite-rodsortrod/222189/",
+      "product_labels": [],
+      "online": true,
+      "price_old": "219900",
+      "attributes": {
+        "boot_benefit": "Speed",
+        "boot_with_sock": "Without sock",
+        "club_national": "N/A",
+        "warehouse_customization_color": "White",
+        "players": ["Lionel Messi"],
+        "color": ["Red"],
+        "gender": ["Men's", "Women"],
+        "brand": "adidas",
+        "boot_material": "Knit",
+        "sort_date": "2021-07-01",
+        "item_type": "Football boots",
+        "boot_model": "+",
+        "boot_collection": "X Speedflow",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "For superstars",
+        "brand_collection": "adidas Meteorite",
+        "quarter": "Q3",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "min_max_prices": {
+        "price_old": 2199,
+        "currency": "DKK",
+        "max": 2089,
+        "min": 2089
+      },
+      "image": "https://thumblr.uniid.it/product/222189/45a4898b30b0.jpg",
+      "stock": [
+        {
+          "name_short": "EU 36",
+          "pk": 38,
+          "order_by": 29,
+          "name": "EU 36/UK 3\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 36\u00bd",
+          "pk": 39,
+          "order_by": 30,
+          "name": "EU 36\u2154/UK 4",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 37\u00bd",
+          "pk": 40,
+          "order_by": 31,
+          "name": "EU 37\u2153/UK 4\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38",
+          "pk": 41,
+          "order_by": 32,
+          "name": "EU 38/UK 5",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38\u00bd",
+          "pk": 42,
+          "order_by": 33,
+          "name": "EU 38\u2154/UK 5\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 39\u00bd",
+          "pk": 43,
+          "order_by": 34,
+          "name": "EU 39\u2153/UK 6",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40",
+          "pk": 44,
+          "order_by": 35,
+          "name": "EU 40/UK 6\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40\u00bd",
+          "pk": 11,
+          "order_by": 36,
+          "name": "EU 40\u2154/UK 7",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 41\u00bd",
+          "pk": 45,
+          "order_by": 37,
+          "name": "EU 41\u2153/UK 7\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 42",
+          "pk": 46,
+          "order_by": 38,
+          "name": "EU 42/UK 8",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 42\u00bd",
+          "pk": 47,
+          "order_by": 39,
+          "name": "EU 42\u2154/UK 8\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 43\u00bd",
+          "pk": 48,
+          "order_by": 40,
+          "name": "EU 43\u2153/UK 9",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 44",
+          "pk": 49,
+          "order_by": 41,
+          "name": "EU 44/UK 9\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 44\u00bd",
+          "pk": 50,
+          "order_by": 42,
+          "name": "EU 44\u2154/UK 10",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 45\u00bd",
+          "pk": 51,
+          "order_by": 43,
+          "name": "EU 45\u2153/UK 10\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 46",
+          "pk": 52,
+          "order_by": 44,
+          "name": "EU 46/UK 11",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 46\u00bd",
+          "pk": 53,
+          "order_by": 45,
+          "name": "EU 46\u2154/UK 11\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 47\u00bd",
+          "pk": 54,
+          "order_by": 46,
+          "name": "EU 47\u2153/UK 12",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 48",
+          "pk": 55,
+          "order_by": 47,
+          "name": "EU 48/UK 12\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 48\u00bd",
+          "pk": 56,
+          "order_by": 48,
+          "name": "EU 48\u2154/UK 13",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldtrojer/barcelona-udebanetroje-202122/226351/",
+      "price": "74900",
+      "product_main_image": "https://thumblr.uniid.it/product/226351/2fb72f44f489.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 749.95,
+        "max_price": 749.95,
+        "recommended_retail_price": 749.95,
+        "discount_percentage": 0
+      },
+      "id": "226351",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Purple"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Away Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "team": "FC Barcelona",
+        "pricepoint": "Fan shirts",
+        "nationality": "Spain",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Nike"
+      },
+      "name": "Barcelona Udebanetr\u00f8je 2021/22",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldtrojer/barcelona-udebanetroje-202122/226351/",
+      "product_labels": [],
+      "online": true,
+      "price_old": "74900",
+      "attributes": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Purple"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Away Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "team": "FC Barcelona",
+        "pricepoint": "Fan shirts",
+        "nationality": "Spain",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Nike"
+      },
+      "min_max_prices": {
+        "price_old": 749.95,
+        "currency": "DKK",
+        "max": 749.95,
+        "min": 749.95
+      },
+      "image": "https://thumblr.uniid.it/product/226351/8299e92e9e6e.jpg",
+      "stock": [
+        {
+          "name_short": "X-Small",
+          "pk": 162,
+          "order_by": 3,
+          "name": "X-Small",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Small",
+          "pk": 2,
+          "order_by": 4,
+          "name": "Small",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldtrojer/inter-hjemmebanetroje-202122/226354/",
+      "price": "74900",
+      "product_main_image": "https://thumblr.uniid.it/product/226354/87371f1c6da8.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 749.95,
+        "max_price": 749.95,
+        "recommended_retail_price": 749.95,
+        "discount_percentage": 0
+      },
+      "id": "226354",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "players": ["N/A"],
+        "color": ["Blue"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "item_type": "Football shirts",
+        "sorting_shirts": "N/A",
+        "team": "Inter Milan",
+        "pricepoint": "Fan shirts",
+        "nationality": "Italy",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Nike"
+      },
+      "name": "Inter Hjemmebanetr\u00f8je 2021/22",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldtrojer/inter-hjemmebanetroje-202122/226354/",
+      "product_labels": [],
+      "online": true,
+      "price_old": "74900",
+      "attributes": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "players": ["N/A"],
+        "color": ["Blue"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "item_type": "Football shirts",
+        "sorting_shirts": "N/A",
+        "team": "Inter Milan",
+        "pricepoint": "Fan shirts",
+        "nationality": "Italy",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Nike"
+      },
+      "min_max_prices": {
+        "price_old": 749.95,
+        "currency": "DKK",
+        "max": 749.95,
+        "min": 749.95
+      },
+      "image": "https://thumblr.uniid.it/product/226354/6d6f6f3988d4.jpg",
+      "stock": [
+        {
+          "name_short": "Small",
+          "pk": 2,
+          "order_by": 4,
+          "name": "Small",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldtrjer/ajax-hjemmebanetroje-202122/222964/",
+      "price": "69900",
+      "product_main_image": "https://thumblr.uniid.it/product/222964/c7f0eea1fd93.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 699,
+        "max_price": 699,
+        "recommended_retail_price": 699,
+        "discount_percentage": 0
+      },
+      "id": "222964",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Red"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "material": ["Polyester"],
+        "segment": "License",
+        "kit": "Home Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "team": "Ajax Amsterdam",
+        "pricepoint": "Fan shirts",
+        "nationality": "Netherlands",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "adidas"
+      },
+      "name": "Ajax Hjemmebanetr\u00f8je 2021/22",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldtrjer/ajax-hjemmebanetroje-202122/222964/",
+      "product_labels": [],
+      "online": true,
+      "price_old": "69900",
+      "attributes": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["Red"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "material": ["Polyester"],
+        "segment": "License",
+        "kit": "Home Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "team": "Ajax Amsterdam",
+        "pricepoint": "Fan shirts",
+        "nationality": "Netherlands",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "adidas"
+      },
+      "min_max_prices": {
+        "price_old": 699,
+        "currency": "DKK",
+        "max": 699,
+        "min": 699
+      },
+      "image": "https://thumblr.uniid.it/product/222964/84cbcae7a3a2.jpg",
+      "stock": [
+        {
+          "name_short": "X-Small",
+          "pk": 162,
+          "order_by": 3,
+          "name": "X-Small",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Small",
+          "pk": 2,
+          "order_by": 4,
+          "name": "Small",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Medium",
+          "pk": 3,
+          "order_by": 5,
+          "name": "Medium",
+          "stock_info": ""
+        },
+        {
+          "name_short": "Large",
+          "pk": 1,
+          "order_by": 6,
+          "name": "Large",
+          "stock_info": ""
+        },
+        {
+          "name_short": "X-Large",
+          "pk": 5,
+          "order_by": 7,
+          "name": "X-Large",
+          "stock_info": ""
+        },
+        {
+          "name_short": "XX-Large",
+          "pk": 6,
+          "order_by": 8,
+          "name": "XX-Large",
+          "stock_info": "Low in stock"
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldtroejer/paris-saint-germain-hjemmebanetroje-jordan-x-psg-202122-vapor/217757/",
+      "price": "114900",
+      "product_main_image": "https://thumblr.uniid.it/product/217757/2645c43d70ff.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": true,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 1149.0,
+        "max_price": 1149.0,
+        "recommended_retail_price": 1149.0,
+        "discount_percentage": 0
+      },
+      "id": "217757",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "players": ["N/A"],
+        "color": ["Blue"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "item_type": "Football shirts",
+        "sorting_shirts": "N/A",
+        "team": "Paris Saint Germain",
+        "pricepoint": "Player shirts",
+        "nationality": "France",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Nike"
+      },
+      "name": "Paris Saint-Germain Hjemmebanetr\u00f8je Jordan x PSG 2021/22 Vapor",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldtroejer/paris-saint-germain-hjemmebanetroje-jordan-x-psg-202122-vapor/217757/",
+      "product_labels": [
+        {
+          "name": "Kun medlemmer",
+          "color": "#ffffff",
+          "priority": 10,
+          "active": true,
+          "background_color": "#000000",
+          "id": 100
+        },
+        {
+          "name": "Player edition",
+          "color": "#ffffff",
+          "priority": 8,
+          "active": true,
+          "background_color": "#000000",
+          "id": 59
+        }
+      ],
+      "online": true,
+      "price_old": "114900",
+      "attributes": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "players": ["N/A"],
+        "color": ["Blue"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Home Kits",
+        "item_type": "Football shirts",
+        "sorting_shirts": "N/A",
+        "team": "Paris Saint Germain",
+        "pricepoint": "Player shirts",
+        "nationality": "France",
+        "age": ["Adults"],
+        "shirt_season": "2021/22",
+        "brand": "Nike"
+      },
+      "min_max_prices": {
+        "price_old": 1149.0,
+        "currency": "DKK",
+        "max": 1149.0,
+        "min": 1149.0
+      },
+      "image": "https://thumblr.uniid.it/product/217757/8e2d518a584c.jpg",
+      "stock": [
+        {
+          "name_short": "Small",
+          "pk": 2,
+          "order_by": 4,
+          "name": "Small",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldtrojer/paris-saint-germain-udebanetroje-202122-born/226102/",
+      "price": "54900",
+      "product_main_image": "https://thumblr.uniid.it/product/226102/7b60b8febe37.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": true,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 549,
+        "max_price": 549,
+        "recommended_retail_price": 549,
+        "discount_percentage": 0
+      },
+      "id": "226102",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["White"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Away Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "nationality": "France",
+        "team": "Paris Saint Germain",
+        "pricepoint": "Fan shirts",
+        "print_type": "N/A",
+        "age": ["Kids"],
+        "shirt_season": "2021/22",
+        "brand": "Nike",
+        "print_color": "Black"
+      },
+      "name": "Paris Saint-Germain Udebanetr\u00f8je 2021/22 B\u00f8rn",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldtrojer/paris-saint-germain-udebanetroje-202122-born/226102/",
+      "product_labels": [
+        {
+          "name": "Kun medlemmer",
+          "color": "#ffffff",
+          "priority": 10,
+          "active": true,
+          "background_color": "#000000",
+          "id": 100
+        },
+        {
+          "name": "B\u00f8rn",
+          "color": "#ffffff",
+          "priority": 7,
+          "active": true,
+          "background_color": "#000000",
+          "id": 48
+        }
+      ],
+      "online": true,
+      "price_old": "54900",
+      "attributes": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "Clubs",
+        "sleeve": "Short sleeves",
+        "item_type": "Football shirts",
+        "color": ["White"],
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "License",
+        "kit": "Away Kits",
+        "players": ["N/A"],
+        "sorting_shirts": "N/A",
+        "nationality": "France",
+        "team": "Paris Saint Germain",
+        "pricepoint": "Fan shirts",
+        "print_type": "N/A",
+        "age": ["Kids"],
+        "shirt_season": "2021/22",
+        "brand": "Nike",
+        "print_color": "Black"
+      },
+      "min_max_prices": {
+        "price_old": 549,
+        "currency": "DKK",
+        "max": 549,
+        "min": 549
+      },
+      "image": "https://thumblr.uniid.it/product/226102/26ad61050306.jpg",
+      "stock": [
+        {
+          "name_short": "6-8 Years",
+          "pk": 1855,
+          "order_by": 0,
+          "name": "XS: 122-128 cm",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldstvler/nike-phantom-gt-2-elite-fg-renew-sortgra/225696/",
+      "price": "199900",
+      "product_main_image": "https://thumblr.uniid.it/product/225696/09170507c2d7.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 1999,
+        "max_price": 1999,
+        "recommended_retail_price": 1999,
+        "discount_percentage": 0
+      },
+      "id": "225696",
+      "currency": "DKK",
+      "attribute_english": {
+        "boot_benefit": "Control",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "White",
+        "players": ["N/A"],
+        "color": ["Black"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-06-15",
+        "item_type": "Football boots",
+        "boot_collection": "Phantom GT",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Renew",
+        "quarter": "Q3",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "name": "Nike Phantom GT 2 Elite FG Renew - Sort/Gr\u00e5",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodboldstvler/nike-phantom-gt-2-elite-fg-renew-sortgra/225696/",
+      "product_labels": [],
+      "online": true,
+      "price_old": "199900",
+      "attributes": {
+        "boot_benefit": "Control",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "White",
+        "players": ["N/A"],
+        "color": ["Black"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-06-15",
+        "item_type": "Football boots",
+        "boot_collection": "Phantom GT",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Renew",
+        "quarter": "Q3",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "min_max_prices": {
+        "price_old": 1999,
+        "currency": "DKK",
+        "max": 1999,
+        "min": 1999
+      },
+      "image": "https://thumblr.uniid.it/product/225696/fa4af24e5a4d.jpg",
+      "stock": [
+        {
+          "name_short": "EU 36",
+          "pk": 415,
+          "order_by": 33,
+          "name": "EU 36/US 4Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 36\u00bd",
+          "pk": 416,
+          "order_by": 34,
+          "name": "EU 36\u00bd/US 4\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 37\u00bd",
+          "pk": 417,
+          "order_by": 35,
+          "name": "EU 37\u00bd/US 5Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38",
+          "pk": 418,
+          "order_by": 36,
+          "name": "EU 38/US 5\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38\u00bd",
+          "pk": 419,
+          "order_by": 40,
+          "name": "EU 38\u00bd/US 6",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 39",
+          "pk": 420,
+          "order_by": 41,
+          "name": "EU 39/US 6\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40",
+          "pk": 421,
+          "order_by": 42,
+          "name": "EU 40/US 7",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40\u00bd",
+          "pk": 422,
+          "order_by": 43,
+          "name": "EU 40\u00bd/US 7\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 41",
+          "pk": 423,
+          "order_by": 44,
+          "name": "EU 41/US 8",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 42",
+          "pk": 424,
+          "order_by": 45,
+          "name": "EU 42/US 8\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 42\u00bd",
+          "pk": 425,
+          "order_by": 46,
+          "name": "EU 42\u00bd/US 9",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 43",
+          "pk": 426,
+          "order_by": 47,
+          "name": "EU 43/US 9\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 44",
+          "pk": 427,
+          "order_by": 48,
+          "name": "EU 44/US 10",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 44\u00bd",
+          "pk": 428,
+          "order_by": 49,
+          "name": "EU 44\u00bd/US 10\u00bd",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 46",
+          "pk": 431,
+          "order_by": 52,
+          "name": "EU 46/US 12",
+          "stock_info": "Only one left"
+        },
+        {
+          "name_short": "EU 47",
+          "pk": 432,
+          "order_by": 53,
+          "name": "EU 47/US 12\u00bd",
+          "stock_info": "Low in stock"
+        },
+        {
+          "name_short": "EU 47\u00bd",
+          "pk": 433,
+          "order_by": 54,
+          "name": "EU 47\u00bd/US 13",
+          "stock_info": "Low in stock"
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldstoevler/nike-phantom-gt-elite-fg-impulse-grnnavy/217767/",
+      "price": "159900",
+      "product_main_image": "https://thumblr.uniid.it/product/217767/540d89365423.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": "weeks_on_hand",
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 1599,
+        "max_price": 1999.0,
+        "recommended_retail_price": 1999,
+        "discount_percentage": 20
+      },
+      "id": "217767",
+      "currency": "DKK",
+      "attribute_english": {
+        "boot_benefit": "Control",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "Black",
+        "item_type": "Football boots",
+        "color": ["Green"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-05-01",
+        "players": ["N/A"],
+        "boot_collection": "Phantom GT",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Impulse",
+        "quarter": "Q1",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "name": "Nike Phantom GT Elite FG Impulse - Gr\u00f8n/Navy",
+      "discount_percentage": 20,
+      "url": "https://www.unisport.dk/fodboldstoevler/nike-phantom-gt-elite-fg-impulse-grnnavy/217767/",
+      "product_labels": [],
+      "online": true,
+      "price_old": "199900",
+      "attributes": {
+        "boot_benefit": "Control",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "Black",
+        "item_type": "Football boots",
+        "color": ["Green"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-05-01",
+        "players": ["N/A"],
+        "boot_collection": "Phantom GT",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Impulse",
+        "quarter": "Q1",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "min_max_prices": {
+        "price_old": 1999,
+        "currency": "DKK",
+        "max": 1999.0,
+        "min": 1599
+      },
+      "image": "https://thumblr.uniid.it/product/217767/2ab6861f11b6.jpg",
+      "stock": [
+        {
+          "name_short": "EU 36",
+          "pk": 415,
+          "order_by": 33,
+          "name": "EU 36/US 4Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 36\u00bd",
+          "pk": 416,
+          "order_by": 34,
+          "name": "EU 36\u00bd/US 4\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 37\u00bd",
+          "pk": 417,
+          "order_by": 35,
+          "name": "EU 37\u00bd/US 5Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38",
+          "pk": 418,
+          "order_by": 36,
+          "name": "EU 38/US 5\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38\u00bd",
+          "pk": 419,
+          "order_by": 40,
+          "name": "EU 38\u00bd/US 6",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 39",
+          "pk": 420,
+          "order_by": 41,
+          "name": "EU 39/US 6\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40",
+          "pk": 421,
+          "order_by": 42,
+          "name": "EU 40/US 7",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40\u00bd",
+          "pk": 422,
+          "order_by": 43,
+          "name": "EU 40\u00bd/US 7\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 41",
+          "pk": 423,
+          "order_by": 44,
+          "name": "EU 41/US 8",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 42",
+          "pk": 424,
+          "order_by": 45,
+          "name": "EU 42/US 8\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 42\u00bd",
+          "pk": 425,
+          "order_by": 46,
+          "name": "EU 42\u00bd/US 9",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 43",
+          "pk": 426,
+          "order_by": 47,
+          "name": "EU 43/US 9\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 46",
+          "pk": 431,
+          "order_by": 52,
+          "name": "EU 46/US 12",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 47",
+          "pk": 432,
+          "order_by": 53,
+          "name": "EU 47/US 12\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 47\u00bd",
+          "pk": 433,
+          "order_by": 54,
+          "name": "EU 47\u00bd/US 13",
+          "stock_info": ""
+        }
+      ]
+    },
+    {
+      "is_customizable": true,
+      "relative_url": "/fodboldstoevler/nike-phantom-gt-elite-fg-spectrum-blaslvgrn/213587/",
+      "price": "149900",
+      "product_main_image": "https://thumblr.uniid.it/product/213587/ed5e60b58aa0.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": "weeks_on_hand",
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 1499,
+        "max_price": 1999.0,
+        "recommended_retail_price": 1999,
+        "discount_percentage": 25
+      },
+      "id": "213587",
+      "currency": "DKK",
+      "attribute_english": {
+        "boot_benefit": "Control",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "Black",
+        "item_type": "Football boots",
+        "color": ["Blue"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-02-16",
+        "players": ["N/A"],
+        "boot_collection": "Phantom GT",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Spectrum",
+        "quarter": "Q1",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "name": "Nike Phantom GT Elite FG Spectrum - Bl\u00e5/S\u00f8lv/Gr\u00f8n",
+      "discount_percentage": 25,
+      "url": "https://www.unisport.dk/fodboldstoevler/nike-phantom-gt-elite-fg-spectrum-blaslvgrn/213587/",
+      "product_labels": [],
+      "online": true,
+      "price_old": "199900",
+      "attributes": {
+        "boot_benefit": "Control",
+        "boot_with_sock": "Without sock",
+        "boot_model": "Elite",
+        "warehouse_customization_color": "Black",
+        "item_type": "Football boots",
+        "color": ["Blue"],
+        "gender": ["Men's", "Women"],
+        "brand": "Nike",
+        "boot_material": "Knit",
+        "sort_date": "2021-02-16",
+        "players": ["N/A"],
+        "boot_collection": "Phantom GT",
+        "position": ["Wingers", "Strikers", "Midfielders"],
+        "pricepoint": "Pro players choice",
+        "brand_collection": "Nike Spectrum",
+        "quarter": "Q1",
+        "segment": "Footwear",
+        "age": ["Adults"],
+        "boot_surface": ["Grass (FG)"]
+      },
+      "min_max_prices": {
+        "price_old": 1999,
+        "currency": "DKK",
+        "max": 1999.0,
+        "min": 1499
+      },
+      "image": "https://thumblr.uniid.it/product/213587/34f3f3b4696f.jpg",
+      "stock": [
+        {
+          "name_short": "EU 36",
+          "pk": 415,
+          "order_by": 33,
+          "name": "EU 36/US 4Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 36\u00bd",
+          "pk": 416,
+          "order_by": 34,
+          "name": "EU 36\u00bd/US 4\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 37\u00bd",
+          "pk": 417,
+          "order_by": 35,
+          "name": "EU 37\u00bd/US 5Y",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38",
+          "pk": 418,
+          "order_by": 36,
+          "name": "EU 38/US 5\u00bdY",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 38\u00bd",
+          "pk": 419,
+          "order_by": 40,
+          "name": "EU 38\u00bd/US 6",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 39",
+          "pk": 420,
+          "order_by": 41,
+          "name": "EU 39/US 6\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40",
+          "pk": 421,
+          "order_by": 42,
+          "name": "EU 40/US 7",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 40\u00bd",
+          "pk": 422,
+          "order_by": 43,
+          "name": "EU 40\u00bd/US 7\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 41",
+          "pk": 423,
+          "order_by": 44,
+          "name": "EU 41/US 8",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 42",
+          "pk": 424,
+          "order_by": 45,
+          "name": "EU 42/US 8\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 42\u00bd",
+          "pk": 425,
+          "order_by": 46,
+          "name": "EU 42\u00bd/US 9",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 43",
+          "pk": 426,
+          "order_by": 47,
+          "name": "EU 43/US 9\u00bd",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 44",
+          "pk": 427,
+          "order_by": 48,
+          "name": "EU 44/US 10",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 45",
+          "pk": 429,
+          "order_by": 50,
+          "name": "EU 45/US 11",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 46",
+          "pk": 431,
+          "order_by": 52,
+          "name": "EU 46/US 12",
+          "stock_info": ""
+        },
+        {
+          "name_short": "EU 47\u00bd",
+          "pk": 433,
+          "order_by": 54,
+          "name": "EU 47\u00bd/US 13",
+          "stock_info": "Only one left"
+        }
+      ]
+    },
+    {
+      "is_customizable": false,
+      "relative_url": "/fodbold365/nike-sokker-cushion-6-pak-hvidsort/202481/",
+      "price": "16900",
+      "product_main_image": "https://thumblr.uniid.it/product/202481/334ded06a26e.jpg",
+      "delivery": "1-3 hverdage",
+      "discount_type": null,
+      "is_exclusive": false,
+      "prices": {
+        "currency": "DKK",
+        "min_price": 169,
+        "max_price": 169,
+        "recommended_retail_price": 169,
+        "discount_percentage": 0
+      },
+      "id": "202481",
+      "currency": "DKK",
+      "attribute_english": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "N/A",
+        "perfect_for": "Lifestyle",
+        "item_type": "Socks",
+        "apparel_collection": "N/A",
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "Lifestyle",
+        "season": ["N/A"],
+        "kit": "N/A",
+        "color": ["White"],
+        "team": "N/A",
+        "nationality": "N/A",
+        "brand_collection": "N/A",
+        "age": ["Adults"],
+        "shirt_season": "N/A",
+        "brand": "Nike"
+      },
+      "name": "Nike Sokker Cushion 6-Pak - Hvid/Sort",
+      "discount_percentage": 0,
+      "url": "https://www.unisport.dk/fodbold365/nike-sokker-cushion-6-pak-hvidsort/202481/",
+      "product_labels": [],
+      "online": true,
+      "price_old": "16900",
+      "attributes": {
+        "league": "N/A",
+        "quarter": "Carry Over",
+        "club_national": "N/A",
+        "perfect_for": "Lifestyle",
+        "item_type": "Socks",
+        "apparel_collection": "N/A",
+        "gender": ["Men's"],
+        "teamsport": "N/A",
+        "segment": "Lifestyle",
+        "season": ["N/A"],
+        "kit": "N/A",
+        "color": ["White"],
+        "team": "N/A",
+        "nationality": "N/A",
+        "brand_collection": "N/A",
+        "age": ["Adults"],
+        "shirt_season": "N/A",
+        "brand": "Nike"
+      },
+      "min_max_prices": {
+        "price_old": 169,
+        "currency": "DKK",
+        "max": 169,
+        "min": 169
+      },
+      "image": "https://thumblr.uniid.it/product/202481/4172cc5eeeef.jpg",
+      "stock": [
+        {
+          "name_short": "34-38",
+          "pk": 1463,
+          "order_by": 2,
+          "name": "S: 34-38",
+          "stock_info": ""
+        },
+        {
+          "name_short": "38-42",
+          "pk": 1464,
+          "order_by": 3,
+          "name": "M: 38-42",
+          "stock_info": ""
+        },
+        {
+          "name_short": "42-46",
+          "pk": 1465,
+          "order_by": 4,
+          "name": "L: 42-46",
+          "stock_info": ""
+        },
+        {
+          "name_short": "46-50",
+          "pk": 1466,
+          "order_by": 5,
+          "name": "XL: 46-50",
+          "stock_info": ""
+        }
+      ]
+    }
+  ]
+}
