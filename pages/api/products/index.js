@@ -1,18 +1,18 @@
+import Products from "../../../data/Products";
+
 /**
  * We use Next.js API as an API Middleware. This ensures we return the correct JSON structure and only the required data.
  * See: https://nextjs.org/docs/api-routes/introduction
  * @example /api/products/200776,200777
  */
 export default async (req, res) => {
-  const { pid } = req.query;
-
   /**
    * We ensure that the request method is GET. If not we return a 405 HTTP Status Code.
    * See: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
    */
   if (req.method === "GET") {
     /** We use fetch() to query the API. */
-    fetch(process.env.API_ENDPOINT + pid)
+    fetch(process.env.API_ENDPOINT + Products.join())
       .then((response) => {
         if (!response.ok) {
           res.status(400).end();
