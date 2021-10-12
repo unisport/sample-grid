@@ -1,18 +1,13 @@
-Fork this project and send back a pull request.
+# Sample Grid Code Submission by Mikkel Petersen
 
-1. Display these products https://www.unisport.dk/api/products/batch/?list=179249,179838,174351,180011,180020,178429 in a responsive grid, it has to fit on to mobile and desktop. How much information you show pr product is up to you
-2. Sort the products based on discount, lowest discount at the top
-3. All prices should be formated in DKK currency
+This is my submission for the [Unisport Sample Grid Case](https://github.com/unisport/sample-grid).
 
-### What we look for?
+The result can be accessed here: https://unisport-dk-mikkelpetersen.vercel.app/
 
-When we review your pull request we look at how the code has been structured and which libraries you decide to use. There is no right or wrong when it comes to choice in CSS or JavaScript frameworks or libraries
+The application is built with Next.js, Chakra UI and SWR.
 
-#### How to fork
+## Performance, Accessibility and SEO
 
-https://help.github.com/articles/fork-a-repo/ 
+![Google Lighthouse](https://github.com/mikkelpetersen/unisport-dk/blob/master/Lighthouse.png?raw=true)
 
-#### How to do a pull-request
-
-https://help.github.com/articles/using-pull-requests/
-
+The application scores high on all of Google Lighthouse' tests, and it can be further optimized for SEO and Accessibility.
