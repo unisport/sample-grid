@@ -1,4 +1,4 @@
-import { Grid, Box } from "@chakra-ui/react";
+import { Box, Grid } from "@chakra-ui/react";
 import useSWR from "swr";
 import ProductCard from "./ProductCard";
 

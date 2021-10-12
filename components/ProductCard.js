@@ -1,6 +1,6 @@
+import PriceTag from "@/components/PriceTag";
 import { Box, Heading, LinkBox, LinkOverlay } from "@chakra-ui/react";
 import Image from "next/image";
-import PriceTag from "@/components/PriceTag";
 
 const ProductCard = ({ product }) => {
   return (

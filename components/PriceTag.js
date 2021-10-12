@@ -1,4 +1,4 @@
-import { Text, HStack, Badge } from "@chakra-ui/react";
+import { Badge, HStack, Text } from "@chakra-ui/react";
 
 const PriceTag = ({ prices }) => {
   if (prices.discount_percentage > 0) {
