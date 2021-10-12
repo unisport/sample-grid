@@ -3,7 +3,7 @@ import Products from "../../../data/Products";
 /**
  * We use Next.js API as an API Middleware. This ensures we return the correct JSON structure and only the required data.
  * See: https://nextjs.org/docs/api-routes/introduction
- * @example /api/products/200776,200777
+ * @example /api/products/
  */
 export default async (req, res) => {
   /**
@@ -11,7 +11,6 @@ export default async (req, res) => {
    * See: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
    */
   if (req.method === "GET") {
-    /** We use fetch() to query the API. */
     fetch(process.env.API_ENDPOINT + Products.join())
       .then((response) => {
         if (!response.ok) {
@@ -26,6 +25,8 @@ export default async (req, res) => {
           pid: product.id,
           name: product.name,
           productImage: product.product_main_image,
+          prices: product.prices,
+          shopUrl: product.url,
         }));
         res.status(200).json(data);
       })
