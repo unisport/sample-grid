@@ -1,0 +1,10 @@
+.product-sale{
+        position: absolute;
+        top: 0px;
+        left: 10px;
+        background-color: #0CD428;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        font-size: 25px;
+}
