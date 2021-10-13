@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+.nav-bar{
+  background-color: white;
+  font-size: 25px;
+  font-weight: bold;
+  color: #0CD428;;
+  text-transform: uppercase;
+}
+.nav-bar-sale{
+  background-color: #0CD428;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  }
