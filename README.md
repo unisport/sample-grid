@@ -1,18 +1,18 @@
-Fork this project and send back a pull request.
+### Installation
 
-1. Display these products https://www.unisport.dk/api/products/batch/?list=179249,179838,174351,180011,180020,178429 in a responsive grid, it has to fit on to mobile and desktop. How much information you show pr product is up to you
-2. Sort the products based on discount, lowest discount at the top
-3. All prices should be formated in DKK currency
+You can clone the repo and run command:
 
-### What we look for?
+`$ npm install` from the project root folder
 
-When we review your pull request we look at how the code has been structured and which libraries you decide to use. There is no right or wrong when it comes to choice in CSS or JavaScript frameworks or libraries
+If the project will not run automatically you can go to:
+http://localhost:3000/
 
-#### How to fork
+**Table of Contents**
 
-https://help.github.com/articles/fork-a-repo/ 
+[TOC]
 
-#### How to do a pull-request
-
-https://help.github.com/articles/using-pull-requests/
-
+#H1 header
+##H2 header
+###H3 header
+####H4 header
+#####H5 header

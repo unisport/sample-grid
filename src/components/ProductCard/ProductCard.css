@@ -1,0 +1,52 @@
+.product-list .product-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 1em;
+  text-align: center;
+}
+
+.product-card .title {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.product-card .image img {
+  max-width: 100%;
+}
+
+.product-card .price {
+  text-align: left;
+  margin-left: 2em;
+  border-radius: 15px;
+  margin-bottom: 0.5em;
+  font-size: 22px;
+  color: #0cd428;
+  padding: 10px;
+}
+
+.product-card .discount {
+  position: absolute;
+  text-align: center;
+  background-color: #ff5000;
+  padding-right: 20px;
+  padding-left: 10px;
+  color: white;
+  font-size: 14px;
+  border-radius: 15px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.product-card .old-price {
+  text-decoration: line-through;
+  color: black;
+}
+
+/* Media Queries  */
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  .product-card .price {
+    text-align: center;
+  }
+}
