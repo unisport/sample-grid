@@ -1,3 +1,9 @@
+### Coding Task
+
+- Simple **React App** which displays products from API in a **responsive grid** for mobile and desktop where products are sorted by lowest discount
+- App is using **Typescript**
+- To make sure that code is **consistent** and to avoid bugs app uses: Eslint, Prettier, and Airbnb style guide
+
 ### Installation
 
 You can clone the repo and run command:
@@ -10,9 +16,3 @@ http://localhost:3000/
 **Table of Contents**
 
 [TOC]
-
-#H1 header
-##H2 header
-###H3 header
-####H4 header
-#####H5 header
