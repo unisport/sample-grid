@@ -1,18 +1,18 @@
-Fork this project and send back a pull request.
+### Coding Task
 
-1. Display these products https://www.unisport.dk/api/products/batch/?list=179249,179838,174351,180011,180020,178429 in a responsive grid, it has to fit on to mobile and desktop. How much information you show pr product is up to you
-2. Sort the products based on discount, lowest discount at the top
-3. All prices should be formated in DKK currency
+- Simple **React App** which displays products from API in a **responsive grid** for mobile and desktop where products are sorted by lowest discount
+- App is using **Typescript**
+- To make sure that code is **consistent** and to avoid bugs app uses: Eslint, Prettier, and Airbnb style guide
 
-### What we look for?
+### Installation
 
-When we review your pull request we look at how the code has been structured and which libraries you decide to use. There is no right or wrong when it comes to choice in CSS or JavaScript frameworks or libraries
+You can clone the repo and run command:
 
-#### How to fork
+`$ npm install` from the project root folder
 
-https://help.github.com/articles/fork-a-repo/ 
+If the project will not run automatically you can go to:
+http://localhost:3000/
 
-#### How to do a pull-request
+**Table of Contents**
 
-https://help.github.com/articles/using-pull-requests/
-
+[TOC]
