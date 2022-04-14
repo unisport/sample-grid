@@ -1,0 +1,36 @@
+body {
+    font-family: 'Lato';
+}
+
+#interviewer-heading {
+    color: rgb(37 185 37);
+}
+
+.product-height {
+    height: 420px;
+    max-width: 300px;
+}
+
+.box-shadow {
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
+}
+
+.all-products-img {
+    height: 215px;
+    width: 215px;
+}
+
+.product-name {
+    font-size: 11pt;
+    font-weight: 600;
+    max-width: 200px;
+}
+
+.price {
+    color: rgb(37 185 37);
+    font-size: x-large;
+}
+
+.sizes {
+    font-size: small;
+}
