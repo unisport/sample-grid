@@ -34,3 +34,17 @@ body {
 .sizes {
     font-size: small;
 }
+
+.label-container {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    font-size: 14px;
+    z-index: 5;
+    text-align: left;
+    background-color: rgb(37 185 37);
+    color: white;
+    border-bottom-right-radius: 10%;
+    padding: 0.75rem;
+
+}
