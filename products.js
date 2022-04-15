@@ -64,7 +64,7 @@ function appendData(data) {
 
         // add product image to card
         var img = document.createElement("img");
-        img.classList.add("card-img-top", "img-fluid", "all-products-img", "mx-auto", "pt-2");
+        img.classList.add("card-img-top", "img-fluid", "mx-auto", "pt-2");
         img.src = data[i].image;
         card.appendChild(img);
 
@@ -81,7 +81,7 @@ function appendData(data) {
         title.innerText = titleShortened;
         cardBody.appendChild(title);
 
-        // create price container
+        // create price container to host price/old price
         var priceContainer = document.createElement("div");
         priceContainer.classList.add("price-container");
         cardBody.appendChild(priceContainer);
@@ -110,7 +110,7 @@ function appendData(data) {
             priceContainer.appendChild(price);
         }
 
-        // Sizes added, but if end string longer than 60 chars it wil be replaced with standard sentence
+        // Sizes added, but if end string longer than 45 chars it wil be replaced with standard sentence
         var sizes = document.createElement("p");
         sizes.classList.add("card-text", "sizes", "text-muted");
         sizes.innerHTML = "<b>Størrelser: </b><br>";
