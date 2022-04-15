@@ -112,8 +112,8 @@ function appendData(data) {
 
         // Sizes added, but if end string longer than 60 chars it wil be replaced with standard sentence
         var sizes = document.createElement("p");
-        sizes.classList.add("card-text", "sizes");
-        sizes.innerHTML = "<b>Størrelser: </b>";
+        sizes.classList.add("card-text", "sizes", "text-muted");
+        sizes.innerHTML = "<b>Størrelser: </b><br>";
         for (var j = 0; j < data[i].stock.length; j++) {
             if (j == data[i].stock.length - 1) {
                 sizes.innerHTML += data[i].stock[j].name;
@@ -123,7 +123,7 @@ function appendData(data) {
         }
 
         if (sizes.innerText.length > 45) {
-            sizes.innerText = "Mange størrelser tilgængelige"
+            sizes.innerHTML = "<b>Størrelser: </b><br>Mange størrelser tilgængelige";
         }
         cardBody.appendChild(sizes);
     }
