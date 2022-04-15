@@ -2,28 +2,37 @@ body {
     font-family: 'Lato';
 }
 
+.navbar a {
+    color: white!important;
+}
+
 #interviewer-heading {
     color: rgb(37 185 37);
 }
 
 .product-height {
-    height: 420px;
-    max-width: 300px;
+    height: 480px;
+    max-width: 350px;
 }
 
 .box-shadow {
     box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
 }
 
-.all-products-img {
+/* .all-products-img {
     height: 215px;
     width: 215px;
-}
+} */
 
 .product-name {
     font-size: 11pt;
     font-weight: 600;
     max-width: 200px;
+    min-height: 70px;
+}
+
+.price-container {
+    height: 75px;
 }
 
 .price {
@@ -33,18 +42,97 @@ body {
 
 .sizes {
     font-size: small;
+    height: 25px;
 }
 
-.label-container {
+.info-container {
     position: absolute;
     top: 0px;
     left: 0;
-    font-size: 14px;
+    font-size: 12px;
     z-index: 5;
     text-align: left;
-    background-color: rgb(37 185 37);
-    color: white;
-    border-bottom-right-radius: 10%;
-    padding: 0.75rem;
+}
 
+.discount {
+    position: relative;
+    width: 60px;
+    font-size: 14px;
+    background-color: rgb(37 185 37 / 80%);
+    color: white;
+    padding: 0.75rem;
+}
+
+.members {
+    position: relative;
+    font-size: 14px;
+    background-color: rgb(0 0 0 / 50%);
+    color: white;
+    padding: 0.75rem;
+}
+
+.old-price {
+    font-weight: lighter;
+}
+
+.hover:hover {
+    transform: translateY(-7px);
+    transition: all 0.3s ease 0s;
+}
+
+.hover:not(:hover) {
+    transform: translateY(0px);
+    transition: all 0.3s ease 0s;
+}
+
+footer {
+    background-color: rgb(37 185 37);
+}
+
+.nav-bg {
+    background-color: rgb(37 185 37);
+}
+
+.dropdown-menu.show {
+    background-color: #25b925;
+}
+
+.btn {
+    background-color: white;
+}
+
+/* .card-text {
+    height: 100px;
+} */
+
+/* Media Queries */
+
+
+@media (max-width: 768px) {
+    
+    .product-height {
+        height: 470px;
+    }
+}
+
+@media (max-width: 576px) {
+    
+    .product-height {
+        height: 480px;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    .product-height {
+        height: 450px;
+    }
+}
+
+/* Bootstrap small width */
+@media (max-width: 380px) {
+    
+    .product-height {
+        height: 400px;
+    }
 }
