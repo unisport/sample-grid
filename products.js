@@ -27,7 +27,7 @@ function appendData(data) {
     // pass json array using function to sort
     data.sort(GetSortOrder());
     // reverse so highest discount comes first
-    data.reverse();  
+    data.reverse();
  
     // reference main row and add elements using bootstrap cards and additional personal styling
     var mainRow = document.getElementById("productRow");
@@ -41,12 +41,12 @@ function appendData(data) {
         card.classList.add("card", "border", "product-height", "my-2", "box-shadow");
         topDiv.appendChild(card);
 
-        // creating a container for the potential info tags
+        // creating a container for the potential discount/members only
         var infoBox = document.createElement("div");
         infoBox.classList.add("info-container", "text-center");
         card.appendChild(infoBox);
 
-        // if discount present then add corner div
+        // if discount present then add label
         if (data[i].prices.discount_percentage > 0) {
             var discountMark = document.createElement("div");
             discountMark.classList.add("discount", "mb-2");
@@ -81,7 +81,7 @@ function appendData(data) {
         title.innerText = titleShortened;
         cardBody.appendChild(title);
 
-        // create price container to host price/old price
+        // create price container to house price/old price
         var priceContainer = document.createElement("div");
         priceContainer.classList.add("price-container");
         cardBody.appendChild(priceContainer);
@@ -93,7 +93,7 @@ function appendData(data) {
         // if discount present then old price is crossed out and shown underneath, updated price shown
         if (data[i].prices.discount_percentage > 0) {
             // calculating discount and rounding down to two decimals
-            let calculatedNewPrice = data[i].prices.max_price*(1-(data[i].prices.discount_percentage/100));
+            let calculatedNewPrice = data[i].prices.recommended_retail_price*(1-(data[i].prices.discount_percentage/100));
             let NewPriceRoundedDown = Math.floor(calculatedNewPrice);
             price.innerHTML = NewPriceRoundedDown + ' DKK';
             priceContainer.appendChild(price);
@@ -101,11 +101,11 @@ function appendData(data) {
             // adding old price crossed out underneath
             var oldPrice = document.createElement("div");
             oldPrice.classList.add("card-text", "old-price", "text-muted", "pb-2");
-            oldPrice.innerHTML = "<s>" + data[i].prices.max_price +  " DKK</s>";
+            oldPrice.innerHTML = "<s>" + data[i].prices.recommended_retail_price +  " DKK</s>";
             priceContainer.appendChild(oldPrice);
         } else {
             // regular price added if no discount
-            price.innerText = Math.floor(data[i].prices.max_price) + ' DKK';
+            price.innerText = Math.floor(data[i].prices.recommended_retail_price) + ' DKK';
             price.classList.add("pb-2");
             priceContainer.appendChild(price);
         }
@@ -127,5 +127,4 @@ function appendData(data) {
         }
         cardBody.appendChild(sizes);
     }
-
 }

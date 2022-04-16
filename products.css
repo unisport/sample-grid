@@ -172,6 +172,10 @@ footer {
     .price-container {
         height: 60px;
     }
+
+    .price {
+        font-size: 14pt;
+    }
 }
 
 @media (max-width: 300px) {
@@ -181,7 +185,11 @@ footer {
     }
 
     .price {
-        font-size: 15pt;
+        font-size: 11pt;
+    }
+
+    .old-price {
+        font-size: 8pt;
     }
 
 }
@@ -195,10 +203,6 @@ footer {
 
     .price {
         font-size: 11pt;
-    }
-
-    .old-price {
-        font-size: 8pt;
     }
 
     .sizes {
