@@ -1,0 +1,208 @@
+body {
+    font-family: 'Lato';
+}
+
+.navbar a {
+    color: white!important;
+}
+
+#products-heading {
+    color: rgb(37 185 37);
+}
+
+.product-height {
+    height: 480px;
+    max-width: 350px;
+}
+
+.box-shadow {
+    box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, .3), 0 0.0625rem 0.125rem rgba(0, 0, 0, .2);
+}
+
+.product-name {
+    font-size: 11pt;
+    font-weight: 600;
+    max-width: 200px;
+    min-height: 55px;
+}
+
+.price-container {
+    height: 70px;
+}
+
+.price {
+    color: rgb(37 185 37);
+    font-size: x-large;
+}
+
+.sizes {
+    font-size: small;
+    height: 25px;
+}
+
+.info-container {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    font-size: 12px;
+    z-index: 5;
+    text-align: left;
+}
+
+.discount {
+    position: relative;
+    width: 60px;
+    font-size: 14px;
+    background-color: rgb(37 185 37 / 80%);
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.members {
+    position: relative;
+    font-size: 14px;
+    background-color: rgb(0 0 0 / 50%);
+    color: white;
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.old-price {
+    font-weight: lighter;
+}
+
+.hover:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease 0s;
+}
+
+.hover:not(:hover) {
+    transform: translateY(0px);
+    transition: all 0.3s ease 0s;
+}
+
+footer {
+    background-color: rgb(37 185 37);
+}
+
+.nav-bg {
+    background-color: rgb(37 185 37);
+}
+
+.dropdown-menu.show {
+    background-color: #25b925;
+}
+
+.btn {
+    background-color: white;
+}
+
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #25b925;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #topBtn:hover {
+    background-color: rgb(63, 114, 69);
+  }
+
+/* Media Queries */
+
+/* Matches bootstrap */
+@media (max-width: 1200px) {
+    
+    .product-height {
+        height: 450px;
+    }
+}
+
+/* Matches bootstrap */
+@media (max-width: 992px) {
+    
+    .price-container {
+        height: 70px;
+    }
+}
+
+/* Matches bootstrap */
+@media (max-width: 768px) {
+    
+    .product-height {
+        height: 470px;
+    }
+}
+
+/* Matches bootstrap */
+@media (max-width: 576px) {
+    
+    .product-height {
+        height: 480px;
+    }
+}
+
+@media (max-width: 500px) {
+    
+    .product-height {
+        height: 450px;
+    }
+}
+
+@media (max-width: 380px) {
+    
+    .product-height {
+        height: 400px;
+    }
+
+    .product-name {
+        min-height: 70px;
+    }
+
+    .price-container {
+        height: 60px;
+    }
+
+    .price {
+        font-size: 14pt;
+    }
+}
+
+@media (max-width: 300px) {
+
+    .product-name {
+        min-height: 88px;
+    }
+
+    .price {
+        font-size: 11pt;
+    }
+
+    .old-price {
+        font-size: 8pt;
+    }
+
+}
+
+/* Added to fit to smallest phone on Chrome developer list: JioPhone 2 */
+@media (max-width: 260px) {
+
+    .product-name {
+        min-height: 130px;
+    }
+
+    .sizes {
+        font-size: 8pt;
+    }
+
+}
