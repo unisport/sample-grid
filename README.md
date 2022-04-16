@@ -19,13 +19,13 @@ https://help.github.com/articles/using-pull-requests/
 
 Solution by Andreas Christensen
 
-# My regular solution
-During my time as a student I would use Django to display items (full-stack), meaning I would get the queryset from the backend in the view code, then use a template loop to display all the items. The JSON file would be imported into a datamodel that fits the data fields of the products, and I would then be able to generate queries from this. In the template I would be able to insert a filter which would use Q functionality to reload the page a generate a new queryset according to filter input.
+# My "normal" solution
+During my time as a student I would program using Django (full-stack), meaning I would get the queryset from the backend in the view code, then use a template loop to display all the items. The JSON file would be imported into a datamodel that fits the data fields of the products, and I would then be able to generate queries from this.
 
 # My posted solution
 In my posted solution I'm using only front-end, so I added the JSON file in the main directory. I'm doing most of the work in the Javascript file as I need to add to add the loop there, so I'm extracting the JSON contents into a data array which I can use in the loop. I'm using bootstrap, but I'm also adding my own styling on top for personal tweaks.
 
-I decided that bootstrap cards would be fitting to display the products, and to this I'm adding a box-shadow on each card to make it look more appealing.
+I decided that bootstrap cards would be fitting to display the products, and to this I'm adding a box-shadow on each card to make them look more appealing.
 
 I have included a bootstrap navbar in the top using the same green color as the heading and the price. The content is the same as on the UniSport webpage. Also in the bottom a simple footer is present with links to standard social media and also my own GitHub profile.
 
@@ -37,6 +37,7 @@ The product information used in the cards are as follows:
 - Price - if discounted then price minus discount
 - Old price - is added if discount is applied
 - Sizes available - if more than 45 chars then replaced by standard sentence
+
 ## HTML file
 In the head of the HTML file I have included links to bootstrap, the css file, google fonts using Lato, font-awesome for icons and JQuery min version.
 

@@ -31,7 +31,7 @@ function appendData(data) {
  
     // reference main row and add elements using bootstrap cards and additional personal styling
     var mainRow = document.getElementById("productRow");
-    for (var i = 0; i < data.length; i++) {
+    for (var i = 0; i < data.length; i++) {        
         var topDiv = document.createElement("div");
         topDiv.classList.add("col-6", "col-md-4", "col-lg-3", "px-2", "mx-auto", "hover");
         mainRow.appendChild(topDiv);
@@ -95,17 +95,17 @@ function appendData(data) {
             // calculating discount and rounding down to two decimals
             let calculatedNewPrice = data[i].prices.max_price*(1-(data[i].prices.discount_percentage/100));
             let NewPriceRoundedDown = Math.floor(calculatedNewPrice);
-            price.innerHTML = NewPriceRoundedDown + ' kr';
+            price.innerHTML = NewPriceRoundedDown + ' DKK';
             priceContainer.appendChild(price);
 
             // adding old price crossed out underneath
             var oldPrice = document.createElement("div");
             oldPrice.classList.add("card-text", "old-price", "text-muted", "pb-2");
-            oldPrice.innerHTML = "<s>" + data[i].prices.max_price +  " kr</s>";
+            oldPrice.innerHTML = "<s>" + data[i].prices.max_price +  " DKK</s>";
             priceContainer.appendChild(oldPrice);
         } else {
             // regular price added if no discount
-            price.innerText = Math.floor(data[i].prices.max_price) + ' kr';
+            price.innerText = Math.floor(data[i].prices.max_price) + ' DKK';
             price.classList.add("pb-2");
             priceContainer.appendChild(price);
         }
