@@ -76,7 +76,7 @@ function appendData(data) {
         // add title to card body
         var title = document.createElement("h5");
         title.classList.add("lead", "product-name", "mx-auto");
-        // set max title string length to 60 chars
+        // set max title string length to 40 chars
         var titleShortened = data[i].name.slice(0, 40) + (data[i].name.length > 40 ? "..." : "");
         title.innerText = titleShortened;
         cardBody.appendChild(title);

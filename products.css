@@ -73,7 +73,7 @@ body {
 }
 
 .hover:hover {
-    transform: translateY(-7px);
+    transform: translateY(-5px);
     transition: all 0.3s ease 0s;
 }
 
@@ -199,10 +199,6 @@ footer {
 
     .product-name {
         min-height: 130px;
-    }
-
-    .price {
-        font-size: 11pt;
     }
 
     .sizes {
